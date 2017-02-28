@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+<script>
+    // DOM: Document Object Model -> 文档对象模型
+    // DOM就是描述整个HTML页面中描述节点关系到图谱
+    // 在DOM中，提供了很多的获取元素的方法和之间关系的属性，以及操作这些元素的方法
+
+    // 1. 获取页面中获取元素的方法
+    // document.getElementById('元素的ID值'); 在整个文档中，通过元素的ID获取到这个元素对象，获取的是一个元素
+    // 注意：如果页面中id重复了，那么这个方法默认只获取第一个元素
+    // 在IE6、7下，会把表单元素(input)的name属性值当做id来使用
+    // 在IE7、7下，不区分id的大小写
+    // 项目实战注意：不要让表单元素的name和其他元素的id冲突
+    //             不要用id的大小写来区分不同的元素
+    // 如果没有获取到元素，返回的结果是null
+    var oDiv = document.getElementById('tab');
+
+    // 可以直接的用元素的id来代表当前这个元素对象（不推荐使用）
+    console.log(tab); // tab是id值
+
+    // 2. 通过元素的标签名，来获取一组元素（是多个元素，有几个满足条件的元素，就获取几个）
+    // 在整个文档中，通过元素的标签名获取一组元素
+    // 这一组元素是对象数据类型的结果，并且是一个类数组（以数字作为索引，索引从0开始，逐级递增，索引代表的是当前对应的某一个元素，
+    // 有一个叫做length的属性，代表获取的个数）
+    // document.getElementsByTagName('元素标签名');
+    // document称之为上下文（context），就是我们可以自己限定当前获取元素的范围
+    // 获取整个文档中的li
+    var oLis = document.getElementsByTagName('li');
+    console.dir(oLis);
+    console.log(oLis.length); // 代表获取元素的个数
+
+    // document称之为上下文（context），就是我们可以自己限定当前获取元素的范围
+    // getElementById的上下文只能是document
+    // 获得id为tab下的所有li
+    var oTab = document.getElementById('tab');
+    var oLis = oTab.getElementsByTagName('li');
+    console.dir(oLis);
+
+    // 3. context.getElementsByName() 通过元素name属性的值获取一组元素
+    // 在IE浏览器下，只对表单元素其作用
+    // 这个方法应用于获取具有同样name的表单元素
+    var oDivs = document.getElementsByName('element');
+    console.log(oDivs);
+
+    // 4. context.getElementsByClassName() 通过元素的类名(class值)获取一组元素
+    // 这个方法在项目中最常用的获取元素的方法，但是这个方法不兼容，在IE6-8中，会报错
+    //  获取多个元素的这几个方法，即使获取的只有一个，它也是类数组，也是一个集合，
+    // 如果想用其中的第一个元素，也需要通过索引拿出来使用
+    var oList = document.getElementsByClassName('tag');
+
+    // 5.
+    document.documentElement // 获取HTML元素
+    document.body // 获取body元素
+
+    // 兼容所有浏览器的获取当前屏幕的宽度,高度
+    var curWidth = document.documentElement.clientWidth || document.body.clientWidth;
+    var curHeight = document.documentElement.clientHeight || document.body.clientHeight;
+
+    // 6. 在移动端获取元素常用的方法，（IE6-8下不兼容）
+     document.querySelector(); 获取一个
+     document.querySelectorAll(); 获取多个，得到类数组集合
+     var ele = document.querySelector('#id');
+     var ele = document.querySelector('.class');
+     var eles = document.querySelectorAll('#tab li');
+
+    // jQuery中的选择器参考的是CSS选择器规则
+</script>
+</body>
+</html>

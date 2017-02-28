@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Strig: 字符串类
+    // 对象、类、实例
+
+    var str = 'Hello Front End!';
+    // 一个字符串是由多个字符组成的
+
+    // 获取字符串中字符的个数，也称之为字符串的长度
+    // 字符串中也存在索引，也是从零开始的 'H'这个字母的索引就是0
+    // 空格，换行这些特殊的符号也是一个字符
+    console.log(str.length);
+
+    // 1. charAt(索引) -> 获取指定索引位置的字符
+    console.log(str.charAt(8)); // 'o'
+
+    // 2. charCodeAt(索引) -> 返回指定索引位置字符的ASCII码值
+    console.log(str.charCodeAt(8)); // 111
+
+    // 3. 截取字符串
+    // substr(n, m) -> 从索引n开始截取m个字符
+    // substring(n, m) -> 从索引n开始，找到索引m处（不包含m），将找到的字符串返回
+    // slice(n, m) -> 从索引n开始，找到索引m处（不包含m），将找到的字符串返回。它支持以负数作为索引，str.length+负数索引。
+    // 这三个方法如果只写了第一个参数，表示截取到末尾
+    console.log(str.substr(3, 5));
+    console.log(str.substring(3, 5));
+    console.log(str.slice(-5, -1));
+
+    // 4. 查找字符的索引
+    // indexOf(字符) -> 获取指定字符在字符串中的第一次出现的索引位置
+    // lastIndexOf(字符) -> 获取指定字符在字符串中最后一次出现的索引位置
+    // 如果没有找到指定字符，返回 -1，基于这个，可以经常使用这两个方法判断字符串中是否包含某个字符
+    console.log(str.indexOf('!'));
+    console.log(str.lastIndexOf('!'));
+    if (str.indexOf('q') > -1) {
+        // 表示包含 'q' 这个字符
+    }
+
+    // 5. 大小写转换
+    // 将所有字母转换成小写字母
+    console.log(str.toLowerCase());
+    // 将所有字母转换成大写字母
+    console.log(str.toUpperCase());
+
+    // 6. 替换
+    // replace(要替换的老字符, 替换成的新字符);
+    // 在不使用正则的情况下，每一次调用方法只能替换一次
+    // 一般情况下，都是使用正则表达式来处理的
+    console.log(str.replace('!', '~~~'));
+    console.log(str.replace(/!/g, '~~~'));
+
+    // 7. 将字符串按照指定分割符拆分数组
+    var str = '1+2+3+4+5';
+    var ary = str.split('+');
+    console.log(ary);
+
+    // 8. match -> 正则常用的
+</script>
+</body>
+</html>

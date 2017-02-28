@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #ul1 {
+            margin: 20px auto;
+            width: 300px;
+        }
+
+        #ul1 li {
+            height: 35px;
+            line-height: 35px;
+            border-bottom: 1px dashed #008000;
+        }
+    </style>
+</head>
+<body>
+<ul id="ul1">
+    <li>98</li>
+    <li>99</li>
+    <li>96</li>
+    <li>95</li>
+    <li>90</li>
+</ul>
+<script src="json/utils.js"></script>
+<script>
+    // DOM映射的机制: 页面中的标签和JS中获取到的元素对象或者(元素集合)是紧紧的绑定在一起的,页面中的HTML结构改变了,
+    // JS中不需要重新获取,集合里面的内容也会跟着自动改变
+    var oUl = document.getElementById('ul1');
+    var oLis = oUl.getElementsByTagName('li');
+    console.log(oLis.length); // -> 5
+
+    var oLi = document.createElement('li');
+    oUl.appendChild(oLi);
+    console.log(oLis.length); // -> 没有重新的获取,但是oLis这个集合中的长度和内容会自动跟着发生改变
+</script>
+</body>
+</html>

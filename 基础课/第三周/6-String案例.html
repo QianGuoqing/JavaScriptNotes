@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var timeString = '2017-2-25 10:15:15';
+    // -> 2017年02月25日 10时15分15秒
+
+    // 格式化时间字符串
+    function formatTime(timeStr) {
+        var ary = timeStr.split(' ');
+        var str1 = ary[0];
+        var str2 = ary[1];
+        var ary1 = str1.split('-');
+        var ary2 = str2.split(':');
+        return ary1[0] + '年' + addZero(ary1[1]) + '月' + addZero(ary1[2]) + '日 '
+            + addZero(ary2[0]) + '时' + addZero(ary2[1]) + '分' + addZero(ary2[2]) + '秒';
+    }
+    function addZero(value) {
+        return value < 10 ? '0' + value : value;
+    }
+
+    console.log(formatTime(timeString));
+</script>
+</body>
+</html>

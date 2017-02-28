@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+</head>
+<body>
+<script>
+    // js中的数据类型：
+    // 基本数据类型
+    // number, string, boolean, undefined, null
+    // 引用数据类型
+    // object: {}, [], /^/, Date
+    // function
+    var num = 12;
+    var obj = {
+        name: 'derrick',
+        age: 20
+    };
+    function fn() {
+        console.log('勿忘初心，方得始终。');
+    }
+    console.log(fn); // 把整个函数的定义部分（函数本身）在控制台输出
+    console.log(fn()); // 把当前函数执行的返回结果（return后面写的是啥，返回值就是啥，没有return，默认返回值是undefined）输出
+
+    // 1. 当浏览器加载HTML页面的时候，首先会提供一个供全局JavaScript代码执行的环境，称之为全局作用域(global/ window)
+
+    // 2. 预解释（变量提升）
+    // 在当前的作用域中，JavaScript代码执行之前，浏览器首先会默认的把所有带var和function的进行提前声明或者定义
+    // 1) 理解声明和定义
+    // var num = 12;
+    // 声明(declaration): var num; -> 告诉浏览器在全局作用域中有一个num的变量了,如果一个变量只是申明了，但是没有赋值，默认值是undefined
+    // 定义(definition):  num = 12; -> 给变量进行赋值
+
+    // 2) 对于带var关键字和带function关键字的，在预解释的时候操作还是不一样的
+    // var: 在预解释的时候只是提前的声明
+    // function: 在预解释的时候，提前的声明和定义都完成了。
+
+    // 3) 预解释只发生在当前的作用域当中，例如：开始只对window下的预解释，只有函数执行的时候，才会对函数中的部分进行预解释
+    console.log(num); // undefined
+    var num = 12;
+    var obj = {
+        name: 'derrick',
+        age: 20
+    };
+    console.log(num); // 12
+    fn(100, 200); // 可以在这里执行,因为预解释的时候，函数的声明和定义都已经完成了
+    function fn(num1, num2) {
+        var total = num1 + num2;
+        console.log(total);
+    }
+
+    // 3. JavaScript中内存的分类
+    // 栈内存: 用来提供一个供JavaScript代码执行的环境 -> 作用域（全局作用域，私有作用域）
+    // 堆内存: 用来存储引用数据类型的值 -> 对象存储的是属性名和属性值, 函数存储的是代码字符串
+
+</script>
+</body>
+</html>

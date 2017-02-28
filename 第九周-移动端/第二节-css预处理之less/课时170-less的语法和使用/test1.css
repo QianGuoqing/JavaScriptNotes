@@ -1,0 +1,11 @@
+.box {
+  background: url("../img/banner/1.jpg") no-repeat;
+}
+.public {
+  width: 100px;
+  height: 100px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}

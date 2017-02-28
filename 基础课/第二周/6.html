@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body, div, ul, li, span {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        #tab {
+            width: 900px;
+            height: 270px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -450px;
+            margin-top: -135px;
+            border: 1px solid #cccccc;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #tab li {
+            height: 30px;
+            line-height: 30px;
+        }
+        #tab li span {
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+        }
+        .c1 {
+            background: #31b0d5;
+        }
+        .c2 {
+            background: #67b168;
+        }
+        .c3 {
+            background: #ac2925;
+        }
+    </style>
+</head>
+<body>
+<div id="tab">
+    <!--<ul>-->
+        <!--<li>-->
+            <!--<span></span>-->
+        <!--</li>-->
+        <!--<li>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+        <!--</li>-->
+        <!--<li>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+        <!--</li>-->
+    <!--</ul>-->
+</div>
+<script>
+    // 99乘法表
+    var oTab = document.getElementById('tab');
+    var str = '';
+    str += '<ul>';
+    console.log(str);
+    for (var i = 1; i <= 9; i++) {
+        var val = 'c1';
+        switch (i % 3) {
+            case 0: val = 'c1'; break;
+            case 1: val = 'c2'; break;
+            case 2: val = 'c3'; break;
+            default: val = 'c3';
+        }
+        str += '<li class=' + val + '>';
+        for (var j = 1; j <= i; j++) {
+            str += '<span>';
+            str += i + ' * ' + j + ' = ' + (i * j);
+            str += '</span>';
+        }
+        str += '</li>'
+    }
+    str += '</ul>';
+    console.log(str);
+
+    oTab.innerHTML = str;
+    // innerHTML: 向指定元素中添加内容，内容可以是文字，也可以是HTML标签，innerHTML是可以识别HTML标签的
+    // innerText: 不能识别HTML标签的
+
+    // 字符串拼接的黄金法则：单双不能同时用，外面是双引号，则里面就得是单引号，反之亦然
+    // 如果一个字符串中需要把变量的值放进来，需要增加一个变量，看最外面是双引号还是单引号，如果是双引号，那么直接"+变量+"
+    // 否则，'+变量+'
+</script>
+</body>
+</html>

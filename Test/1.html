@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var fn = 12;
+    function fn() {
+        console.log('ok');
+    }
+    console.log(fn);
+    function setFoo(fooInput) {
+        this.foo = fooInput;
+    }
+
+    var foo = 5;
+    console.log('foo at window level: ' + foo);
+
+    var obj = {
+        foo: 10
+    }
+    console.log(obj.foo);
+
+    setFoo(15);
+    console.log(foo);
+
+    obj.setFoo = setFoo;
+    obj.setFoo(20);
+    console.log(obj.foo);
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body, div, ul, li {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+#tab {
+    margin: 10px auto 0;
+    width: 500px;
+}
+
+#tab ul {
+    position: relative;
+    top: 1px;
+    z-index: 100;
+}
+
+#tab ul li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#tab ul li.select {
+    background: -webkit-linear-gradient(top left, #cc0000, #00b3ee, #ffff00);
+
+}
+
+#tab div {
+    display: none;
+    clear: both;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+#tab div.select {
+    display: block;
+}

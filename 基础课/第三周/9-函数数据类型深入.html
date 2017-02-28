@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function sum() {
+        var total = null;
+        for (var i = 0; i < arguments.length; i++) {
+            var val = Number(arguments[i]);
+            if (isNaN(val)) {
+                val = 0;
+            }
+            total += val;
+        }
+    }
+</script>
+</body>
+</html>

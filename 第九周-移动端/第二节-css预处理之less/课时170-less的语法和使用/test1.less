@@ -1,0 +1,69 @@
+@color: #fff;
+@url: '../img/banner';
+
+.box {
+  background: url("@{url}/1.jpg") no-repeat;
+}
+
+.public {
+  width: 100px;
+  height: 100px;
+}
+
+// 征用: 把原有样式一模一样的克隆一份拿来使用，如果public加上括号，public本身不编译
+.box {
+  .public;
+}
+
+// 公用: 和原来的选择器公用一套样式，但是要保证原来的选择器不加括号
+.box {
+  &:extend(.public);
+}
+
+@v: 1;
+.box {
+  @v: 10;
+
+  &:hover {
+    z-index: @v; // 此时@v为10
+  }
+}
+
+.public {
+  width: 100px;
+  height: 100px;
+
+  .link {
+    width: 200px;
+    height: 200px;
+  }
+
+  &:hover {
+    background: #eee;
+  }
+}
+
+.box {
+  .public; // 把public及其子孙元素的样式都继承过来了
+}
+
+.public(@x, @y) {
+  @result: @x + @y;
+}
+
+.box {
+  .public(100, 200);
+  padding: @result;
+}
+
+.public(@x) when (@x < 10) and (@x > 0) {
+  background: red;
+}
+
+.public(@x) when (@x <= 0) {
+  background: green;
+}
+
+.public(@x) when (@x >= 10) {
+  background: blue;
+}

@@ -1,0 +1,9 @@
+@url: '../img/banner';
+.box {
+  background: color(#000);
+  background: url("@{url}/1.jpg") no-repeat;
+}
+
+// data-uri: 把我们需要使用的素材图片转换成BASE64编码，项目中尤其是移动端项目，节省了图片的加载时间，是图片优化的一个手段
+// LESS对于大图片是不能转码的，这样我们可以使用BASE64工具转码(too.css-js.com)
+// 项目中慎重使用BASE64编码

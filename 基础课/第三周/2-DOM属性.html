@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM属性</title>
+</head>
+<body>
+<div id="div1">
+    <h1>前端</h1>
+    <!--这里是注释-->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li id="li3">JavaScript</li>
+        <li>HTML5移动端</li>
+        <li>NodeJS</li>
+    </ul>
+</div>
+<script>
+    // 节点：Node 一个页面中标签，文字，注释...都是节点
+    // 获取关系的属性
+    var oDiv = document.getElementById('div1');
+    // childNodes: 获取元素的所有子节点
+    // children: 获取所有的元素子节点
+    // parentNode: 获取父亲节点
+    // previousSibling: 获取上一个哥哥节点
+    // nextSibling: 获取下一个弟弟节点
+    // firstChild: 获得所有子节点中的第一个
+    // lastChild: 获得所有子节点的最后一个
+    console.log(oDiv.childNodes); // 获取所有的子节点
+    console.log(oDiv.children)
+    console.log(oDiv.parentNode);
+    console.log(oDiv.previousSibling);
+    console.log(oDiv.nextSibling);
+    console.log(oDiv.firstChild);
+    console.log(oDiv.lastChild);
+
+    // 在JavaScript中，需要我们掌握的节点类型：
+    // nodeType, nodeName, nodeValue
+    // 元素节点（元素标签）1, 大写的标签名, null
+    // 文本节点（文字）   3, #text, 文字内容
+    // 注释节点（注释）   8, #comment, 注释内容
+    // document        9, #document, null
+    var oDiv = document.getElementById('div1');
+    console.log(oDiv.nodeType); // 1
+    console.log(oDiv.nodeName); // "DIV"
+    console.log(oDiv.nodeValue); // null
+
+    // 在标准浏览器下，把空格（space）和Enter（回车）都当做文本节点处理
+    // 写一个方法，模拟children方法，实现获取指定元素下的元素子节点
+    /*
+    * getMyChildren: 获取指定元素下所有的元素节点
+    * @parameter:
+    *   ele: 我们要获取哪个元素下的元素节点，就传递什么元素
+    * @parameter:
+    *   tagName: 获取那种类型的元素，例如：传入div，只获取div
+    * @return:
+    *   最终获取的元素子节点
+    * */
+    function getMyChildren(ele, tagName) {
+        var ary = [];
+        var nodes = ele.childNodes;
+        for (var i = 0; i < nodes.length; i++) {
+            var cur = nodes[i];
+            if (cur.nodeType === 1) {
+                if (tagName) {
+                    if (cur.nodeName.toLowerCase() === tagName.toLowerCase()) {
+                        ary.push(cur);
+                    }
+                } else {
+                    // 如果没有传递tagName，则默认把所有元素放到数组中
+                    ary.push(cur);
+                }
+            }
+        }
+        return ary;
+    }
+    var oDiv = document.getElementById('div1');
+    console.log(getMyChildren(oDiv));
+
+    // ---------
+    var oLi3 = document.getElementById('li3');
+    // 如果想获取li3的上一个哥哥元素，发现直接previousSibling获取的不一定是元素，
+    // 往上再找多少级也不知道
+</script>
+</body>
+</html>

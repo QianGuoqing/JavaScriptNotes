@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // boolean: true false
+    // !: 一个叹号是取反，首先将值转化为布尔类型的，然后再取反
+    console.log(!3); // false -> 先把3转化为boolean 然后再取反
+
+    // !!: 将其他的数据类型转化为boolean类型,相当于Boolean();
+    console.log(Boolean('derrick')); // true
+    console.log(!!'derrick'); // true
+
+    // 数据类型转化的规则：
+    // 1. 如果只有一个值，判断这个值是真还是假，遵循：只有 0 NaN ''(空字符串) null undefined 这五个是假的(false)
+    //    其余的都是真(true)
+    console.log(!0); // true
+
+    // 2. 如果是两个值比较是否相等，遵循这个规则：
+    // val1 == val2 两个值可能不是同一个数据类型的，如果是 == 比较的话，会进行默认的数据类型转换
+    // 规则：
+    // 1) 对象 == 对象 -> 永远不相等
+    console.log([] == []);
+    console.log(function(){} == function(){});
+    // 2) 对象 == 字符串 -> 先将字符串转化为字符串(调用toString的方法)，然后在比较
+    console.log([] == ''); // true -> [].toString() => '' -> '' == '' 为true
+    // [] 转换为字符串 ''
+    // {} 转换为字符串 '[Object Object]'
+
+    // 3) 对象 == 布尔类型 对象先转化为字符串(toString())，然后字符串再转化为数字(Number())，布尔类型也转化为数字
+    //      (true是1 false是0)，最后让两个数字比较
+    console.log([] == false); // true
+
+    // 4) 对象 == 数字 对象先转化为字符串(toString())，然后字符串再转化为数字(Number())，然后让两个数字比较
+
+    // 5) 数字 == 布尔 布尔转化为数字，然后两个数字进行比较
+    console.log(2 == true); // false
+
+    // 6) 数字 == 字符串 字符串转化为数字，然后两个数字进行比较
+
+    // 7) 字符串 == 布尔 都转化为数字然后进行比较
+
+    // 8) null == undefined 结果是true
+
+    // 9) null或者undefined 和其他任何数据类型比较都不相等
+
+    // 3. 除了 == 是比较，=== 也是比较，=== 比较时，是绝对比较。
+    // val1 === val2.
+    // 如果数据类型不一样，则两个比较肯定不相等
+
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        #div1 {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<!--
+    将CSS引入到页面中的几种方式：
+    1. 行内样式
+    2. 内嵌式 （将css样式也在style标签块内，放在<head></head>中）
+    3. 外联式 （只是将内嵌式中的css样式放到外面一个单独的样式文件中）
+    4. 导入式  @import "css/index.css"
+
+    将JavaScript引入到页面中的几种方式
+    1. 行内引入（不推荐）安全性能比较低
+    2. 内嵌式：将js代码写在<script></script>中间
+    3. 外联式：将js代码写在一个单独的js文件中，通过src找到引入
+       细节： 在外联式中，script脚本中不可以写js代码，如果写了也不会执行，也不会报错
+       细节：我们通常将js放在</body>前，原因HTML页面是从上到下加载的，通常js是获取HTML标签给予动态操作效果的，所以需要先加载HTML标签
+            再加载js
+-->
+<div id="div1" style="width: 100px;"></div>
+<script src="js/index.js">
+    alert('我是外联式中间的代码');
+</script>
+<script>
+    alert('欢迎大家学习前端开发');
+</script>
+</body>
+</html>

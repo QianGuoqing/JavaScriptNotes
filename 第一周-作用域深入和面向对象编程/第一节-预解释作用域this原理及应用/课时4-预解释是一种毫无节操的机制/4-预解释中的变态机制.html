@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 预解释是毫无节操的一种机制
+    // 自从学了预解释，从此节操是路人
+
+    // in: "num" in window, 判断num是否是window这个对象的一个属性，是的话返回true,不是的话返回false
+    var obj = {
+        name: 'derrick',
+        age: 20
+    };
+    console.log('name' in obj); // -> 返回true
+    console.log('eat' in obj); // -> 返回false
+
+    // 1. 预解释的时候不管条件是否成立，都要把带var的进行提前的声明
+    // window的预解释: var num; -> 给window.num;
+    /*
+    if (!("num" in window)) { // false
+        var num = 12;
+    }
+    console.log(num); // -> undefined
+    */
+
+    // 2. 预解释的时候，只对"="左边的预解释，右边的是值，不参与预解释
+    // 匿名函数之函数表达式: 把函数的定义的部分当做一个值赋值给变量/ 元素的某一个事件
+    // window下的预解释: var fn;
+    fn(); // -> undefined() -> TypeError
+    var fn = function () {
+        console.log('ok');
+    }
+    /*
+    fn();
+    function fn() {
+        console.log('ok');
+    }
+    fn();
+    */
+
+    // 3. 自执行函数定义的那个function在全局作用域下不进行预解释，当代码执行到这个位置的时候，定义和执行一起完成了
+    // 自执行函数：定义和执行一起完成了
+    (function (num) {
+        console.log(num);
+    })(100);
+
+    // 4. 函数体中，return下面的代码，虽然不再执行了，但是需要进行预解释；return后面跟着的是函数返回值，所以不进行预解释
+    function fn() {
+        // 预解释: var num;
+        console.log(num); // -> undefined
+        return function () {
+            // 这里不进行预解释
+        }
+        var num = 100;
+    }
+    fn();
+
+    // 5. 在预解释的时候，如果名字已经声明过了，不需要重新的声明，但是需要重新的赋值
+    // 在JavaScript中，如果变量的名字和函数的名字重复了，也算冲突
+    // 预解释: var fn; window.fn; fn = xxxff000; window.fn = xxxff000;
+    /*
+    var fn = 12;
+    function fn() {
+        console.log('ok');
+    }
+    console.log(fn);
+    */
+
+
+</script>
+</body>
+</html>

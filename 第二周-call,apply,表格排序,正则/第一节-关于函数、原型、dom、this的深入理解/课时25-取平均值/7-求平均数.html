@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function avgFn() {
+        var ary = [];
+        for (var i = 0; i < arguments.length; i++) {
+            ary[ary.length] = arguments[i];
+        }
+
+        // 给数组排序,去掉开头和结尾,剩下的数求平均数
+        ary.sort(function (a, b) {
+            return a - b;
+        });
+        ary.shift();
+        ary.pop();
+
+        return (eval(ary.join("+")) / ary.length).toFixed(2);
+    }
+
+   var res = avgFn(9.8, 9.7, 10, 9.9, 9.0, 9.8, 3.0);
+    console.log(res);
+</script>
+</body>
+</html>

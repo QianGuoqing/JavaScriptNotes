@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组的十二个常用的方法</title>
+</head>
+<body>
+<script>
+    // 创建一个数组两种常用的方式
+    var ary = [1, 2, 3, 4]; // 字面量方式创建数组
+    var ary = new Array(); // 实例方式创建数组
+    console.dir(ary); // 看数组的详细信息，包含数组中常用的几个方法（__proto__中找，里面提供了数组中常用的所有方法）
+
+    // 数组是由多个项组成的，每一项之间用","隔开，并且每一项存储的数据类型，可以是任何的数据类型
+    var ary = ['derrick', 'rose', 30, true, null, undefined, {}, function(){}, []];
+    console.log(ary);
+
+    // 数组也是对象数据类型的，对象数据类型是由"属性名: 属性值"组成，数组中代表当前第几项的那个数字（0, 1, 2...）是它的
+    // 属性名，把它也可以称之为数组的索引
+    // ary[索引]，就是获取 "第 索引+1 "项对应的内容
+    // 如果写的索引超过了总长度，则返回 undefined
+
+    // ary.length/ ary["length"]: 获取数组的长度
+    console.log(ary[1]);
+
+    // 数组的遍历
+    var ary = ['derrick', 'rose', 'sg'];
+    for (var i = 0; i < ary.length; i++) {
+        // i = 0 -> 第一项 ary[0]
+        // i = 1 -> 第二项 ary[1]
+        // ...
+        // ary[i] 在每一次循环的时候获取数组中的当前项
+        console.log(ary[i]);
+    }
+
+</script>
+</body>
+</html>

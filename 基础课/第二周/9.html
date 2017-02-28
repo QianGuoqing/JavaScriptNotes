@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 数组去重
+    var ary = [1, 2, 1, 2, 3, 4, 2, 1, 5, 3, 2, 1];
+    for (var i = 0; i < ary.length - 1; i++) {
+        var cur = ary[i];
+        // i = 0 -> 第一次循环 开始比较的索引是1，一直到末尾
+        // i = 1 -> 第二次循环 开始比较的索引是2，一直到末尾
+        // ...
+        // 当开始比较的索引 是i + 1
+        // 数组塌陷问题：通过splice删除，原有的数组改变了，删除的那个索引以后所有的索引都往前提了一位
+        for (j = 1; j < ary.length; j++) {
+            if (cur === ary[j]) {
+                ary.splice(j, 1);
+                j--;
+            }
+        }
+    }
+    console.log(ary);
+
+    // 方法二
+    // 把数组中的每一项当做一个新对象的属性名和属性值存起来，在存储的时候判断当前的属性名是否已经存在,
+    // 存在了就代表数组该项重复了，我们就删除，否则就代表不重复，直接存储
+    var ary = [1, 2, 1, 2, 3, 4, 2, 1, 5, 3, 2, 1];
+    var obj = {};
+    for (var i = 0; i < ary.length; i++) {
+        var cur = ary[i];
+        if (obj[cur] == cur) {
+            ary.splice(i, 1);
+            i--;
+            continue;
+        }
+        obj[cur] = cur;
+    }
+    obj = null
+
+</script>
+</body>
+</html>

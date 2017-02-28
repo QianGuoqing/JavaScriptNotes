@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隔行变色</title>
+    <style>
+        body, div, ul, li {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+        ul, li {
+            list-style: none;
+        }
+        #list {
+            margin: 10px auto 0;
+            padding: 10px;
+            width: 500px;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            /*background: -webkit-linear-gradient(top left, #31b0d5, #67b168, #ff3333);*/
+        }
+        #list li {
+            height: 30px;
+            line-height: 30px;
+            cursor: pointer;
+        }
+
+        .c1 {
+            background: #dddddd;
+        }
+        .c2 {
+            background: #a6e1ec;
+        }
+        .c3 {
+            background: #cc0000;
+        }
+    </style>
+</head>
+<body>
+<div id="list">
+    <ul>
+        <li>标题1111111111111111111111</li>
+        <li>标题2222222222222222222222</li>
+        <li>标题3333333333333333333333</li>
+        <li>标题4444444444444444444444</li>
+        <li>标题5555555555555555555555</li>
+        <li>标题6666666666666666666666</li>
+        <li>标题1111111111111111111111</li>
+        <li>标题2222222222222222222222</li>
+        <li>标题3333333333333333333333</li>
+        <li>标题4444444444444444444444</li>
+        <li>标题5555555555555555555555</li>
+        <li>标题6666666666666666666666</li>
+        <li>标题1111111111111111111111</li>
+        <li>标题2222222222222222222222</li>
+        <li>标题3333333333333333333333</li>
+        <li>标题4444444444444444444444</li>
+        <li>标题5555555555555555555555</li>
+        <li>标题6666666666666666666666</li>
+        <li>标题1111111111111111111111</li>
+        <li>标题2222222222222222222222</li>
+        <li>标题3333333333333333333333</li>
+        <li>标题4444444444444444444444</li>
+        <li>标题5555555555555555555555</li>
+        <li>标题6666666666666666666666</li>
+    </ul>
+</div>
+<script>
+    // 奇偶行变色的原理：
+    // 操作所有的li，让按照奇偶行的规律，改变它的class样式的属性值，奇数行是c1,偶数行是c2
+    // 通过元素的标签名获取一组元素
+    // document.getElementsByTagName('元素的标签名');
+    // 在整个文档中（获取的范围，上下文），我们通过元素的标签名(div, li, p...)来获取一组元素
+    // 获取这个文档中所有的li，它是一个集合，这个集合叫做类数组（类似于数组），并且类数组是对象数据类型的
+    // 索引(属性名)：就是代表当前是第几个元素的位置下标，所以是从0开始的，索引为0代表第一个li，索引为1代表第二个li, ... , 索引为n代表第n+1个li
+    // length: 获取集合的长度，或者是当前获取了多少个li
+    // oLis[0] -> 获取某一个指定的元素oLis[索引]
+    // 通过DOM获取获取的类数组还可以使用.item(索引)来获取某一个元素 -> oLis.item(0)
+
+    var oList = document.getElementById('list');
+    var oLis = oList.getElementsByTagName('li');
+    for (var i = 0; i < oLis.length; i++) {
+        // i = 0 第一次循环 获取第一个li oLis[0]
+        // i = 1 第二次循环 获取第一个li oLis[1]
+        var oLi = oLis[i]; // 每一次循环的时候在类数组中把对应的li取出来
+        i % 2 === 0 ? oLi.className = 'c1' : oLi.className = 'c2';
+
+        // 因为每一个li都是对象数据类型，那么使用这种思想，可以给每一个li增加一个自定义属性名，属性值就是当前li的className的值
+        i % 2 === 0 ? oLi.dataClassName = 'c1' : oLi.dataClassName = 'c2';
+
+        // 鼠标移上去
+        oLi.onmouseover = function () {
+            this.className = 'c3';
+        }
+        // 鼠标离开
+        oLi.onmouseout = function () {
+            this.className = this.dataClassName;
+        }
+    }
+
+
+</script>
+</body>
+</html>

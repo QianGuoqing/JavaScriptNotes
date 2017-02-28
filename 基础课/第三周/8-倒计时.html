@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 把时间格式的字符串变成标准时间格式
+    // 对字符串格式有要求:
+    // 中间 '-' 在IE6-8下不兼容，需要改成 '/'
+    // getTime(): 获取距离"1970-1-1 00:00:00"之间的毫秒差
+    var targetTime = new Date('2016/01/01 00:00:00');
+    var now = new Date();
+    var tarSpan = targetTime.getTime();
+    var nowSpan = now.getTime();
+    var delta = nowSpan - tarSpan;
+
+    // 根据毫秒差算出相差的时间
+    var hour = Math.floor(delta / (1000 * 60 * 60));
+    var hourMs = hour * 60 * 60 * 1000;
+    var spanMs = delta - hourMs;
+    var minute = Math.floor(spanMs / (1000 * 60));
+    var minuteMs = minute * 60 * 1000;
+    var spanMs2 = spanMs - minuteMs;
+    var second = Math.floor(spanMs / 1000);
+
+</script>
+</body>
+</html>

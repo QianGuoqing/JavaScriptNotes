@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // js检测数据类型类型的方式
+    // typeof 运算符
+    // instanceof 运算符
+    // constructor
+    // Object.prototype.toString.call()
+
+    // typeof用来检测数据类型的: typeof 要检查的值
+    // 返回值：是一个字符串，包含了数据类型字符串，例如"number", "string", "boolean", "undefined", "object", "function"
+    // typeof null 返回 "object", type of 对象 返回 "object", typeof function(){} 返回"function"
+    // typeof的局限性，不能具体的检查object下细分的类型，检查这些返回的都是"object"
+    console.log(typeof 'derrick'); // "string"
+    console.log(typeof 1); // "number"
+    console.log(typeof null); // "object"
+    console.log(typeof []); // "object"
+    console.log(typeof function(){}); // "function"
+
+    var num = 10;
+    console.log(typeof num); // 把num代表的值进行检测，检测时说明数据类型的
+
+    // 面试题：
+    console.log(typeof typeof typeof typeof []); // "string"
+    // typeof [] ==> "object"
+    // typeof "object" ==> "string"
+    // typeof "string" ==> "string"
+    // ...
+    // 得到结果 "string"。
+    // 结论：出现两个和两个以上的typeof，最终结果都是"string"
+</script>
+</body>
+</html>

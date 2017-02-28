@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 获取当前自己电脑的时间: 不能做重要的用途，例如淘宝抢购，限时秒杀
+    var time = new Date();
+    console.log(time); // Sat Feb 25 2017 14:45:12 GMT+0800 (CST)
+    // (中国标准时间) 时间格式数据
+
+    function formatTime() {
+        var time = new Date();
+        var year = time.getFullYear();
+        var month = time.getMonth() + 1; // 0-11，代表1-12月
+        var day = time.getDate();
+        var w = time.getDay(); // 获取的是0-6之间，代表周日-周六
+        var wstr = '日一二三四五六';
+        var week = wstr.charAt(w);
+
+        var hours = time.getHours();
+        var minutes = time.getMinutes();
+        var seconds = time.getSeconds();
+        var msSeconds = time.getMilliseconds();
+
+        return year + '年' + zero(month) + '月' + zero(day) + '日 星期'
+            + week + ' ' + zero(hours) + '时' + zero(minutes) + '分' + zero(seconds) + '秒';
+    }
+
+    function zero(value) {
+        return value < 10 ? '0' + value : value;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<script>
+//    function fn() {
+//        var ary = [].slice.call(arguments);
+//    }
+
+//    var oLis = document.getElementsByTagName('div');
+//    console.dir(oLis); // -> HTMLCollection元素集合类的一个实例 -> 它也是一个类数组集合
+
+//    oLis = document.getElementsByName('zhufeng');
+//    console.dir(oLis); // -> NodeList 节点集合
+
+    var oLis = document.getElementsByTagName('div');
+    var ary = Array.prototype.slice.call(oLis);
+
+</script>
+</body>
+</html>

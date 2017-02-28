@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // for in 循环：用来循环一个对象中的属性名和属性值的
+    var obj = {
+        name: 'derrick',
+        age: 20,
+        height: '180cm',
+        hobby: 'coding',
+        birtyday: '1/1'
+    }
+    // 对象中有多少键值对，就循环多少次
+    // 顺序问题：在for in 循环的时候，首先循环数字的属性名（按照数字的从小到大获取），再把剩下的属性名按照书写的顺序循环
+    for (var key in obj) {
+        console.log(key + ', ' + obj[key]);// key->属性名，obj[key]->属性值
+        // 在 for in 中，只能通过 对象名[key]来获取属性值，不能使用对象名.key来获取
+    }
+</script>
+</body>
+</html>

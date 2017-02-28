@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 定时器：设置一个定时器，在设置的一个等待的时间，到达指定时间后，执行对应的操作
+    // window.setInterval(function, time); -> 设置一个定时器，到达指定时间time执行function，然后定时器并没有停止，
+    // 以后每隔这么长时间都重新执行function
+    // window.setTimeout(function, time); -> 设置一个定时器，到达指定的时间time执行function，定时器停止
+    // 定时器的返回值是一个数字，代表当前是第几个定时器
+    var count = 0;
+    var timer = setInterval(function () {
+        count++;
+        console.log(count);
+    }, 1000);
+    var timer = setTimeout(function () {
+        count++;
+        console.log(count);
+    }, 1000);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 动态创建一个元素标签
+    // document.createElement(): 创建一个元素标签对象
+    // appendChild: 把这个元素添加到指定的元素的末尾位置， -> 容器.appendChild(元素)。
+    // insertBefore(): 把新的元素newEle添加到老的元素oldElem之前
+    // oldEle.parentNode.insertBefore(newEle, oldEle)
+    // removeChild: 删除指定元素
+
+    // 动态创建一个div元素对象
+    var oDiv = document.createElement('div');
+    oDiv.id = 'div1';
+    oDiv.style.width = '100px';
+    oDiv.style.height = '100px';
+    oDiv.style.border = '1px solid  red';
+
+    // 把创建好的元素添加到页面中
+    document.body.appendChild(oDiv);
+
+    var oP = document.createElement('p');
+    oP.id = 'p1';
+    oP.style.width = '100px';
+    oP.style.height = '100px';
+    oP.style.border = '1px solid  black';
+    document.body.insertBefore(oP, oDiv);
+
+    oDiv.parentNode.removeChild(oP);
+
+    var cloNode = oDiv.cloneNode(true);
+    // 克隆一个元素 true -> 把元素里面子子孙孙都克隆，默认是false，只克隆当前的
+
+    var dd = document.createElement('div');
+    dd.style.background = 'blue';
+    oP.parentNode.replaceChild(dd, oDiv); // 替换
+
+    // setAttribute: 设置元素的属性，包含自定义的，是修改HTML元素的结构的，使用这个方法，可以再HTML上体现出来
+    dd.setAttribute('data-new', '自定义属性');
+    console.log(dd.getAttribute('data-new'));
+    dd.removeAttribute('data-new');
+    // 在IE6-8下，这个方法不能修改class属性
+
+</script>
+</body>
+</html>
