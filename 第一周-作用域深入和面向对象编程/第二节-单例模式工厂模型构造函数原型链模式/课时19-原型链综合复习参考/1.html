@@ -11,6 +11,24 @@
     // 1. 所的函数数据类型(普通函数、类)都天生自带一个属性:prototype,它存储的值是一个对象数据类型的值,浏览器默认其开辟一个堆内存
     // 2. 在浏览器给prototype默认开辟的这个堆内存上有一个默认的属性: constructor,指向当前类本身
     // 3. 每一个对象数据类型(普通的对象、数组、正则、实例、prototype)都天生自带一个属性: __proto__, 指向当前实例所属类的原型
+
+    function Fn() {
+        this.x = 100;
+        this.y = 200;
+        // -> 在类的函数体重写的this.xxx = xxx; 都是给当前类的实例增加的私有属性或者方法
+        this.c = function () {
+            // 这个函数是私有的
+        }
+    }
+    // -> 在类的原型上写的是给当前实例或者当前类上增加的是公有的属性和方法
+    Fn.prototype.getX = function () {
+        console.log(this.x);
+    }
+    Fn.prototype.getY = function () {
+        console.log(this.y);
+    }
+    var f1 = new Fn();
+    var f2 = new Fn();
 </script>
 </body>
 </html>

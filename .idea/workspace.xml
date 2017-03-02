@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="" />
+    <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/4-批量设置原型的公有方法.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/2.html" afterPath="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/2-this.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/1.html" afterPath="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html" afterPath="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,21 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7-原型拓展.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时17-原型链模式拓展-批量设置公有属性/7-原型拓展.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="63" column="102" lean-forward="false" selection-start-line="63" selection-start-column="102" selection-end-line="63" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="8-原型拓展.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="8-原型拓展.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时16-原型链模式拓展-this和原型拓展/8-原型拓展.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -41,14 +37,14 @@
       <file leaf-file-name="1-可枚举和不可枚举.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/1-可枚举和不可枚举.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="391">
               <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-Object.create.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2-Object.create.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/2-Object.create.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="593">
@@ -58,17 +54,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-原型继承.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/3-原型继承.html">
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="510">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-this.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/2-this.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3-在内置类的原型上拓展方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4-批量设置原型的公有方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/4-批量设置原型的公有方法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,6 +118,10 @@
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/1-可枚举和不可枚举.html" />
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/2-Object.create.html" />
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/3-原型继承.html" />
+        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/1.html" />
+        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/2-this.html" />
+        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html" />
+        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/4-批量设置原型的公有方法.html" />
       </list>
     </option>
   </component>
@@ -95,8 +132,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="752" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,6 +182,10 @@
               <option name="myItemId" value="JavaScriptNotes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第九周-移动端" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -159,6 +202,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="第二节-单例模式工厂模型构造函数原型链模式" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时19-原型链综合复习参考" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,6 +288,34 @@
               <option name="myItemId" value="第一周-作用域深入和面向对象编程" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二节-单例模式工厂模型构造函数原型链模式" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一周-作用域深入和面向对象编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -253,9 +328,9 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.8-原型拓展.html">
+  <component name="RunManager" selected="JavaScript Debug.3-在内置类的原型上拓展方法.html">
     <configuration default="false" name="3-构造函数模式.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时13-构造函数模式基础/3-构造函数模式.html">
       <method />
     </configuration>
@@ -266,6 +341,9 @@
       <method />
     </configuration>
     <configuration default="false" name="8-原型拓展.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时16-原型链模式拓展-this和原型拓展/8-原型拓展.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="3-在内置类的原型上拓展方法.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -327,18 +405,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.3-构造函数模式.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.4-构造函数模式拓展.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.原型链模式基础.html" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.8-原型拓展.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.3-在内置类的原型上拓展方法.html" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.8-原型拓展.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.原型链模式基础.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.4-构造函数模式拓展.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.3-构造函数模式.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.3-在内置类的原型上拓展方法.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.8-原型拓展.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.原型链模式基础.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.4-构造函数模式拓展.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.3-构造函数模式.html" />
       </list>
     </recent_temporary>
   </component>
@@ -353,15 +433,15 @@
       <option name="presentableId" value="Default" />
       <updated>1488246873437</updated>
       <workItem from="1488246874718" duration="15856000" />
-      <workItem from="1488363956970" duration="10980000" />
+      <workItem from="1488363956970" duration="18450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26836000" />
+    <option name="totallyTimeSpent" value="34306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="61" y="23" width="1280" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24146147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -441,15 +521,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时16-原型链模式拓展-this和原型拓展/8-原型拓展.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/1.html">
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/5-冒充对象继承.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -457,18 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/1-可枚举和不可枚举.html">
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/2-Object.create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时17-原型链模式拓展-批量设置公有属性/7-原型拓展.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="63" column="102" lean-forward="false" selection-start-line="63" selection-start-column="102" selection-end-line="63" selection-end-column="102" />
+        <state relative-caret-position="593">
+          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -497,22 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/8-中间类继承法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/5-冒充对象继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/3-原型继承.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -521,10 +569,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/2-Object.create.html">
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/8-中间类继承法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/2-this.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="129" column="3" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/4-批量设置原型的公有方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/1-可枚举和不可枚举.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时17-原型链模式拓展-批量设置公有属性/7-原型拓展.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="63" column="73" lean-forward="true" selection-start-line="63" selection-start-column="73" selection-end-line="63" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时16-原型链模式拓展-this和原型拓展/8-原型拓展.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="28" />
           <folding />
         </state>
       </provider>
