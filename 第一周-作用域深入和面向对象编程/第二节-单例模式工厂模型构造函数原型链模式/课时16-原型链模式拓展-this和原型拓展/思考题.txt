@@ -1,0 +1,21 @@
+在数组的原型上有一个方法叫做slice，要求自己实现slice方法，要求和原来的slice功能一模一样
+Array.prototype.mySlice = function() {
+    // 实现自己的方法
+}
+
+考虑的情况：
+slice(n, m)
+slice(n)
+slice()
+n和m是负数
+n < m
+n和m的值超过数组的长度
+n和m不是有效数字
+
+不能使用数组内置的方法。比如添加不能使用push，而使用ary[ary.length - 1] = xxx; 这种方式
+
+2. 实现一个需求
+(5).plus(10).minus(2) -> 5 + 10 - 2
+Number.prototype上定义plus方法和minus方法
+Number.prorotye.plus = function() {}
+Number.prorotye.minus = function() {}
