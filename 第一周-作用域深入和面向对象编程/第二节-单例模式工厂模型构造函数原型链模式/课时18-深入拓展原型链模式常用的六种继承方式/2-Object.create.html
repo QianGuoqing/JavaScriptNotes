@@ -8,66 +8,61 @@
 <script>
     // Object.create() 创建一个拥有指定原型和若干指定属性的对象
     // -> Object.create(proObj) 创建一个新的对象,但是还要把proObj作为这个对象的原型
+    // -> 在IE6~8中不兼容
 
+    var obj = {
+        getX: function () {
+        }
+    };
+    var obj2 = Object.create(obj);
+    // -> obj2
+    // __proto__:
+    // getX: function() {...}
+    //  __prototo__: Object.prototype
+    obj2.getX();
+    obj.getY = function () {
+        console.log('get Y');
+    }
+    obj2.getY(); // 输出 get Y
+
+    /*
+     var obj = {
+     constructor: Fn,
+     getX: function () {
+
+     }
+     }; // -> obj = xxff000
+     function Fn() {
+
+     }
+
+     var obj2 = {};
+     for (var key in obj) {
+     if (obj.hasOwnProperty(key)) {
+     obj2[key] = obj[key];
+     }
+     }
+
+     Fn.prototype = obj; // -> Fn.prototype = xxff000
+     Fn.prototype.sum = function () {
+     // 此时obj中也会有sum方法
+     }
+     var f = new Fn();
+     */
+
+    // 自己实现Object.create()
+    function myCreateObject(obj) {
+        function Fn() {
+        }
+        Fn.prototype = obj;
+        return new Fn();
+    }
     var obj = {
         getX: function () {
 
         }
     }
-    function object(o) {
-        function Fn() {
-
-        }
-        Fn.prototype = o;
-        return new Fn();
-    }
-    var newObj = object(obj);
-
-    function Sum() {
-
-    }
-    Sum.prototype = object(obj);
-
-//    var obj = {
-//        getX: function () {
-//
-//        }
-//    }
-//    var obj2 = Object.create(obj);
-//    // -> obj2
-//    // __proto__:
-//    // getX: function
-//    // __proto__: Object.prototype
-//    obj2.getX();
-//
-//    obj.getY = function () {
-//        console.log(2);
-//    }
-//
-//    obj2.getY();
-
-//    var obj = {
-//        constructor: Fn,
-//        getX: function () {
-//
-//        }
-//    }; // obj = xxxfff000
-//
-//    var obj2 = {};
-//    for (var key in obj) {
-//        if (obj.hasOwnProperty(key)) {
-//            obj2[key] = obj[key];
-//        }
-//    }
-//
-//    function Fn() {
-//
-//    }
-//    Fn.prototype = obj; // Fn.prototype = xxxfff000
-//    Fn.prototype.sum = function () {
-//
-//    }
-//    var f = new Fn();
+    var newObj = myCreateObject(obj);
 </script>
 </body>
 </html>
