@@ -13,15 +13,31 @@
         console.log(2);
     }
 
-    fn1.call(fn2); // -> 首先fn1通过原型链机制找到Function.prototype上的call方法,并且让call方法执行 ->
-    // 此时call这个方法中this就是我要操作fn1 -> 在call方法代码执行的过程中,首先让fn1中的"this关键字"变为fn2,然后
-    // 再让fn1这个方法执行 -> 1
+    fn1.call(fn2); // -> 首先fn1通过原型链机制找到Function.prototype上的call方法，并且让call方法执行，
+    // -> 此时call这个方法中的this就是要操作fn1 -> 在call方法代码的执行过程中，首先fn1中的"this关键字"变为fn2，
+    // 再让fn1这个方法执行 -> 最终执行结果为 1
 
-    fn1.call.call(fn2); // -> fn1.call 首先fn1通过原型链找到Function.prototype上的call方法,然后再让call方法通过
-    // 原型再找到Function原型上的call(因为call本身的值也是一个函数,所以同样可以找到Function.prototype),在第二次再找到call
-    // 的时候,让方法执行,方法中的this是fn1.call,首先让这个方法中的this变为fn2,然后再让fn1.call执行 -> 2
+    fn1.call.call(fn2); // -> fn1.call 首先fn1通过原型链机制找到Function.prototype上的call方法，
+    // 然后再让call方法通过原型再找到Function原型上的call（因为call本身的值也是一个函数，所以同样可以找到Function.prototype），在
+    // 第二次再找到call的时候，让方法执行，方法中的this是fn1.call, 首先让这个方法中的this变为fn2,然后再让fn1.call执行
+    // -> 输出结果为 2
 
-    Function.prototype.call(fn1);
+    // 再次分析:
+    function xxx(context) {
+        // 1. 让this这个函数中的"this关键字"变为context
+        // 2. 让this方法执行
+        this();
+    }
+    Function.prototype.myCall = xxx;
+    fn1.call.call(fn2);
+    // -> fn1.call -> xxx;
+    // -> xxx.call(fn2) -> 先让call方法执行，call中this是xxx,让xxx中的this变为fn2,
+    // 再让xxx执行 -> 2
+
+    fn1.call.call.call.call.call(fn2); // 2
+
+    Function.prototype.call(fn1); // Funciton.prototype是空函数，将其执行就是空函数执行，直接销毁
+    Function.prototype.call.call.call.call(fn1); // fn1() -> 1
 </script>
 </body>
 </html>

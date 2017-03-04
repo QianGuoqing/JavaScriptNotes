@@ -6,33 +6,40 @@
 </head>
 <body>
 <script>
+    // Array.prototype.slice = function() {}
     var ary = [12, 23, 34];
-    // ary.slice -> ary这个实例通过原型链的查找机制找到Array.prototype上的slice方法
-    // ary.slice() -> 让找到的slice方法执行,在执行slice方法的过程中才把ary数组进行了截取
+    // ary.slice -> ary这个实例，通过原型链的查找机制，找到Array.prototype上的slice方法
+    // ary.slice(); -> 让找到的slice方法执行，在执行slice方法的过程中，才把ary数组进行截取
 
-//    Function.prototype.call = function () {}
-    var obj = {name: 'zhufeng'};
+    // Function.prototype.call = function () { }
+    var obj = {
+        name: 'derrick'
+    }
     function fn() {
         console.log(this);
     }
-    fn(); // -> window
-//    obj.fn(); // Uncaught TypeError: obj.fn is not a function
-//    fn.call(obj);
+    fn();
+    // fn.call(obj);
     // call方法的作用:
-    // -> 首先我们让原型上的call方法执行,在执行call方法的时候,我们让fn方法中的this变为第一个参数值obj,
-    // 然后再把fn这个函数执行
+    // -> 首先让原型上的call方法执行，在执行call方法的时候，让fn方法中的this变为第一个参数值obj；然后再把fn这个函数执行。
 
-    // 自己模拟内置的call方法,写一个myCall方法,来深入探讨call方法的执行原理
+    // 自己模拟内置的call方法，写一个myCall方法，深入探讨call方法执行的原理
     Function.prototype.myCall = function (context) {
-        // -> myCall方法中的this就是当前我要操作和改变其this关键字的那个函数名
+        // -> myCall方法中的this就是当前要操作和改变其this关键字的那个函数
+
         // -> 1. 让fn中的this关键字变为context的值 -> obj
         // -> 让this这个函数中的"this关键字"变为context
-        // eval(this.toString().replace("this", "obj"));
+        // var that = eval(this.toString().replace('this', context));
 
         // -> 2. 让fn方法在执行
         this();
     }
     fn.myCall(obj); // -> myCall方法中的this是fn
+
+    function sum() {
+
+    }
+    sum.myCall(obj); // -> myCall方法中this是sum
 </script>
 </body>
 </html>

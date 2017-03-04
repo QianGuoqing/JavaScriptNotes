@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/4-面试题.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/4-面试题.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +22,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-原型深入.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时20-原型深入/1-原型深入.html">
+      <file leaf-file-name="3-call和apply.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="389">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-原型深入.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html">
+      <file leaf-file-name="4-面试题.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/4-面试题.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="644">
+              <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -71,6 +72,8 @@
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/4-批量设置原型的公有方法.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时20-原型深入/1-原型深入.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/4-面试题.html" />
       </list>
     </option>
   </component>
@@ -154,29 +157,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时21-函数的三种角色" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-关于函数、原型、dom、this的深入理解" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时20-原型深入" />
+              <option name="myItemId" value="课时22-call方法深入" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,10 +187,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-原型深入.html">
-    <configuration default="false" name="4-构造函数模式拓展.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时14-构造函数模式拓展/4-构造函数模式拓展.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.3-call和apply.html">
     <configuration default="false" name="原型链模式基础.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时15-原型链模型基础/原型链模式基础.html">
       <method />
     </configuration>
@@ -220,6 +198,9 @@
       <method />
     </configuration>
     <configuration default="false" name="1-原型深入.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时20-原型深入/1-原型深入.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="3-call和apply.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -282,19 +263,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.4-构造函数模式拓展.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.原型链模式基础.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.8-原型拓展.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.3-在内置类的原型上拓展方法.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-原型深入.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.原型链模式基础.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.8-原型拓展.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.3-在内置类的原型上拓展方法.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-原型深入.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.3-call和apply.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-原型深入.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.3-在内置类的原型上拓展方法.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.8-原型拓展.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.原型链模式基础.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.4-构造函数模式拓展.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.3-call和apply.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-原型深入.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.3-在内置类的原型上拓展方法.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.8-原型拓展.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.原型链模式基础.html" />
       </list>
     </recent_temporary>
   </component>
@@ -310,12 +291,12 @@
       <updated>1488246873437</updated>
       <workItem from="1488246874718" duration="15856000" />
       <workItem from="1488363956970" duration="22301000" />
-      <workItem from="1488599053540" duration="1955000" />
+      <workItem from="1488599053540" duration="5537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40112000" />
+    <option name="totallyTimeSpent" value="43694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -392,6 +373,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,6 +410,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="129" column="3" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -442,6 +425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="63" column="73" lean-forward="true" selection-start-line="63" selection-start-column="73" selection-end-line="63" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -456,6 +440,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -523,17 +508,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html">
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="46" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html">
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="389">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/4-面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding />
         </state>
       </provider>
