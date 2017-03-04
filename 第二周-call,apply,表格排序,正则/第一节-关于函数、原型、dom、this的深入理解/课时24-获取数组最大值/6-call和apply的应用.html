@@ -7,47 +7,62 @@
 <body>
 <script>
     var ary = [12, 23, 34, 24, 35, 14, 25, 36];
-    // -> 思想1: 首先先给我们的数组进行排序(有小到大排序),第一个和最后一个就是我们想要的最小值和最大值
-//    ary.sort(function (a, b) {
-//        return a - b;
-//    });
-//    var min = ary[0];
-//    var max = ary[ary.length - 1];
-//    console.log(min, max);
 
-    // -> 思想2: 假设法: 假设当前数组的第一个值是最大值,然后拿这个值和后面的项逐一进行比较,
-    // 如果后面某一个值比假设的还要大,说明假设错误,我们把假设的值进行替换即可
-    // -> 和自定义属性一样,都是JS中最常用的编程思想
-//    var max = ary[0];
-//    var min = ary[0];
-//    for (var i = 0; i < ary.length; i++) {
-//        var cur = ary[i];
-//        cur > max ? max = cur : null;
-//        cur < min ? min = cur : null;
-//    }
-//    console.log(min, max);
+    // 方法一：首先给数组从小到大排序，然后第一个是最小值，最后一个是最大值
+    ary.sort(function (a, b) {
+        return a - b;
+    })
+    var min = ary[0];
+    var max = ary[ary.length - 1];
+    console.log(min, max);
 
-    // -> 思想3: 使用Math的max和min方法来实现
-//    var min = Math.min(ary);
-//    var max = Math.max(ary); // -> NaN
-//    console.log(Math.min(12, 23, 34, 24, 35, 14, 25, 36)); // -> 12,它是在执行的时候,把需要比较的那堆数一个一个传递进来
-    // 这样才可以得到最后的结果,一下放一个ary数组进来是不可以的
+    // 方法二：假设法: 假设当前数组中的第一个值是最大值，然后拿这个值后面项逐一比较，如果后面某一个值比假设的还要大，说明假设错了，这样就把假设的值进行替换，使其成为新的最大值。
+    // -> 这种方法和自定义属性一样，都是JavaScript中最常用的编程思想
+    var max = ary[0];
+    var min = ary[0];
+    for (var i = 1; i < ary.length; i++) {
+        var cur = ary[i];
+        if (cur > max) {
+            max = cur;
+        }
+        if (cur < min) {
+            min = cur;
+        }
+    }
+    console.log(min, max);
 
-    // -> eval: 把一个字符串变为JS表达式执行
-    // 例如:
-    // eval("1+1") -> 2
+    // 方法三：使用Math.max和Math.min方法实现
+    // 它们是在执行的时候，把需要比较的那堆数一个个的传递进来，这样擦可以得到最后的结果，
+    // 一下子放一个ary数组是不可以的
+    // console.log(Math.min(ary));
+    // console.log(Math.max(ary));
 
-    // -> 括号表达式
-//    function fn1() {console.log(1);}
-//    function fn2() {console.log(2);}
-//    var obj = {name: 'zhufeng', fn: fn2};
-//    (fn1, fn2)(); // -> 2 -> 只有fn2执行了 -> (x1, x2, x3...)括号表达式,一个括号中出现多项内容,
-    // 中间用","隔开,但是我们最后获取的结果只有最后一项
-//    (fn2, obj.fn)(); // -> 执行的是obj.fn,但是执行的时候里面的this变为了window而不是obj
+    // -> 第一次尝试
+    console.log(Math.min([12, 23, 34, 24, 35, 14, 25, 36]));
+    // -> join/toString: 将这个数组转化为 -> "12, 23, 34, 24, 35, 14, 25, 36"
+    // -> eval: 把一个字符串转变为JavaScript表达式执行
+    // 例如: eval("1+1") -> 2
+    // eval("12, 23, 34, 24, 35, 14, 25, 36"); -> 只取出了最后一项的值
+    console.log(Math.min(12, 23, 34, 24, 35, 14, 25, 36));
+    console.log(Math.max(12, 23, 34, 24, 35, 14, 25, 36));
 
+    // 第二次尝试:
+    console.log(eval("Math.max(" + ary.toString() + ");"));
+
+    // 第三次尝试
     var max = Math.max.apply(null, ary);
     var min = Math.min.apply(null, ary);
-    console.log(min, max);
+    console.log(max, min);
+
+    // 括号表达式:
+    function f1() {
+        console.log(1);
+    }
+    function f2() {
+        console.log(2);
+    }
+
+
 </script>
 </body>
 </html>
