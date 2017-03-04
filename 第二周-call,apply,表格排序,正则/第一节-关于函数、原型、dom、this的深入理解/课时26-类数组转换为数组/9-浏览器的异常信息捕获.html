@@ -6,42 +6,55 @@
 </head>
 <body>
 <script>
-    // 我们在JS中使用try catch进行浏览器的异常信息捕获
-//    console.log(num); // Uncaught RefereceError: num is not defined 在JS中,本行报错,下面的代码就不再执行了
-//    console.log('ok');
+    // 在JavaScript中使用try, catch 进行浏览器的异常信息捕获
+    console.log(num); // -> num is not defined, 在JavaScript中，本行报错，下面的代码都不再执行了
+    console.log('ok'); // 不能输出，执行不到
 
-    // 以下行代码报错,如果用try/catch捕获了异常信息,不影响下面的代码继续执行;
-    // 如果try中的代码执行出错了,会默认的执行catch中的代码
-//    try {
-//        console.log(num);
-//    } catch (e) { // -> 形参必须要写,我们一般起名为e
-//        console.log(e.message); // -> num is not defined,可以收集当前代码报错的原因
-//        console.log('error');
-//    }
-//    console.log('ok');
+    // 语法
+    try {
+        // <JavaScript cod>
+    } catch (e) {
+        // 如果代码执行错误，执行catch中的代码
+    } finally  {
+        // 一般不用: 不管try中的代码是否报错，都要执行finally中的代码
+    }
 
-//    try {
-//        // JS code
-//    } catch (e) {
-//        // 如果代码报错,执行catch中的代码
-//    } finally {
-//        // 一般不用: 不管try中的代码是否报错,都要执行finally中的代码
-//    }
+    // -> try {...} 中的代码执行报错，会捕获异常信息，不影响下面的代码继续执行；
+    // 如果try中代码执行执行错误，会默认的去执行catch中的代码
+    try {
+        console.log(num);
+    } catch (e) { // -> 形参不需要写，一般起名为e
+        console.log('报错了'); // -> 输出
+        console.log(e.message); // -> 可以收集当前代码报错的原因(num is not defined)
+    }
+    console.log('ok'); // -> 输出 ok
 
-    // 有时候既想捕获到错误信息,又想不让下面代码执行
+    // 需求:
+    // 有时候既想捕获到错误信息，又想不让下面代码继续执行
     try {
         console.log(num);
     } catch (e) {
-//        console.log(e.message); // -> 可以得到错误的信息,把其进行统计
-
-        // -> 手动抛出一条错误信息,终止代码执行
-        throw new Error(e.message);
-//        new ReferenceError -> 引用错误
-//        new TypeError -> 类型错误
-//        new RangeError -> 范围错误
+        // -> 手动抛出一条错误信息，终止代码继续执行
+        throw new Error('当前网络繁忙，请稍后再试...');
+        // new ReferenceError(); -> 引用错误
+        // new TypeError(); -> 类型错误
+        // new RangeError(); -> 范围错误
     }
     console.log('ok');
 
+    // 应用: 将类数组转化为数组
+    // -> 实现将类数组转化为数组
+    function listToArray(likeArray) {
+        var ary = [];
+        try {
+            ary = Array.prototype.slice.call(likeArray);
+        } catch (e) {
+            for (var i = 0; i < likeArray.length; i++) {
+                ary[ary.length] = likeArray[i];
+            }
+        }
+        return ary;
+    }
 </script>
 </body>
 </html>
