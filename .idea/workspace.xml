@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,48 +21,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-数据绑定.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时29-数据绑定及dom回流/1-数据绑定.html">
+      <file leaf-file-name="表格排序.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+            <state relative-caret-position="202">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-简单的表格排序.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html">
+      <file leaf-file-name="tab.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="7" />
+            <state relative-caret-position="634">
+              <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo-表格排序.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-DOM的映射机制.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/3-DOM的映射机制.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="34" column="115" lean-forward="false" selection-start-line="34" selection-start-column="115" selection-end-line="34" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/json/utils.js">
+      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/json/data.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -116,6 +96,8 @@
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/3-DOM的映射机制.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js" />
       </list>
     </option>
   </component>
@@ -164,26 +146,12 @@
               <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemId" value="第二节-项目实战-表格排序" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-关于函数、原型、dom、this的深入理解" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时30-表格排序及dom映射" />
+              <option name="myItemId" value="课时31-实现基本的布局结构" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -201,11 +169,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-关于函数、原型、dom、this的深入理解" />
+              <option name="myItemId" value="第二节-项目实战-表格排序" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时30-表格排序及dom映射" />
+              <option name="myItemId" value="课时31-实现基本的布局结构" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -227,7 +195,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-关于函数、原型、dom、this的深入理解" />
+              <option name="myItemId" value="第二节-项目实战-表格排序" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时31-实现基本的布局结构" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,11 +221,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-关于函数、原型、dom、this的深入理解" />
+              <option name="myItemId" value="第二节-项目实战-表格排序" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="课时31-实现基本的布局结构" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,10 +271,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Demo-表格排序.html">
-    <configuration default="false" name="10-sort深入.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时27-sort深入研究/10-sort深入.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.表格排序.html">
     <configuration default="false" name="11-json.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时28-json及其操作/11-json.html">
       <method />
     </configuration>
@@ -291,6 +282,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Demo-表格排序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="表格排序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -353,19 +347,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.10-sort深入.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.表格排序.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.10-sort深入.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.表格排序.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
       </list>
     </recent_temporary>
   </component>
@@ -383,12 +377,12 @@
       <workItem from="1488363956970" duration="22301000" />
       <workItem from="1488599053540" duration="14614000" />
       <workItem from="1488705923215" duration="137000" />
-      <workItem from="1488724220238" duration="10812000" />
+      <workItem from="1488724220238" duration="14195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63720000" />
+    <option name="totallyTimeSpent" value="67103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -423,56 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时15-原型链模型基础/原型链模式基础.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时16-原型链模式拓展-this和原型拓展/思考题.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/8-中间类继承法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/2-this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="129" column="3" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/4-批量设置原型的公有方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时17-原型链模式拓展-批量设置公有属性/7-原型拓展.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="63" column="73" lean-forward="true" selection-start-line="63" selection-start-column="73" selection-end-line="63" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -572,13 +516,6 @@
         <state relative-caret-position="457">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="39" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -806,8 +743,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        <state relative-caret-position="234">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/css/tab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/json/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/json/json-bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/json/json-sort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
           <folding />
         </state>
       </provider>
