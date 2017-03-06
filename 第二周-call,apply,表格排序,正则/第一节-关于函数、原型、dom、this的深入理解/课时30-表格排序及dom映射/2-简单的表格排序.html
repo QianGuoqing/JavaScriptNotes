@@ -38,19 +38,17 @@
     // 1. 先把元素集合类数组转化为数组
     var ary = utils.listToArray(oLis);
 
-    // 2. 给数组进行排序: 按照每一个li中的内容大小进行排序
+    // 2. 给数组进行排序: 按照li中的内容大小进行排序
     ary.sort(function (a, b) {
         return parseFloat(a.innerHTML) - parseFloat(b.innerHTML);
     });
 
     // 3. 按照ary中存储的最新顺序依次的把对应的li添加到页面中
-    var frg = document.createDocumentFragment();
+    var fragment = document.createDocumentFragment();
     for (var i = 0; i < ary.length; i++) {
-        frg.appendChild(ary[i]);
+        fragment.appendChild(ary[i]);
     }
-    oUl.appendChild(frg);
-    frg = null;
-
+    oUl.appendChild(fragment);
 </script>
 </body>
 </html>

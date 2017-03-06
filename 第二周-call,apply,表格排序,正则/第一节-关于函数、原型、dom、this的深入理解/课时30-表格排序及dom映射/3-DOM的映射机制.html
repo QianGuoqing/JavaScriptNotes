@@ -32,15 +32,14 @@
 </ul>
 <script src="json/utils.js"></script>
 <script>
-    // DOM映射的机制: 页面中的标签和JS中获取到的元素对象或者(元素集合)是紧紧的绑定在一起的,页面中的HTML结构改变了,
-    // JS中不需要重新获取,集合里面的内容也会跟着自动改变
+    // DOM映射机制: 页面中的标签和JavaScript中获取到的元素对象或者元素集合，是紧紧的绑定在一起的，页面中的HTML结构改变了，JavaScript中不需要重新获取集合里面的内容，集合里面的内容也会跟着发生改变
     var oUl = document.getElementById('ul1');
     var oLis = oUl.getElementsByTagName('li');
-    console.log(oLis.length); // -> 5
+    console.log(oLis.length); // 5
 
     var oLi = document.createElement('li');
     oUl.appendChild(oLi);
-    console.log(oLis.length); // -> 没有重新的获取,但是oLis这个集合中的长度和内容会自动跟着发生改变
+    console.log(oLis.length); // 6,没有重新的获取，但是oLis中集合的长度和内容会跟着发生改变
 </script>
 </body>
 </html>
