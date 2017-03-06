@@ -6,54 +6,62 @@
 </head>
 <body>
 <script>
-//    var ary = [12, 23, 14, 34, 23, 1, 14, 16, 26, 2];
-
-//    ary.sort(function (a, b) {
-//        return 1; // -> 不管a和b谁大,每一次都返回一个恒大于0的数,也就是每一次a和b都要交换位置,最后的结果就是原有数组倒过来排列
-//        // , 相当于reverse
-//    });
-//    console.log(ary);
-
-//    ary.sort(); // 只能处理10以内的数字排序
-//    ary.sort(function (a, b) {
-        // a -> 每一次执行匿名函数的时候,找到的数组中的当前项
+    var ary = [12, 23, 14, 34, 23, 1, 14, 16, 26, 2];
+    ary.sort(); // -> 这样只能处理10以内的数字排序
+    ary.sort(function (a, b) {
+        // return a - b;
+        // a -> 每一次执行匿名函数的时候，找到的数组中的当前项
         // b -> 当前项的后一项
-//        console.log(a, b);
-//        return a - b; // 升序 如果a > b, 返回的>0,a和b交换位置
-//        return b - a; // 降序 如果a < b, 返回的<0,a和b交换位置
-        // -> 我return的是一个>0 / <=0 的数,大于0让a和b交换一下位置,<=0 原有位置不动
-//    });
+        // console.log(a, b);
+        // return a - b; // 升序 如果a > b, 返回的 > 0, a 和 b 交换位置
+        // return b - a; // 降序 如果b > a, 返回的 > 0, a 和 b 交换位置
+        // -> return的是一个大于0或者小于等于0的数，大于0让a和b交换位置，小于等于0，原有位置不动
+    });
 
-    // -> 回调函数: 把一个方法A当做参数值,传递给另一个函数B,然后在B执行的过程中,我们随时根据需求让A方法执行
-//    function fn(callback) {
-//        callback();
-//    }
-//    fn(function () {
-//
-//    });
+    // 回调函数: 把一个方法A当做参数值传递给另一个函数B，然后在B执行的过程中，我们可以随时根据需求让A方法执行
+    function A() {
+
+    }
+    function B(callback) {
+        callback();
+        callback();
+        callback();
+    }
+    B(A);
+
+    var ary = [12, 23, 14, 34, 23, 1, 14, 16, 26, 2];
+    ary.sort(function (a, b) {
+        return 1; // -> 将数组逆序排序，相当于reverse()
+        // 不管a和b谁大，每一次都返回一个恒大于零的数字，也就是说，每一次a和b都要交换位置
+        // 所以最终的结果就是原有的数组倒序排序了，相当于reverse().
+    });
 
     var ary = [
-        {name: 'junhe', age: 78},
-        {name: 'zhangtao', age: 13},
-        {name: 'mengyuan', age: 107},
-        {name: 'chenxu', age: 256}
+        {name: 'derrick', age: 20},
+        {name: 'rose', age: 25},
+        {name: 'qian', age: 15},
+        {name: 'QianQian', age: 100}
     ];
 
-    // -> 给二维数组排序,按照年龄有小到大进行排序
-//    ary.sort(function (a, b) {
-//        return parseFloat(a.age) - parseFloat(b.age);
-//    });
-//    console.log(ary);
+    // -> 给该数组排序，按照年龄由小到大进行排序
+    ary.sort(function (a, b) {
+        return parseFloat(a.age) - parseFloat(b.age);
+    });
+    console.log(ary);
 
-//    ary.sort(function (a, b) {
-//        return parseFloat(b.age) - parseFloat(a.age);
-//    });
+    // -> 给该数组排序，按照年龄由大到小进行排序
+    ary.sort(function (a, b) {
+        return (parseFloat(a.age) - parseFloat(b.age)) * -1;
+    });
+    console.log(ary);
 
-    // -> 按照姓名进行排序
+    // -> 按照姓名排序
     ary.sort(function (a, b) {
         return a.name.localeCompare(b.name);
     });
-    console.dir(ary);
+    console.log(ary);
+
+
 </script>
 </body>
 </html>
