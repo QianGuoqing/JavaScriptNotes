@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/3-DOM的映射机制.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/3-DOM的映射机制.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-简单的表格排序.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2-简单的表格排序.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <caret line="50" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo-表格排序.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -105,6 +115,7 @@
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时29-数据绑定及dom回流/1-数据绑定.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/3-DOM的映射机制.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html" />
       </list>
     </option>
   </component>
@@ -266,10 +277,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2-简单的表格排序.html">
-    <configuration default="false" name="3-call和apply.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时22-call方法深入/3-call和apply.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.Demo-表格排序.html">
     <configuration default="false" name="10-sort深入.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时27-sort深入研究/10-sort深入.html">
       <method />
     </configuration>
@@ -280,6 +288,9 @@
       <method />
     </configuration>
     <configuration default="false" name="2-简单的表格排序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Demo-表格排序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -342,19 +353,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.3-call和apply.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.10-sort深入.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.10-sort深入.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.10-sort深入.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.3-call和apply.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.11-json.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.10-sort深入.html" />
       </list>
     </recent_temporary>
   </component>
@@ -372,12 +383,12 @@
       <workItem from="1488363956970" duration="22301000" />
       <workItem from="1488599053540" duration="14614000" />
       <workItem from="1488705923215" duration="137000" />
-      <workItem from="1488724220238" duration="10133000" />
+      <workItem from="1488724220238" duration="10812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63041000" />
+    <option name="totallyTimeSpent" value="63720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -412,13 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时15-原型链模型基础/原型链模式基础.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -784,6 +788,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/3-DOM的映射机制.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -792,10 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html">
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="115">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding />
         </state>
       </provider>

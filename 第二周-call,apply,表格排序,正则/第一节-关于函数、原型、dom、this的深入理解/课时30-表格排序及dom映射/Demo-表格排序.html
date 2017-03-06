@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #ul1 {
+            margin: 20px auto;
+            width: 300px;
+        }
+
+        #ul1 li {
+            height: 35px;
+            line-height: 35px;
+            border-bottom: 1px dashed #008000;
+        }
+        .btn {
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<ul id="ul1">
+    <li>98</li>
+    <li>99</li>
+    <li>96</li>
+    <li>95</li>
+    <li>90</li>
+</ul>
+<div class="btn">
+    <input type="button" value="逆序" id="btnReverse">
+    <input type="button" value="正序" id="btnNormal">
+</div>
+<script src="json/utils.js"></script>
+<script>
+    function toArray(likeArray) {
+        var ary = [];
+        try {
+            ary = [].prototype.slice.catch(likeArray);
+        } catch (e) {
+            for (var i = 0; i < likeArray.length; i++) {
+                ary[ary.length] = likeArray[i];
+            }
+        }
+        return ary;
+    }
+
+    var btnReverse = document.getElementById('btnReverse');
+    var btnNorman = document.getElementById('btnNormal');
+    var oUl = document.getElementById('ul1');
+    var oLi = oUl.getElementsByTagName('li');
+    var ary = toArray(oLi);
+
+    btnReverse.onclick = function () {
+        ary = sortArray(ary, 0);
+        appendFragment(ary, oUl);
+    };
+
+    btnNorman.onclick = function () {
+        ary = sortArray(ary, 1);
+        appendFragment(ary, oUl);
+    };
+
+    function appendFragment(ary, fatherNode) {
+        var fragment = document.createDocumentFragment();
+        for (var i = 0; i < ary.length; i++) {
+            fragment.appendChild(ary[i]);
+        }
+        fatherNode.appendChild(fragment);
+    }
+
+    function sortArray(ary, index) {
+        if (index === 0) { // 逆序
+            ary.sort(function (a, b) {
+                return -1 * (parseFloat(a.innerHTML) - parseFloat(b.innerHTML));
+            });
+        } else {
+            ary.sort(function (a, b) {
+                return parseFloat(a.innerHTML) - parseFloat(b.innerHTML);
+            });
+        } // 正序
+        return ary;
+    }
+
+</script>
+</body>
+</html>
