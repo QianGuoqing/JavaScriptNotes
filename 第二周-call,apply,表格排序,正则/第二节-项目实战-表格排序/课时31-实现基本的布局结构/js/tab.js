@@ -61,3 +61,32 @@ function changeBg() {
     }
 }
 changeBg();
+
+// -> 编写表格排序的方法: 实现按照年龄这一列进行排序
+function sort() {
+    // 把存储所有行的数组转化为类数组
+    var ary = utils.listToArray(oRows);
+
+    // 给数组进行排序: 按照每一行的第二列的内容有小到大进行排序
+    oThs[1].flag *= -1; // 每一次执行sort，进来的第一步就是先让flag的值乘以-1
+    ary.sort(function (a, b) {
+        return (parseFloat(a.cells[1].innerHTML) - parseFloat(b.cells[1].innerHTML)) * oThs[1].flag;
+    });
+
+    // 按照ary中的最新顺序，把每一行重新的添加到tBody中
+    var fragment = document.createDocumentFragment();
+    for (var i = 0; i < ary.length; i++) {
+        fragment.appendChild(ary[i]);
+    }
+    tBody.appendChild(fragment);
+    fragment = null;
+
+    // 按照最新的顺序重新进行隔行变色
+    changeBg();
+}
+
+// 点击第二列的时候，实现按年龄排序
+oThs[1].flag = 1; // 给当前点击这一列增加一个自定义属性flag，存储的值是1
+oThs[1].onclick = function () {
+    sort();
+}
