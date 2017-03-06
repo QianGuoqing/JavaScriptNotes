@@ -63,7 +63,7 @@ function changeBg() {
 changeBg();
 
 // -> 编写表格排序的方法: 实现按照年龄这一列进行排序
-function sort() {
+function sort(n) { // n 是当前点击这一列的索引
     // 把存储所有行的数组转化为类数组
     var ary = utils.listToArray(oRows);
     var _this = this;
@@ -73,7 +73,16 @@ function sort() {
     this.flag *= -1; // 每一次执行sort，进来的第一步就是先让flag的值乘以-1
     ary.sort(function (a, b) {
         // this -> window
-        return (parseFloat(a.cells[1].innerHTML) - parseFloat(b.cells[1].innerHTML)) * _this.flag;
+        var curInn = a.cells[n].innerHTML;
+        var nextInn = b.cells[n].innerHTML;
+        var curInnNum = parseFloat(a.cells[n].innerHTML);
+        var nextInnNum = parseFloat(b.cells[n].innerHTML);
+
+        if (isNaN(curInnNum) || isNaN(nextInnNum)) {
+            return curInn.localeCompare(nextInn);
+        }
+
+        return (curInnNum - nextInnNum) * _this.flag;
     });
 
     // 按照ary中的最新顺序，把每一行重新的添加到tBody中
@@ -88,10 +97,15 @@ function sort() {
     changeBg();
 }
 
-// 点击第二列的时候，实现按年龄排序
-oThs[1].flag = 1; // 给当前点击这一列增加一个自定义属性flag，存储的值是1
-oThs[1].onclick = function () {
-    // sort();
-    // sort.call(oThs[1]);
-    sort.call(this);
+// 点击排序: 所有具有class="cursor"都可以实现点击排序
+for (var i = 0; i < oThs.length; i++) {
+    var curTh = oThs[i];
+    curTh.index = i; // -> 用来存储索引的
+    curTh.flag = -1; // -> 用来实现升降序的
+    if (curTh.className === 'cursor') {
+        curTh.onclick = function () {
+            sort.call(this, this.index);
+        }
+    }
 }
+oThs[1].flag = 1; // 给当前点击这一列增加一个自定义属性flag，存储的值是1
