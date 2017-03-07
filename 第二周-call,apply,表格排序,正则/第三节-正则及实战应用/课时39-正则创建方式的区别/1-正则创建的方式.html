@@ -6,9 +6,8 @@
 </head>
 <body>
 <script>
-    var name = "derrick";
-
     // 在字面量方式中，在//之间包起来的所有的内容都是元字符，有的具有特殊的意义，大部分都是代表本身含义的普通的元字符
+    var name = "derrick";
     var reg = /^\d+"+name+"\d+$/;
     console.log(reg.test("20derrick20")); // -> false
     console.log(reg.test('20""name"555')); // -> true
