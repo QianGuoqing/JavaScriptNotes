@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时42-分组捕获/1-分组捕获.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +22,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-正则的捕获.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-正则的捕获.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="88" column="101" lean-forward="false" selection-start-line="88" selection-start-column="101" selection-end-line="88" selection-end-column="101" />
+            <state relative-caret-position="525">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-分组捕获.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时42-分组捕获/1-分组捕获.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -82,11 +91,12 @@
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时37-正则的作用/1-正则基础.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html" />
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的不火攻.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时42-分组捕获/1-分组捕获.html" />
       </list>
     </option>
   </component>
@@ -152,7 +162,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="课时42-分组捕获" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三节-正则及实战应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="课时41-懒惰型和贪婪性" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三节-正则及实战应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时40-编写简单的正则表达式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,10 +259,7 @@
       <recent name="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-正则的捕获.html">
-    <configuration default="false" name="1-正则的组成.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.1-分组捕获.html">
     <configuration default="false" name="2-元字符应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html">
       <method />
     </configuration>
@@ -219,6 +270,9 @@
       <method />
     </configuration>
     <configuration default="false" name="1-正则的捕获.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-分组捕获.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时42-分组捕获/1-分组捕获.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -281,19 +335,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的组成.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-正则创建的方式.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的捕获.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-正则创建的方式.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的捕获.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-分组捕获.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的捕获.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-正则创建的方式.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的组成.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-分组捕获.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的捕获.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-正则创建的方式.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html" />
       </list>
     </recent_temporary>
   </component>
@@ -312,12 +366,12 @@
       <workItem from="1488599053540" duration="14614000" />
       <workItem from="1488705923215" duration="137000" />
       <workItem from="1488724220238" duration="26433000" />
-      <workItem from="1488887952926" duration="2721000" />
+      <workItem from="1488887952926" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82062000" />
+    <option name="totallyTimeSpent" value="83650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -352,13 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/6-混合模式继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/7-寄生组合式继承.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -695,16 +742,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="64" />
+        <state relative-caret-position="525">
+          <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="88" column="101" lean-forward="false" selection-start-line="88" selection-start-column="101" selection-end-line="88" selection-end-column="101" />
+        <state relative-caret-position="525">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时42-分组捕获/1-分组捕获.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding />
         </state>
       </provider>
