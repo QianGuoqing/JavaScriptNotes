@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var name = "derrick";
+
+    // 在字面量方式中，在//之间包起来的所有的内容都是元字符，有的具有特殊的意义，大部分都是代表本身含义的普通的元字符
+    var reg = /^\d+"+name+"\d+$/;
+    console.log(reg.test("20derrick20")); // -> false
+    console.log(reg.test('20""name"555')); // -> true
+
+    // 对于需要进行字符串拼接的需求，只能使用实例创建的方式了
+    var reg = new RegExp("^\\d+" + name + "\\d+$");
+    console.log(reg.test("20derrick20")); // -> true
+    console.log(reg.test('20""name"555')); // -> false
+
+    // 字面量方式和实例创建的方式在正则中的区别？
+    // 1. 字面量方式中出现的一切都是元字符，所以不能进行变量值的拼接，而实例创建的方式是可以的
+    // 2. 字面量方式中直接写\d就可以了，而在实例创建的方式中，需要把其转义 -> \\d
+</script>
+</body>
+</html>
