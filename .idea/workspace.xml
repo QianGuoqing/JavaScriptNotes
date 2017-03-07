@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,18 +44,28 @@
       <file leaf-file-name="2-元字符应用.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="525">
+              <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-正则创建的方式.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2-元字符应用.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-正则创建的方式.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="374">
+              <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html" />
       </list>
     </option>
   </component>
@@ -178,6 +189,10 @@
               <option name="myItemId" value="第三节-正则及实战应用" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时40-编写简单的正则表达式" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -210,6 +225,46 @@
               <option name="myItemId" value="JavaScriptNotes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三节-正则及实战应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时38-正则的元字符和一些简单的应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三节-正则及实战应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -224,6 +279,11 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.1-正则创建的方式.html">
     <configuration default="false" name="表格排序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html">
@@ -331,12 +391,12 @@
       <workItem from="1488363956970" duration="22301000" />
       <workItem from="1488599053540" duration="14614000" />
       <workItem from="1488705923215" duration="137000" />
-      <workItem from="1488724220238" duration="22511000" />
+      <workItem from="1488724220238" duration="23994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75419000" />
+    <option name="totallyTimeSpent" value="76902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -371,20 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/3-原型继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/4-call继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/5-冒充对象继承.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -756,18 +802,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html">
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时39-正则创建方式的区别/1-正则创建的方式.html">
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="525">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/1-正则创建的方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
           <folding />
         </state>
       </provider>
