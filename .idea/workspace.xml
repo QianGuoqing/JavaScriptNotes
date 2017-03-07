@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时37-正则的作用/1-正则基础.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html" afterPath="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +22,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-正则基础.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-正则基础.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时37-正则的作用/1-正则基础.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-正则的组成.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-元字符应用.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -79,6 +100,8 @@
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时37-正则的作用/1-正则基础.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html" />
+        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html" />
       </list>
     </option>
   </component>
@@ -164,6 +187,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="课时38-正则的元字符和一些简单的应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二周-call,apply,表格排序,正则" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三节-正则及实战应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="课时37-正则的作用" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -192,13 +237,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-正则基础.html">
-    <configuration default="false" name="1-数据绑定.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时29-数据绑定及dom回流/1-数据绑定.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="2-简单的表格排序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/2-简单的表格排序.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.2-元字符应用.html">
     <configuration default="false" name="Demo-表格排序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html">
       <method />
     </configuration>
@@ -206,6 +245,12 @@
       <method />
     </configuration>
     <configuration default="false" name="1-正则基础.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时37-正则的作用/1-正则基础.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-正则的组成.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="2-元字符应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -268,19 +313,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.表格排序.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-正则基础.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.表格排序.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-正则基础.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的组成.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-正则基础.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.表格排序.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-简单的表格排序.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-数据绑定.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-元字符应用.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-正则的组成.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-正则基础.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.表格排序.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Demo-表格排序.html" />
       </list>
     </recent_temporary>
   </component>
@@ -298,18 +343,18 @@
       <workItem from="1488363956970" duration="22301000" />
       <workItem from="1488599053540" duration="14614000" />
       <workItem from="1488705923215" duration="137000" />
-      <workItem from="1488724220238" duration="17357000" />
+      <workItem from="1488724220238" duration="21314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70265000" />
+    <option name="totallyTimeSpent" value="74222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24146147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24146147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -338,21 +383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/1-可枚举和不可枚举.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/2-Object.create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -731,8 +761,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时37-正则的作用/1-正则基础.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="170">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/1-正则的组成.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时38-正则的元字符和一些简单的应用/2-元字符应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding />
         </state>
       </provider>
