@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript盒子模型</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            margin: 100px;
+            padding: 30px;
+            border: 10px solid green;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="box" class="test" index="0">
+    X战警 第一战：主要讲述万磁王与X教授年轻时的关系，大背景是变种人的存在第一次被zf所认知；
+    X战警前传 金刚狼：主要讲述金刚狼失忆的原因，他
+</div>
+<script>
+    // 1. JavaScript盒子模型，指的是通过JavaScript中提供的一系列的属性和方法，获取页面中元素的样式信息值
+    // #box(有很多自己的私有属性) -> HTMLDivElement.prototype -> HTMLElement.prototype -> Element.prototype -> Node.prototype -> EventTarget.prototype -> Object.prototype
+    var box = document.getElementById('box');
+    console.dir(box);
+
+    // 内容的宽度和高度: 设置的width/height这两个样式就是内容的宽和高，如果没有设置height值，容器的高度会根据里面的内容进行自适应，这样获取的值就是真实的内容的高; 如果设置了固定的高度了，不管内容是多了还是少了，其实我们内容的高度指的都是设定的那个值。
+    // 真实内容的宽度和高度: 这个代指的是实际内容的宽高，和自己设置的width/height没有必然的联系。例如: 设置高度为200px，如果内容有溢出，那么真实内容的高度是要把溢出的内容宽高也要加进去
+
+    // 1. client系列 (当前元素的几个私有属性)
+    // clientWidth/ clientHeight: 内容的宽/高+左右/上下padding，和内容溢出是没有关系的
+    // clientLeft: 左边框的宽度; clientTop: 上边框的高度 (borderLeftWidth/ borderTopWidth)
+
+    // 2. offset系列
+    // offsetWidth/ offsetHeight: clientWidth/clientHeight + 左右/上下边框，和内容溢出无关
+    // offsetParent: 当前元素的父级参照物
+    // offsetTop/ offsetLeft: 当前元素的外边框距离父级参照物内边框的偏移量
+
+    // 3. scroll系列
+    // scrollWidth/ scrollHeight: 和clientWidth/ clientHeight一模一样，其前提: 容器的内容没有溢出
+    // 如果容器中的内容有溢出，获取的结果是如下规则:
+    // 1. scrollWidth: 真实内容的宽度(包含溢出) + 左padding
+    // 2. scrollHeight: 真实内容的高度(包含溢出) + 上padding
+    // 获取到的结果都是约等于的值, 因为: 同一个浏览器, 是否设置overflow='hidden'对于最终的结果是有影响的; 在不同的浏览器中，获取到的结果也是不相同的
+
+    // scrollLeft/ scrollTop: 滚动条卷去的宽度/高度
+
+    // 2. 关于JavaScript盒子模型属性取值的问题
+    // 通过这13个属性值获取的结果永远不可能出现小数，都是整数; 浏览器在获取结果的时候, 会在原来真实的结果上进行四舍五入。
+
+    // 3. 关于操作浏览器本身的盒子模型信息
+    // clientWidth/ clientHeight: 是当前浏览器可视窗口(一屏幕的)的宽度和高度
+    // scrollWidth/ scrollHeight: 是当前页面的实际宽度和高度(所有屏加起来的宽度和高度), 这些是约等于的值。
+    // 不管哪些属性，也不管是什么浏览器，也不管是获取还是设置，想要都兼容，需要写两套:
+    // document.documentElement[attr]||document.body[attr];必须document.documentElement在前。
+    // 设置，获取都要写两套。
+    // 例如:
+    document.documentElement.clientWidth || document.body.clientWidth;
+    document.documentElement.scrollTop || document.body.scrollTop;
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    // win: 编写一个有关于操作浏览器盒子模型的方法
+    // 如果值传递了attr, 没有传递value, 默认的意识是获取样式值。
+    // 如果两个参数都传递了, 意思是设置某一个样式属性的值。
+    function win(attr, value) {
+        if (typeof value === 'undefined') { // 说明没有传递value
+            return document.documentElement[attr] || document.body[attr];
+        }
+
+        document.documentElement[attr] = value;
+        document.body[attr] = value;
+    }
+</script>
+</body>
+</html>

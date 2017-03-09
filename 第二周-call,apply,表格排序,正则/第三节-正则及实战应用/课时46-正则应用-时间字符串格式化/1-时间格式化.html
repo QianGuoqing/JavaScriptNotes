@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = "2017-03-08 11:12:13";
+
+    // 设定好目标时间格式，把数组中对应的项替换到指定的区域内
+    var resStr = "{0}年{1}月{2}日 {3}时{4}分{5}秒";
+    var ary = ["2017", "03", "08", "11", "12", "13"];
+    var reg = /{(\d+)}/g;
+    resStr = resStr.replace(reg, function () {
+        // 每一次都会把正则匹配的内容捕获到: 如果没有分组，一般是三个参数；但是如果正则中有需要捕获的分组，参数的个数就不确定了，从arguments[1]开始就是对应捕获的内容，arguments[0]是大正则捕获的内容
+        var num = arguments[1];
+        return ary[num];
+    });
+</script>
+</body>
+</html>
