@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* 写CSS样式的时候第一步初始化默认样式，避免浏览器之间的差异；不仅如此，而且写的默认样式对于JavaScript以后获取到的结果统一也是有帮助的 */
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            margin: 100px;
+            padding: 30px;
+            border: 10px solid green;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="box" class="test" index="0">
+    X战警 第一战：主要讲述万磁王与X教授年轻时的关系，大背景是变种人的存在第一次被zf所认知；
+    X战警前传 金刚狼：主要讲述金刚狼失忆的原因，他
+</div>
+<script>
+    var box = document.getElementById('box');
+    // 获取元素的某一个具体的样式属性值
+    // 1. 元素.style.属性名
+    // -> 这需要把元素的样式都写在行内样式上，写在样式表(css)中是不行的，会得到空值
+    console.log(box.style.height); // -> ""
+    console.log(box.style.width); // -> 行内样式里width=200px; 得到200px
+    // -> 这种方式不常用，因为为了获取值而所有样式都写在行内(无法实现CSS和HTML的分离)
+
+    // 2. 使用window.getComputedStyle这个方法获取所有通过浏览器计算过的样式
+    // -> 所有通过浏览器计算过的样式: 只要当前的元素标签可以在页面中呈现出来，那么它的所有的样式都是经过浏览器计算过的(渲染过的) -> 哪怕有些样式并没有写，也可以获取到。
+    // -> window.getComputedStyle(当前要操作的元素对象, 当前元素的伪类[一般不用伪类,而使用null])。
+    // 获取的结果是CSSStyleDeclaration 这个类的实例: 包含了当前元素的所有样式属性和值
+    console.log(window.getComputedStyle); // 结果是一个function
+    console.log(window.getComputedStyle(box, null))
+    console.log(window.getComputedStyle(box, null).height); // 获得给定元素具体样式值
+
+    // 3. 方法虽然好用，但是在IE6-8下不兼容。因为window下没有getComputedStyle这个属性。得到的结果是undefined。所以在IE6-8下执行这个方法会报错。
+    // -> 在IE6-8下可以使用currentStyle来获取所有经过浏览器计算过的样式
+    console.dir(box.currentStyle);
+
+    // 获取当前元素所有经过浏览器计算过的样式中的attr对应的值
+    // currentElement: [object]当前想要操作的元素对象
+    // attr: [string]要获取的样式的属性的名称
+
+    // 使用 try catch 来处理兼容(只有在不得已的情况下才使用这个方法处理兼容)
+    // -> 前提: 必须保证try中的代码在不兼容浏览器中执行的时候会报错，这样才会执行到catch来捕获异常信息，进行兼容性处理。
+    // -> 不管当前是什么浏览器，都需要先把try中的代码执行一遍，如果当前是IE7，window.getComputedStyle本身是不兼容的。但是此时仍要将其执行一次，报错后才在执行currentElement.currentStyle一遍，这样就会消耗性能。
+    function getCss(currentElement, attr) {
+        var val = null;
+        try {
+            val = window.getComputedStyle(currentElement, null)[attr];
+        } catch (e) {
+            val = currentElement.currentStyle[attr];
+        }
+        return val;
+    }
+
+    // 不使用try catch来处理兼容
+    // 2. 判断当前浏览器中是否存在这个属性或者方法，存在就兼容，不存在就不兼容
+    function getCss(currentElement, attr) {
+        var val = null;
+        if ('getComputedStyle' in window) { // -> 如果返回true，说明存在这个属性，表明兼容
+            val = window.getComputedStyle(currentElement, null)[attr];
+        } else { // -> 代表不兼容
+            val = currentElement.currentStyle[attr];
+        }
+        return val;
+    }
+
+    function getCss(currentElement, attr) {
+        var val = null;
+        if (window.getComputedStyle) { // -> 首先获取属性值，兼容返回的是一个函数，
+            // 转换为布尔是true，不兼容返回的是undefined，转换为布尔是false
+            val = window.getComputedStyle(currentElement, null)[attr];
+        } else { // -> 代表不兼容
+            val = currentElement.currentStyle[attr];
+        }
+        return val;
+    }
+
+    function getCss(currentElement, attr) {
+        var val = null;
+        if (typeof window.getComputedStyle === 'function') {
+            val = window.getComputedStyle(currentElement, null)[attr];
+        } else { // -> 代表不兼容
+            val = currentElement.currentStyle[attr];
+        }
+        return val;
+    }
+
+    // 3. 通过检测浏览器版本和类型来处理兼容
+    // -> window.navigator.userAgent
+    // -> 获取当前的浏览器是IE6-8
+    // /MSIE (6|7|8)/.test(window.navigator.userAgent)
+    function getCss(currentElement, attr) {
+        var val = null;
+        if (!/MSIE (6|7|8)/.test(window.navigator.userAgent)) {
+            val = window.getComputedStyle(currentElement, null)[attr];
+        } else { // -> 代表不兼容
+            val = currentElement.currentStyle[attr];
+        }
+        return val;
+    }
+
+    console.log(getCss(box, 'height'));
+    // -> 标准浏览器和IE浏览器获取到的结果值有时候是不一样的
+    // -> 对于部分样式属性，不同浏览器获取的结果并不一样，这主要是由于getComputedStyle和currentStyle在某些方面是不一样的
+
+</script>
+</body>
+</html>
