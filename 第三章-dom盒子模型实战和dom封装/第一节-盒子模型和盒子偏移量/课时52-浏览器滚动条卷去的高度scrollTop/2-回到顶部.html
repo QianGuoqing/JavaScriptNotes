@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回到顶部</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            -webkit-user-select: none;
+        }
+        html, body {
+            width: 100%;
+            height: 1000%;
+            background: deepskyblue;
+            background: -webkit-linear-gradient(top, #ff3333, #31b0d5, #cc0000);
+        }
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+        a:hover, a:active, a:target, a:visited {
+            text-decoration: none;
+            color: #000000;
+        }
+        #goLink {
+            display: block;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: #67b168;
+            border-radius: 50%;
+            opacity: 0.8;
+        }
+        #goLink:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<!--a标签本身是跳转页面的，把跳转的地址写在href这个属性中，不写值的话是刷新本页面-->
+<a href="" id="goLink">GO</a>
+
+<script>
+    var oA = document.getElementById('goLink');
+    oA.addEventListener('click', function (evt) {
+        evt.preventDefault();
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+    });
+</script>
+</body>
+</html>

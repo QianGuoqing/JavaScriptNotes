@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/1-偏移量.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/tips-null和undefined的区别.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/1-滚动条卷去的宽高.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/2-回到顶部.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/回到顶部-my-version.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-偏移量.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-偏移量.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/1-偏移量.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -35,11 +36,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tips-null和undefined的区别.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/tips-null和undefined的区别.txt">
+      <file leaf-file-name="1-滚动条卷去的宽高.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/1-滚动条卷去的宽高.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="559">
+              <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-回到顶部.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/2-回到顶部.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="43" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="回到顶部-my-version.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/回到顶部-my-version.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -60,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时14-构造函数模式拓展/4-构造函数模式拓展.html" />
-        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时15-原型链模型基础/原型链模式基础.html" />
-        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时17-原型链模式拓展-批量设置公有属性/原型拓展.html" />
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时16-原型链模式拓展-this和原型拓展/8-原型拓展.html" />
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时16-原型链模式拓展-this和原型拓展/思考题.txt" />
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时18-深入拓展原型链模式常用的六种继承方式/1-可枚举和不可枚举.html" />
@@ -111,6 +129,9 @@
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/tips-null和undefined的区别.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/tips-null和undefined的区别.txt" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/1-偏移量.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/1-滚动条卷去的宽高.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/2-回到顶部.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/回到顶部-my-version.html" />
       </list>
     </option>
   </component>
@@ -173,6 +194,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="课时52-浏览器滚动条卷去的高度scrollTop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-盒子模型和盒子偏移量" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="课时51-获取元素的偏移量offset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -192,6 +235,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="第一节-盒子模型和盒子偏移量" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-盒子模型和盒子偏移量" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时48-盒子模型常用的属性前八个" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,20 +283,20 @@
       <recent name="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-偏移量.html">
-    <configuration default="false" name="1-检测数据类型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时47-数据类型检测/1-检测数据类型.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="1-盒子模型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时48-盒子模型常用的属性前八个/1-盒子模型.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="1-获取元素的样式.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时49-获取元素的具体样式信息getCss/1-获取元素的样式.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.回到顶部-my-version.html">
     <configuration default="false" name="1-补充CSS伪类.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时50-伪类的应用补充/1-补充CSS伪类.html">
       <method />
     </configuration>
     <configuration default="false" name="1-偏移量.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时51-获取元素的偏移量offset/1-偏移量.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-滚动条卷去的宽高.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/1-滚动条卷去的宽高.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="2-回到顶部.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/2-回到顶部.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="回到顶部-my-version.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/回到顶部-my-version.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -294,19 +359,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-检测数据类型.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-盒子模型.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-获取元素的样式.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-补充CSS伪类.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-偏移量.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-补充CSS伪类.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-偏移量.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-滚动条卷去的宽高.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-回到顶部.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.回到顶部-my-version.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-偏移量.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-补充CSS伪类.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-获取元素的样式.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-盒子模型.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-检测数据类型.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.回到顶部-my-version.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-回到顶部.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-滚动条卷去的宽高.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-偏移量.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-补充CSS伪类.html" />
       </list>
     </recent_temporary>
   </component>
@@ -328,12 +393,12 @@
       <workItem from="1488887952926" duration="5785000" />
       <workItem from="1488953676430" duration="21576000" />
       <workItem from="1489105857670" duration="1190000" />
-      <workItem from="1489127589094" duration="5008000" />
+      <workItem from="1489127589094" duration="8318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112900000" />
+    <option name="totallyTimeSpent" value="116210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -341,7 +406,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24146147" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -368,27 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第一节-预解释作用域this原理及应用/课时6-关于内存释放和作用域销毁的研究/6-js内存释放.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第一节-预解释作用域this原理及应用/课时7-作用域练习题/7-作用域练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第一节-预解释作用域this原理及应用/课时8-this关键字/8-this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第一节-预解释作用域this原理及应用/课时9-综合练习题/9-综合模拟题.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -677,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时48-盒子模型常用的属性前八个/1-盒子模型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时49-获取元素的具体样式信息getCss/1-获取元素的样式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -720,6 +757,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="95" column="77" lean-forward="false" selection-start-line="95" selection-start-column="77" selection-end-line="95" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时48-盒子模型常用的属性前八个/1-盒子模型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/1-滚动条卷去的宽高.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/2-回到顶部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/回到顶部-my-version.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
           <folding />
         </state>
       </provider>
