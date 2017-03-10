@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>回到顶部</title>
+    <title>Title</title>
     <style>
         * {
             margin: 0;
@@ -25,7 +25,7 @@
             color: #000000;
         }
         #goLink {
-            display: block;
+            display: none;
             position: fixed;
             bottom: 50px;
             right: 50px;
@@ -43,24 +43,38 @@
     </style>
 </head>
 <body>
-<!--a标签本身是跳转页面的，把跳转的地址写在href这个属性中，不写值的话是刷新本页面-->
 <a href="" id="goLink">GO</a>
 
 <script>
-    var oA = document.getElementById('goLink');
-    oA.addEventListener('click', function (evt) {
+    var goTop = document.getElementById('goLink');
+    window.onscroll = function () {
+        var screenScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        var screenClientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+        if (screenScrollTop >= screenClientHeight) {
+            goTop.style.display = 'block';
+        } else {
+            goTop.style.display = 'none';
+        }
+    }
+    goTop.addEventListener('click', function (evt) {
         evt.preventDefault();
+
+        var duration = 500,
+            interval = 10;
+        var onTop = document.documentElement.scrollTop || document.body.scrollTop;
+        var step = (onTop / duration) * interval;
+
         var timer = setInterval(function () {
-            document.documentElement.scrollTop -= 0;
-            document.body.scrollTop -= (document.body.scrollTop / 50);
-            console.log('scrolling...' + document.body.scrollTop);
-//            if (document.documentElement.scrollTop <= 0 || document.body.scrollTop <= 0) {
-//                clearInterval(timer)
-//            }
-            if (document.body.scrollTop <= 0) {
+            var curTop = document.documentElement.scrollTop || document.body.scrollTop;
+            curTop -= step;
+            console.log(curTop);
+            if (curTop <= 0) {
                 clearInterval(timer);
+                return;
             }
-        }, 10);
+            document.documentElement.scrollTop = curTop;
+            document.body.scrollTop = curTop;
+        }, interval);
     });
 </script>
 </body>

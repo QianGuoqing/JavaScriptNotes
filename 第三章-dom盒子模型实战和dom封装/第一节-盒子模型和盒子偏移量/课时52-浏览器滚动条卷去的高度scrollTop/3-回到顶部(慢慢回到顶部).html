@@ -47,20 +47,29 @@
 <a href="" id="goLink">GO</a>
 
 <script>
-    var oA = document.getElementById('goLink');
-    oA.addEventListener('click', function (evt) {
+    var goLink = document.getElementById('goLink');
+    // -> 回到顶部
+    // 总时间(duration): 500ms
+    // 频率(interval): 多长时间迈一步 10ms走一步
+    // 总距离(target): 当前的位置(当前的scrollTop值) - 目标的位置(0)
+    // -> 步长(step): 每一次走的距离 target / (duration / interval)
+
+    goLink.addEventListener('click', function (evt) {
+        // -> 当点击GO的时候，首先把每一步要走的步长计算出来
         evt.preventDefault();
-        var timer = setInterval(function () {
-            document.documentElement.scrollTop -= 0;
-            document.body.scrollTop -= (document.body.scrollTop / 50);
-            console.log('scrolling...' + document.body.scrollTop);
-//            if (document.documentElement.scrollTop <= 0 || document.body.scrollTop <= 0) {
-//                clearInterval(timer)
-//            }
+        var duration = 500,
+            interval = 10,
+            target = document.body.scrollTop;
+        var step = (target / duration) * interval;
+
+        // -> 计算完成不长后，让当前的页面每隔interval这么长的时间走一步: 在原来的scrollTop的基础上减去步长
+        var timer = window.setInterval(function () {
+            document.body.scrollTop -= step;
             if (document.body.scrollTop <= 0) {
                 clearInterval(timer);
             }
-        }, 10);
+        }, interval);
+        // document.body.scrollTop = 0;
     });
 </script>
 </body>

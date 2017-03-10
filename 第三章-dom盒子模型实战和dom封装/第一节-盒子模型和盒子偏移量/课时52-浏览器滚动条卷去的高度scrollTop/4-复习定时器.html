@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // -> 设置一个定时器setTimeout, 等到1000毫秒后开始执行对应的方法，方法执行完成后，定时器结束
+    window.setTimeout(function () {
+
+    }, 1000);
+
+    // -> 设置一个定时器setInterval, 等到1000毫秒后开始执行对应的方法，方法执行完成后，定时器并没有结束，以后每隔1000ms都会把定时器中的函数执行一遍，直到清除定时器为止
+    window.setInterval(function () {
+
+    }, 1000);
+
+    // 设置定时器的时候，是有返回值的 -> 返回的结果是一个数字，代表的是当前第几个定时器
+    var timer1 = window.setTimeout(function () {
+        console.log('timer1');
+    }, 1000);
+    console.log(timer1); // 1
+    var timer2 = window.setTimeout(function () {
+        console.log('timer2');
+    }, 1000);
+    console.log(timer2); // 2
+    var timer3 = window.setInterval(function () {
+        console.log('timer3');
+    }, 1000);
+    console.log(timer3); // 3
+    window.clearTimeout(timer1); // -> 清除定时器的时候，里面放一个数字，代表把第几个定时器清除
+    window.clearInterval(timer2); // -> 使用的是setTimeout设置的第二个定时器，使用clearInterval也可以将其清除
+
+    // 3.
+    var n = 0;
+    var timer = setInterval(function () {
+        n++;
+        console.log(n);
+        if (n > 5) {
+            clearInterval(timer);
+        }
+    }, 1000);
+
+    // -> 用setTimeout实现多次运动动画
+    var n = 0;
+    var timer = null;
+    function move() {
+        // 在每一次执行方法之前，先把之前设置的没用的定时器清除
+        clearInterval(timer);
+        n++;
+        console.log(n);
+        if (n === 5) {
+            return;
+        }
+        // 第一次执行完成后，设置一个定时器，过1000毫秒再重新的执行move
+        timer = setTimeout(move, 1000);
+    }
+
+</script>
+</body>
+</html>
