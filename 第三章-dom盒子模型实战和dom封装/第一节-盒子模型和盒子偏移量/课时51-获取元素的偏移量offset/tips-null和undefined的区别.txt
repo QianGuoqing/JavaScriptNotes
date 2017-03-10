@@ -1,0 +1,11 @@
+null
+undefined
+
+null和undefined 都代表没有，但是null是值不存在；undefined是连这个属性都不存在
+
+例如:
+document.parentNode -> 浏览器天生自带一个属性: 父亲节点的属性
+-> null 因为一个页面中的document已经是顶级元素了 其没有父亲节点
+
+document.parentnode -> undefined 没有parentnode属性
+
