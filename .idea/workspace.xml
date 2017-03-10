@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时54-项目实战-跑马灯/1-跑马灯.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时55-深入拓展-JavaScript同步与异步编程/1-JavaScript异步编程思想.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/作业" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/作业" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-跑马灯.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-跑马灯.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时54-项目实战-跑马灯/1-跑马灯.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
               <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-JavaScript异步编程思想.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时55-深入拓展-JavaScript同步与异步编程/1-JavaScript异步编程思想.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -71,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/3-在内置类的原型上拓展方法.html" />
         <option value="$PROJECT_DIR$/第一周-作用域深入和面向对象编程/第二节-单例模式工厂模型构造函数原型链模式/课时19-原型链综合复习参考/4-批量设置原型的公有方法.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时20-原型深入/1-原型深入.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时21-函数的三种角色/2-原型深入.html" />
@@ -122,6 +130,7 @@
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/5-回到顶部-自己做.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时54-项目实战-跑马灯/1-跑马灯.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/作业" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时55-深入拓展-JavaScript同步与异步编程/1-JavaScript异步编程思想.html" />
       </list>
     </option>
   </component>
@@ -181,6 +190,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="第一节-盒子模型和盒子偏移量" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-盒子模型和盒子偏移量" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时55-深入拓展-JavaScript同步与异步编程" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,12 +415,12 @@
       <workItem from="1488887952926" duration="5785000" />
       <workItem from="1488953676430" duration="21576000" />
       <workItem from="1489105857670" duration="1190000" />
-      <workItem from="1489127589094" duration="15781000" />
+      <workItem from="1489127589094" duration="17765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123673000" />
+    <option name="totallyTimeSpent" value="125657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -424,13 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时24-获取数组最大值/6-call和apply的应用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时25-取平均值/7-求平均数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -787,6 +811,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时55-深入拓展-JavaScript同步与异步编程/1-JavaScript异步编程思想.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding />
         </state>
       </provider>
