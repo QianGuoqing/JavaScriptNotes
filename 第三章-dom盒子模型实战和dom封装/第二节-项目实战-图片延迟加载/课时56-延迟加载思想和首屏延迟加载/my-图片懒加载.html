@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .banner {
+            width: 350px;
+            height: 200px;
+            border: 1px solid deepskyblue;
+            margin: 0 auto;
+            background: url("img/default.gif") center center no-repeat;
+        }
+        .banner img {
+            width: 350px;
+            height: 200px;
+            border: none;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <img src="" alt="" trueImg="img/jd.jpg">
+</div>
+
+<script>
+    var banner = document.querySelector('.banner');
+    var image = banner.getElementsByTagName('img')[0];
+
+    setTimeout(function () {
+        //image.src = image.getAttribute('trueImg');
+        var oImg = new Image();
+        oImg.src = image.getAttribute('trueImg');
+        oImg.onload = function () {
+            image.src = oImg.src;
+            image.style.display = 'block';
+            oImg = null;
+        }
+    }, 1000);
+</script>
+</body>
+</html>
