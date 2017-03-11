@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 800px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+        .logo {
+            height: 1200px;
+            background: pink;
+        }
+        .first {
+            height: 600px;
+            background: red;
+        }
+        .second {
+            height: 600px;
+            background: blue;
+        }
+        .third {
+            height: 600px;
+            background: green;
+        }
+        .fourth {
+            height: 600px;
+            background: deepskyblue;
+        }
+        li {
+            list-style: none;
+        }
+        .list {
+            position: fixed;
+            left: 10px;
+            bottom: 10px;
+            display: none;
+        }
+        .list {
+            background: lavender;
+            width: 60px;
+            padding: 5px;
+            text-align: center;
+        }
+        .list li {
+            margin: 5px;
+        }
+        .list li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #ff3333;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo"></div>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
+</div>
+<ul class="list">
+    <li><a href="" id="goTop">Go</a></li>
+    <li><a href="" id="go1">1F</a></li>
+    <li><a href="" id="go2">2F</a></li>
+    <li><a href="" id="go3">3F</a></li>
+    <li><a href="" id="go4">4F</a></li>
+</ul>
+
+<script>
+    var logo = document.getElementsByClassName('logo')[0];
+    var first = document.getElementsByClassName('first')[0];
+    var second = document.getElementsByClassName('second')[0];
+    var third = document.getElementsByClassName('third')[0];
+    var fourth = document.getElementsByClassName('fourth')[0];
+    var list = document.getElementsByClassName('list')[0];
+    var goTop = document.getElementById('goTop');
+    var go1 = document.getElementById('go1');
+    var go2 = document.getElementById('go2');
+    var go3 = document.getElementById('go3');
+    var go4 = document.getElementById('go4');
+
+    var firstTop = first.offsetTop;
+    var secondTop = second.offsetTop;
+    var thirdTop = third.offsetTop;
+    var forthTop = fourth.offsetTop;
+
+    var duration = 500;
+    var interval = 10;
+    var delta = duration / interval;
+
+    window.onscroll = function () {
+        var screenTop = document.documentElement.scrollTop || document.body.scrollTop;
+        var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+        screenTop >= screenHeight ? list.style.display = 'block' : list.style.display = 'none';
+//        screenTop >= 0 && screenTop <= firstTop ? goTop.style.color = 'deepskyblue' : goTop.style.color = '#ff3333';
+        screenTop >= firstTop && screenTop <= secondTop ? go1.style.color = 'deepskyblue' : go1.style.color = '#ff3333';
+        screenTop >= secondTop && screenTop <= thirdTop ? go2.style.color = 'deepskyblue' : go2.style.color = '#ff3333';
+        screenTop >= thirdTop && screenTop < forthTop ? go3.style.color = 'deepskyblue' : go3.style.color = '#ff3333';
+        screenTop === forthTop ? go4.style.color = 'deepskyblue' : go4.style.color = '#ff3333';
+    }
+
+    goTop.addEventListener('click', function (evt) {
+        evt.preventDefault();
+        var curTop = document.documentElement.scrollTop || document.body.scrollTop;
+        var step = curTop / delta;
+        var timer = setInterval(function () {
+            curTop -= step;
+            document.documentElement.scrollTop = curTop;
+            document.body.scrollTop = curTop;
+            if (curTop <= 0) {
+                clearInterval(timer);
+            }
+        }, interval);
+    });
+
+    go1.addEventListener('click', function (evt) {
+        evt.preventDefault();
+        var curTop = document.documentElement.scrollTop || document.body.scrollTop;;
+        var step = curTop / delta;
+        var timer = setInterval(function () {
+            curTop -= step;
+            document.documentElement.scrollTop = curTop;
+            document.body.scrollTop = curTop;
+            if (curTop <= firstTop) {
+                clearInterval(timer);
+            }
+        }, interval);
+    });
+
+    go2.addEventListener('click', function (evt) {
+        evt.preventDefault();
+        var curTop = document.documentElement.scrollTop || document.body.scrollTop;;
+        var step = curTop / delta;
+        var timer = setInterval(function () {
+            curTop -= step;
+            document.documentElement.scrollTop = curTop;
+            document.body.scrollTop = curTop;
+            if (curTop <= secondTop) {
+                clearInterval(timer);
+            }
+        }, interval);
+    });
+
+    go3.addEventListener('click', function (evt) {
+        evt.preventDefault();
+        var curTop = document.documentElement.scrollTop || document.body.scrollTop;;
+        var step = curTop / delta;
+        var timer = setInterval(function () {
+            curTop -= step;
+            document.documentElement.scrollTop = curTop;
+            document.body.scrollTop = curTop;
+            if (curTop <= thirdTop) {
+                clearInterval(timer);
+            }
+        }, interval);
+    });
+</script>
+</body>
+</html>
