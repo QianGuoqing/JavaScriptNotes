@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+
+<script src="utils.js"></script>
+<script>
+    var box = document.querySelector('#box');
+
+    var curLeft = utils.getCss(box, 'left');
+    console.log(curLeft);
+
+    // 在JavaScript中，给元素设置样式属性值，只能通过curElem.style[attr] = value; 这种方式给当前元素设置行内样式
+    box.style.left = 100 + 'px';
+    box.style.width = 200 + 'px';
+
+    // -> 给当前元素的某一个样式属性设置值(增加在行内样式上)
+    function setCss(curEle, attr, value) {
+        // 在JavaScript中设置float样式值也要处理兼容
+        if (attr === 'float') {
+            curEle['style']['cssFloat'] = value;
+            curEle['style']['styleFloat'] = value;
+            return;
+        }
+
+        // 如果打算设置的是元素的透明度，需要设置两套样式来兼容所有的浏览器
+        if (attr === 'opacity') {
+            curEle['style']['opacity'] = value;
+            curEle['style']['filter'] = 'alpha(opacity=' + value * 100 + ')';
+            return;
+        }
+
+        // -> 对于某些样式的属性，如果传递的值没有加单位，需要把单位默认的补充上
+        var reg = /^(width|height|top|bottom|left|right|((margin|padding)(Top|Bottom|Left|Right)?))$/;
+        if (reg.test(attr)) {
+            if (!isNaN(value)) { // -> 在判断传递进来的value值是否是一个有效的数字,如果是有效数字的话,证明当前传递进来的值没有加单位,此时需要补充单位
+                value += 'px';
+            }
+        }
+
+        curEle['style'][attr] = value;
+    }
+
+    // -> setGroupCss: 给当前元素批量的设置样式属性值
+    utils.setGroupCss(box, {
+        width: 20,
+        backgroundColor: 'red',
+        opacity: 0.1,
+        float: 'right',
+        borderTop: '10px solid #000',
+        padding: 10
+    });
+
+    // -> jQuery提供了这样的一个方法: css, 这个方法即可以实现后去，也可以实现单独的设置，也可以实现批量的设置
+    $('#box').css('width'); // -> 获取
+    $('#box').css('width', 200); // -> 单独设置
+    $('#box').css({
+        width: 200,
+        height: 200
+    }); // 批量设置
+</script>
+</body>
+</html>

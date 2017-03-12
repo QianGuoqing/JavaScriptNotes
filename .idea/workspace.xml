@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/1-getElementsByClassName的兼容处理.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/1-setCsss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/1-setCsss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/utils.js">
+      <file leaf-file-name="1-setCsss.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="26" />
+            <state relative-caret-position="406">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-setCsss.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/1-setCsss.html">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="59" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="702">
+              <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -63,10 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时40-编写简单的正则表达式/2-元字符应用.html" />
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时42-分组捕获/1-分组捕获.html" />
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时41-懒惰型和贪婪性/1-正则的捕获.html" />
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时43-replace/1-replace.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时43-replace/2-replace的实战.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时45-更多replace案例/1-实战-replace.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时46-正则应用-时间字符串格式化/1-时间格式化.html" />
@@ -114,6 +110,10 @@
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/utils.js" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/1-setCsss.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/utils.js" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/1-setCsss.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/utils.js" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js" />
       </list>
     </option>
   </component>
@@ -191,7 +191,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时66-设置元素的样式值-setCss" />
+              <option name="myItemId" value="课时68-获取-设置-批量设置元素" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第三节-dom盒子模型实战和dom库封装" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时67-批量设置元素的样式值" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,11 +256,11 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素" />
+      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时64-操作元素的样式" />
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时63-向容器追加新元素的方法" />
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时62-获取兄弟元素节点系列方法" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.1-setCsss.html">
@@ -359,12 +381,12 @@
       <workItem from="1489228495122" duration="228000" />
       <workItem from="1489228738169" duration="11407000" />
       <workItem from="1489280108206" duration="8778000" />
-      <workItem from="1489289950198" duration="9252000" />
+      <workItem from="1489289950198" duration="11014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160044000" />
+    <option name="totallyTimeSpent" value="161806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -401,34 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时42-分组捕获/1-分组捕获.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时46-正则应用-时间字符串格式化/1-时间格式化.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时47-数据类型检测/1-检测数据类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="76" column="64" lean-forward="false" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时43-replace/1-replace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时43-replace/2-replace的实战.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -766,6 +760,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/1-setCsss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="293" column="55" lean-forward="false" selection-start-line="293" selection-start-column="55" selection-end-line="293" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
           <folding />
         </state>
       </provider>
