@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/1-setCsss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-exercise.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-exercise.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-setCsss.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html">
+      <file leaf-file-name="my.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+            <state relative-caret-position="408">
+              <caret line="104" column="81" lean-forward="false" selection-start-line="104" selection-start-column="81" selection-end-line="104" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -63,9 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时43-replace/2-replace的实战.html" />
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时45-更多replace案例/1-实战-replace.html" />
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时46-正则应用-时间字符串格式化/1-时间格式化.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时47-数据类型检测/1-检测数据类型.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时48-盒子模型常用的属性前八个/1-盒子模型.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时49-获取元素的具体样式信息getCss/1-获取元素的样式.html" />
@@ -114,6 +100,9 @@
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/utils.js" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-exercise.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-exercise.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my.html" />
       </list>
     </option>
   </component>
@@ -172,26 +161,12 @@
               <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemId" value="第二节-项目实战-图片延迟加载" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第三节-dom盒子模型实战和dom库封装" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时68-获取-设置-批量设置元素" />
+              <option name="myItemId" value="课时58-多张图片的延迟加载实战" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,11 +184,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第三节-dom盒子模型实战和dom库封装" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时67-批量设置元素的样式值" />
+              <option name="myItemId" value="第二节-项目实战-图片延迟加载" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,10 +199,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第三节-dom盒子模型实战和dom库封装" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,27 +223,27 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用" />
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时64-操作元素的样式" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-setCsss.html">
-    <configuration default="false" name="my-多张图片懒加载实战.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="my-exercise.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="1-children.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时60-获取所有元素的子节点/1-children.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.my.html">
     <configuration default="false" name="1-操作元素的样式类名.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时64-操作元素的样式/1-操作元素的样式类名.html">
       <method />
     </configuration>
     <configuration default="false" name="1-setCsss.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/1-setCsss.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my-exercise.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-exercise.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my-exercise.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-exercise.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -339,19 +306,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.my-多张图片懒加载实战.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-children.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-操作元素的样式类名.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-setCsss.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-操作元素的样式类名.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-setCsss.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.my.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-setCsss.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-操作元素的样式类名.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-children.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.my-多张图片懒加载实战.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.my.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-setCsss.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-操作元素的样式类名.html" />
       </list>
     </recent_temporary>
   </component>
@@ -381,12 +348,12 @@
       <workItem from="1489228495122" duration="228000" />
       <workItem from="1489228738169" duration="11407000" />
       <workItem from="1489280108206" duration="8778000" />
-      <workItem from="1489289950198" duration="11014000" />
+      <workItem from="1489289950198" duration="13258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161806000" />
+    <option name="totallyTimeSpent" value="164050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -423,27 +390,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时43-replace/2-replace的实战.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第三节-正则及实战应用/课时45-更多replace案例/1-实战-replace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="57" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时49-获取元素的具体样式信息getCss/1-获取元素的样式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时49-获取元素的具体样式信息getCss/2-getCSS.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -597,6 +543,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -611,6 +558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,6 +573,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -632,6 +581,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,6 +589,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="164" column="9" lean-forward="true" selection-start-line="149" selection-start-column="8" selection-end-line="164" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,14 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="122" column="13" lean-forward="false" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -792,6 +735,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-exercise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-exercise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="115" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="104" column="81" lean-forward="false" selection-start-line="104" selection-start-column="81" selection-end-line="104" selection-end-column="81" />
           <folding />
         </state>
       </provider>

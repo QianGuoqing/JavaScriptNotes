@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+        ul, li {
+            list-style: none;
+        }
+        .news li {
+            display: flex;
+            border-bottom: 1px dashed #cccccc;
+        }
+        .banner {
+            width: 65px;
+            height: 65px;
+            margin: 10px;
+            background: url("img/default.jpg") center center no-repeat;
+            background-size: 100% 100%;
+        }
+        .banner img {
+            width: 65px;
+            height: 65px;
+            display: none;
+            opacity: 0;
+        }
+        .content {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<ul class="news">
+    <!--<li>-->
+        <!--<div class="banner">-->
+            <!--<img src="img/1.jpg" alt="" trueImg="img/1.jpg">-->
+        <!--</div>-->
+        <!--<div class="content">-->
+            <!--<h2>titletitltewatewtewqtwe</h2>-->
+            <!--<p>asdfsdfdsfadsfsdfasdfsfsfaf</p>-->
+        <!--</div>-->
+    <!--</li>-->
+</ul>
+<script>
+    // 1. loading ajax data
+    var jsonData = null;
+    var news = document.querySelector('.news');
+    var imgList = news.getElementsByTagName('img');
+    (function () {
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', 'json/newsList.txt', false);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && /^2\d{2}$/.test(xhr.status)) {
+                jsonData = JSON.parse(xhr.responseText);
+            }
+        }
+        xhr.send(null);
+    })();
+
+    // 2. binding data by concating strings
+    (function () {
+        var str = '';
+        for (var i = 0, len = jsonData.length; i < len; i++) {
+            var curData = jsonData[i];
+            str += '<li>';
+            str += '<div class="banner">';
+            str += '<img src="" trueImg="' + curData['img'] + '">';
+            str += '</div>';
+            str += '<div class="content">';
+            str += '<h2>' + curData['title'] + '</h2>';
+            str += '<p>' + curData['desc'] + '</p>';
+            str += '</div>';
+            str += '</li>'
+        }
+        news.innerHTML = str;
+    })();
+
+    // 3. image lazy load
+    function lazyLoad(curImg) {
+        var oImg = new Image;
+        oImg.src = curImg.getAttribute('trueImg');
+        oImg.onload = function () {
+            curImg.src = oImg.src;
+            curImg.style.display = 'block';
+            fadeIn(curImg);
+            oImg = null;
+        }
+        curImg.isLoad = true;
+    }
+
+    function fadeIn(curImg) {
+        var duration = 500;
+        var interval = 10;
+        var target = 1;
+        var step = (target / duration) * interval;
+
+        var timer = window.setInterval(function () {
+            var curOp = parseFloat(window.getComputedStyle(curImg, null).opacity);
+            curOp += step;
+            curImg.style.opacity = curOp;
+
+            if (curOp >= 1) {
+                clearInterval(timer);
+                return;
+            }
+        }, interval);
+    }
+
+    // 4. handle all images
+    function handleImages() {
+        for (var i = 0, len = imgList.length; i < len; i++) {
+            var curImg = imgList[i];
+            var curImgPar = curImg.parentNode;
+
+            if  (curImg.isLoad) {
+                continue;
+            }
+
+            var A = curImgPar.offsetTop + curImgPar.clientHeight;
+            var B = win('scrollTop') + win('clientHeight');
+            if (A < B) {
+                lazyLoad(curImg);
+            }
+        }
+    }
+
+    window.setTimeout(handleImages, 1500);
+    window.onscroll = handleImages;
+
+    function win(attr, value) {
+        if (typeof value === 'undefined') {
+            return document.documentElement[attr] || document.body[attr];
+        }
+        document.documentElement[attr] = value;
+        document.body[attr] = value;
+    }
+</script>
+</body>
+</html>
