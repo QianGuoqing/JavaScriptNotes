@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .banner {
+            width: 400px;
+            height: 250px;
+            border: 1px solid deepskyblue;
+            margin: 1000px auto;
+            background: url("img/default.gif") center center no-repeat #cccccc;
+        }
+        .banner img {
+            width: 400px;
+            height: 250px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <img src="" alt="" trueImg="img/jd.jpg">
+</div>
+
+<script>
+    function win(attr, value) {
+        if (typeof value === 'undefined') {
+            return document.documentElement[attr] || document.body[attr];
+        }
+        document.documentElement[attr] = value;
+        document.body[attr] = value;
+    }
+</script>
+<script>
+    var banner = document.querySelector('.banner');
+    var image = banner.getElementsByTagName('img')[0];
+
+    window.onscroll = function () {
+        if (image.isLoad) {
+            return;
+        }
+        var A = banner.offsetTop + banner.clientHeight;
+        var B = win('scrollTop') + win('clientHeight');
+        if (A < B) {
+            var oImg = new Image;
+            oImg.src = image.getAttribute('trueImg');
+            oImg.onload = function () {
+                image.src = oImg.src;
+                image.style.display = 'block';
+                oImg = null;
+            }
+            image.isLoad = true;
+        }
+    }
+</script>
+</body>
+</html>
