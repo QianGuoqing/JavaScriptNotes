@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取某一个元素中的元素子节点</title>
+</head>
+<body>
+<div id="div1">
+    <div></div>
+    <div></div>
+    <div>
+        <p></p>
+        <p></p>
+    </div>
+    <p></p>
+    <p></p>
+    <p></p>
+
+</div>
+
+<script>
+    var oDiv = document.getElementById('div1');
+
+    // -> 首先获取所有的子节点(childNodes),在所有的子节点中,把元素节点过滤出来(nodeType === 1)
+    // -> 如果多传递一个标签名，还要在获取的子元素集合中把对应标签名的进行二次筛选
+    function children(currentElement, tagName) {
+        var ary = [];
+        // -> IE6-8下不能使用内置的children属性,则自己写代码实现
+        if (/MSIE (6|7|8)/i.test(navigator.userAgent)) {
+            var nodeList = currentElement.childNodes;
+            for (var i = 0, len = nodeList.length; i < len; i++) {
+                var curNode = nodeList[i];
+                if (curNode.nodeType === 1) {
+                    ary[ary.length] = curNode;
+                }
+            }
+        } else {
+            // 标准浏览器中，直接使用children即可，但是这样获取的是一个元素集合(类数组)，
+            // 为了和IE6-8下保持一致，借用数组原型上的slice实现把类数组转化为数组
+            ary = Array.prototype.slice.call(currentElement.children);
+        }
+
+        // [div,div,div,p,p,p] len=6 i=0 i<6 i++
+        // -> 二次筛选
+        if (typeof tagName === 'string') {
+            for (var k = 0; k < ary.length; k++) {
+                var curElemNode = ary[i];
+                if (curElemNode.nodeName.toLowerCase() !== tagName.toLowerCase()) {
+                    // -> 不是想要的标签
+                    ary.slice(k, 1);
+                    k--;
+                }
+            }
+        }
+
+        return ary;
+    }
+    console.log(children(oDiv, 'p').length);
+</script>
+</body>
+</html>
