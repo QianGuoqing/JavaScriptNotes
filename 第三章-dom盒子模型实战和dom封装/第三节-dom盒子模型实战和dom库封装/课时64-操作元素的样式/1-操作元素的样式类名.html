@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+        .bg {
+            background: #ff3333;
+        }
+        .border {
+            border: 5px solid deepskyblue;
+        }
+        .position {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -100px 0 0 -100px;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="box"></div>
+<script>
+    var box = document.getElementById('box');
+    box.className += ' bg';
+    box.className += ' position';
+
+    // -> hasClass: 验证当前元素中是否包含className这个样式类名
+    function hasClass(curEle, className) {
+        var reg = new RegExp("(^| +)" + className + "( +|$)");
+        return reg.test(curEle.className);
+    }
+
+    // -> addClass: 给元素增加样式类型
+    function addClass(curEle, className) {
+        var ary = className.split(/\s+/g);
+
+        // -> 循环数组，一项一项的验证
+        for (var i = 0, len = ary.length; i < len; i++) {
+            var curName = ary[i];
+            if (!hasClass(curEle, curName)) {
+                curEle.className += ' ' + curName;
+            }
+        }
+    }
+
+    // -> removeClass: 给元素移除样式类型
+    function removeClass(curEle, className) {
+        var ary = className.split(/\s+/g);
+        for (var i = 0, len = ary.length; i < len; i++) {
+            var curName = ary[i];
+            if (hasClass(curEle, curName)) {
+                var reg = new RegExp("(^| +)" + curName + "( +|$)", "g");
+                curEle.className = curEle.className.replace(reg, ' ');
+            }
+        }
+    }
+</script>
+</body>
+</html>
