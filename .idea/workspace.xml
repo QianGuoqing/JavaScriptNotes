@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-pracice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,21 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="my-practice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-practice.html">
+      <file leaf-file-name="my-exercise.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="319">
+              <caret line="119" column="74" lean-forward="false" selection-start-line="119" selection-start-column="74" selection-end-line="119" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-pracice.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-pracice.html">
+      <file leaf-file-name="my-多张图片懒加载实战.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-多张图片延迟加载.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/1-多张图片延迟加载.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1936">
+              <caret line="164" column="9" lean-forward="true" selection-start-line="149" selection-start-column="8" selection-end-line="164" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -60,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时27-sort深入研究/10-sort深入.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时28-json及其操作/11-json.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/js/util.js" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时29-数据绑定及dom回流/1-数据绑定.html" />
@@ -108,9 +118,10 @@
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/图片懒加载.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-图片懒加载.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-图片懒加载.html" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-practice.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-pracice.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html" />
       </list>
     </option>
   </component>
@@ -171,6 +182,10 @@
               <option name="myItemId" value="第二节-项目实战-图片延迟加载" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时58-多张图片的延迟加载实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -187,10 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="第二节-项目实战-图片延迟加载" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时57-单张图片的延迟加载" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,10 +249,7 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.my-pracice.html">
-    <configuration default="false" name="my-图片懒加载.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-图片懒加载.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.my-exercise.html">
     <configuration default="false" name="my-图片懒加载.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-图片懒加载.html">
       <method />
     </configuration>
@@ -252,6 +260,9 @@
       <method />
     </configuration>
     <configuration default="false" name="my-pracice.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-pracice.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my-exercise.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -314,19 +325,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.my-图片懒加载.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-图片懒加载.html (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-多张图片懒加载实战.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.my-pracice.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.my-图片懒加载.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-多张图片懒加载实战.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-pracice.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.my-pracice.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-多张图片懒加载实战.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-图片懒加载.html (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.my-图片懒加载.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.my-exercise.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-多张图片懒加载实战.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-pracice.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.my-图片懒加载.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -355,18 +366,18 @@
       <workItem from="1489191412693" duration="4536000" />
       <workItem from="1489228495122" duration="228000" />
       <workItem from="1489228738169" duration="11407000" />
-      <workItem from="1489280108206" duration="635000" />
+      <workItem from="1489280108206" duration="3688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142649000" />
+    <option name="totallyTimeSpent" value="145702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24146147" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13899921" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -395,13 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/css/tab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -715,20 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/1-多张图片延迟加载.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="138" column="26" lean-forward="false" selection-start-line="137" selection-start-column="12" selection-end-line="139" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="124" column="46" lean-forward="false" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-practice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -741,6 +731,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/1-多张图片延迟加载.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="164" column="9" lean-forward="true" selection-start-line="149" selection-start-column="8" selection-end-line="164" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="119" column="74" lean-forward="false" selection-start-line="119" selection-start-column="74" selection-end-line="119" selection-end-column="74" />
           <folding />
         </state>
       </provider>

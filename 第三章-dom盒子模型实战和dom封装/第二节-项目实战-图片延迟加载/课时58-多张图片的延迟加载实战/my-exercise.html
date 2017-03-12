@@ -14,29 +14,27 @@
         ul, li {
             list-style: none;
         }
-        .news-list li {
-            display: flex;
-            padding: 10px;
-            border-bottom: 1px dashed #cccccc;
-        }
         .banner {
-            width: 70px;
-            height: 60px;
+            width: 65px;
+            height: 65px;
+            margin: 10px;
             background: url("img/default.jpg") center center no-repeat;
             background-size: 100% 100%;
         }
         .banner img {
-            width: 70px;
-            height: 60px;
+            width: 65px;
+            height: 65px;
             display: none;
             opacity: 0;
         }
-        .content {
-            margin-left: 10px;
-            padding: 4px 10px;
-            width: 100%;
+        .news li {
+            display: flex;
+            border-bottom: 1px dashed #cccccc;
         }
-        h2 {
+        .content {
+            padding: 10px;
+        }
+        .content h2 {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -44,18 +42,17 @@
     </style>
 </head>
 <body>
-<div class="news-list">
+<ul class="news">
     <!--<li>-->
         <!--<div class="banner">-->
-            <!--<img src="img/1.jpg" alt="" trueImg="">-->
+            <!--<img src="img/1.jpg" alt="" trueImg="img/1.jpg">-->
         <!--</div>-->
         <!--<div class="content">-->
             <!--<h2>网络强国战略习近平与“十三五”十四大战略</h2>-->
-            <!--<p>..</p>-->
+            <!--<p>互联网是二十世纪人类最大的发明互联网是二十世纪.</p>-->
         <!--</div>-->
     <!--</li>-->
-</div>
-
+</ul>
 <script>
     function win(attr, value) {
         if (typeof value === 'undefined') {
@@ -68,7 +65,7 @@
 <script>
     // 1. 加载json
     var jsonData = null;
-    var news = document.querySelector('.news-list');
+    var news = document.querySelector('.news');
     var imgList = news.getElementsByTagName('img');
 
     (function () {
@@ -82,19 +79,19 @@
         xhr.send(null);
     })();
 
-    // 2. 字符串拼接，将内容放置list中
+    // 2. 根据json数据进行数据绑定
     (function () {
         var str = '';
-        for (var i = 0, len = jsonData.length; i < len; i++) {
+        for (var i = 0; i < jsonData.length; i++) {
             var curImg = jsonData[i];
             str += '<li>';
             str += '<div class="banner">';
-            str += '<img src="" trueImg="' + curImg['img'] + '">';
+            str += '<img src="" trueImg="' + curImg['img'] + '">'
             str += '</div>';
             str += '<div class="content">';
             str += '<h2>' + curImg['title'] + '</h2>';
             str += '<p>' + curImg['desc'] + '</p>';
-            str += '</div>'
+            str += '</div>';
             str += '</li>';
         }
         news.innerHTML = str;
@@ -102,7 +99,7 @@
 
     // 3. 图片懒加载
     function lazyLoad(curImg) {
-        var oImg = new Image();
+        var oImg = new Image;
         oImg.src = curImg.getAttribute('trueImg');
         oImg.onload = function () {
             curImg.src = oImg.src;
@@ -118,35 +115,41 @@
         var interval = 10;
         var target = 1;
         var step = (target / duration) * interval;
-        var timer = window.setInterval(function () {
-            var curOpacity = parseFloat(window.getComputedStyle(curImg, null).opacity);
-            //console.log(curOpacity)
-            curOpacity += step;
-            curImg.style.opacity = curOpacity;
-            if (curOpacity >= 1) {
+
+        var timer = setInterval(function () {
+            var curOp = parseFloat(getComputedStyle(curImg, null).opacity);
+            curOp += step;
+            curImg.style.opacity = curOp;
+           // console.log(curOp);
+
+            if (curOp >= 1) {
                 clearInterval(timer);
                 return;
             }
         }, interval);
     }
 
-    function handleImage() {
-        for (var i = 0; i < imgList.length; i++) {
+    // 4. 处理每张图片
+    function handleAllImages() {
+        for (var i = 0, len = imgList.length; i < len; i++) {
             var curImg = imgList[i];
+
             if (curImg.isLoad) {
                 continue;
             }
-            var curParent = curImg.parentNode;
-            var A = curParent.offsetHeight + curParent.offsetTop;
+
+            var curImgParent = curImg.parentNode;
+            var A = curImgParent.offsetTop + curImgParent.offsetHeight;
             var B = win('scrollTop') + win('clientHeight');
+
             if (A < B) {
                 lazyLoad(curImg);
             }
         }
     }
 
-    setTimeout(handleImage, 1000);
-    window.onscroll = handleImage;
+    window.setTimeout(handleAllImages, 1500);
+    window.onscroll = handleAllImages;
 </script>
 </body>
 </html>
