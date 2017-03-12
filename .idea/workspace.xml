@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时61-深入拓展-单例模式小技巧/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时62-获取兄弟元素节点系列方法/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时61-深入拓展-单例模式小技巧/utils.js">
+        <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时62-获取兄弟元素节点系列方法/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="583">
+              <caret line="184" column="28" lean-forward="false" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -50,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/3-DOM的映射机制.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第一节-关于函数、原型、dom、this的深入理解/课时30-表格排序及dom映射/Demo-表格排序.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/表格排序.html" />
         <option value="$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js" />
@@ -101,6 +100,7 @@
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时60-获取所有元素的子节点/1-children.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时60-获取所有元素的子节点/utils.js" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时61-深入拓展-单例模式小技巧/utils.js" />
+        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时62-获取兄弟元素节点系列方法/utils.js" />
       </list>
     </option>
   </component>
@@ -178,7 +178,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时61-深入拓展-单例模式小技巧" />
+              <option name="myItemId" value="课时62-获取兄弟元素节点系列方法" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,11 +221,11 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时62-获取兄弟元素节点系列方法" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时61-深入拓展-单例模式小技巧" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载" />
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.1-children.html">
@@ -346,12 +346,12 @@
       <workItem from="1489228495122" duration="228000" />
       <workItem from="1489228738169" duration="11407000" />
       <workItem from="1489280108206" duration="8778000" />
-      <workItem from="1489289950198" duration="792000" />
+      <workItem from="1489289950198" duration="2446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151584000" />
+    <option name="totallyTimeSpent" value="153238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -388,13 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/json/json-sort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第二周-call,apply,表格排序,正则/第二节-项目实战-表格排序/课时31-实现基本的布局结构/js/tab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -738,6 +731,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时62-获取兄弟元素节点系列方法/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="184" column="28" lean-forward="false" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
           <folding />
         </state>
       </provider>
