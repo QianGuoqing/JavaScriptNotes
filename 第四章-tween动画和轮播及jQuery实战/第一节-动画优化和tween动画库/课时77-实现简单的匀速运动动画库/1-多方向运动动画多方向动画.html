@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            position: absolute;
+            top: 0;
+            padding: 0;
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            left: 400px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+</body>
+<script src="utils.js"></script>
+<script src="tween.js"></script>
+<script>
+    var oBox = document.getElementById('box');
+    qianAnimate(oBox, {
+        left: 1000,
+        top: 500,
+        opacity: 0,
+        width: 0,
+        height: 0
+    }, 1000);
+
+</script>
+</html>

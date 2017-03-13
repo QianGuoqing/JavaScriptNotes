@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            position: absolute;
+            top: 0;
+            padding: 0;
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            left: 400px;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+</body>
+<script src="utils.js"></script>
+<script>
+
+    function Linear(t, b, c, d) {
+        return c * t / d + b;
+    }
+
+    var oBox = document.getElementById('box');
+    var beginLeft = utils.css(oBox, 'left'),
+        beginTop = utils.css(oBox, ' top');
+    var targetLeft = 1000,
+        targetTop = 500;
+    var changeLeft = targetLeft - beginLeft;
+    var changeTop = targetTop - beginTop;
+    var duration = 1000,
+        time = 0;
+    oBox.timer = window.setInterval(function () {
+        time += 10;
+        if (time >= duration) {
+            utils.css(oBox, {
+                left: targetLeft,
+                top: targetTop
+            });
+            window.clearInterval(oBox.timer);
+            return;
+        }
+        var curLeft = Linear(time, beginLeft, changeLeft, duration);
+        var curTop = Linear(time, beginTop, changeTop, duration);
+    }, 10);
+</script>
+</html>
