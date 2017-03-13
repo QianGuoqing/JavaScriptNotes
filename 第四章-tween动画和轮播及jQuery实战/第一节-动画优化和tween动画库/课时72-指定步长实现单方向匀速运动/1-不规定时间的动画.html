@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            position: absolute;
+            top: 0;
+            padding: 0;
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+</body>
+<script src="utils.js"></script>
+<script>
+    var oBox = document.getElementById('box');
+    var maxLeft = utils.win('clientWidth') - oBox.offsetWidth;
+    var step = 5;
+
+    var timer = window.setInterval(function () {
+        var curLeft = utils.css(oBox, 'left');
+
+        if (curLeft + step >= maxLeft) { // 边界判断: 加上步长计算
+            utils.css(oBox, 'left', maxLeft);
+            clearInterval(timer);
+            return;
+        }
+
+        curLeft += step;
+        utils.css(oBox, 'left', curLeft);
+    }, 10);
+
+    // -> 问题: 当总距离/设定的步长 不是一个整数时，说明少走一步，还差点才能到，如果多走一步，会超出目标的位置
+    // -> 解决：在进行边界判断的时候加上步长来进行处理
+</script>
+</html>

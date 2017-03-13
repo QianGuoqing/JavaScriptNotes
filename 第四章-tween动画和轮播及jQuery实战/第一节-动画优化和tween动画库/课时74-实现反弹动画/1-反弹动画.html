@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            position: absolute;
+            top: 0;
+            padding: 0;
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            left: 400px;
+        }
+        .btn {
+            position: absolute;
+            top: 200px;
+            left: 100px;
+            height: 50px;
+        }
+        .btn input {
+            outline: none;
+            display: inline-block;
+            margin-left: 50px;
+            width: 100px;
+            height: 50px;
+            border: 1px solid green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<div class="btn">
+    <input type="button" value="向左" id="btnLeft">
+    <input type="button" value="向右" id="btnRight">
+</div>
+</body>
+<script src="utils.js"></script>
+<script>
+    var oBox = document.getElementById('box');
+    var maxLeft = utils.win('clientWidth') - oBox.offsetWidth;
+    var minLeft = 0;
+
+    var timer = null;
+    function move(target) { // -> target就是direction
+        window.clearTimeout(timer);
+        var curLeft = utils.css(oBox, 'left'); // 当前位置值
+        if (curLeft < target) { // 向右
+            if (curLeft + 5 >= target) {
+                utils.css(oBox, 'left', target);
+                return;
+            }
+            curLeft += 5;
+            utils.css(oBox, 'left', curLeft);
+        } else if (curLeft - 5 > target) { // 向左
+            if (curLeft <= target) {
+                utils.css(oBox, 'left', target);
+                return;
+            }
+            curLeft -= 5;
+            utils.css(oBox, 'left', curLeft);
+        } else { // 不需要运动
+            return;
+        }
+        // 这样写性能不好，因为每一次到达时间的时候都需要先执行一次匿名函数，形成了一个私有作用域
+        // 在匿名函数中在执行move()，但是move中需要用到的数据值在第一次执行的move方法中，需要把
+        // 匿名函数形成的这个私有作用域作为跳板，这样就导致了匿名函数形成的这个私有作用域不能销毁
+        timer = window.setTimeout(function () {
+            move(target);
+        }, 10);
+    }
+    document.getElementById('btnLeft').onclick = function () {
+        move(minLeft);
+    };
+    document.getElementById('btnRight').onclick = function () {
+        move(maxLeft);
+    }
+</script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            position: absolute;
+            top: 0;
+            padding: 0;
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+</body>
+<script src="utils.js"></script>
+<script>
+    var oBox = document.getElementById('box');
+    var maxLeft = utils.win('clientWidth') - oBox.offsetWidth;
+    var step = 5;
+    var timer = null;
+
+    // 使用递归思想完成setTimout的轮询动画:
+    // 每一次在执行动画之前，首先把上一次设置的那一个没有用的定时器清除，以节约内存
+    function move() {
+        window.clearTimeout(timer);
+        var curLeft = utils.css(oBox, 'left');
+
+        if (curLeft + step >= maxLeft) { // 边界判断: 加上步长计算
+            utils.css(oBox, 'left', maxLeft);
+            return;
+        }
+
+        curLeft += step;
+        utils.css(oBox, 'left', curLeft);
+
+        timer = window.setTimeout(move, 10);
+    }
+
+    move();
+</script>
+</html>
