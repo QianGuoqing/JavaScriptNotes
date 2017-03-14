@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/img/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/img/banner2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/img/banner3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/img/banner4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/img/default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/img/pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/json/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/jquery-1.11.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/1-jQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/2-jQuery选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时92-常用方法属性操作/1-jQuery常用方法.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-jQuery选择器.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2-jQuery选择器.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/2-jQuery选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="117">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-jQuery常用方法.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时92-常用方法属性操作/1-jQuery常用方法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -73,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-pracice.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-多张图片懒加载实战.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my-exercise.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时59-内置的dom操作属性和方法/1-复习DOM.html" />
@@ -124,6 +120,7 @@
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/banner.js" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/1-jQuery.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/2-jQuery选择器.html" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时92-常用方法属性操作/1-jQuery常用方法.html" />
       </list>
     </option>
   </component>
@@ -140,9 +137,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="752" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时91-常用的选择器" />
+              <option name="myItemId" value="课时92-常用方法属性操作" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,6 +255,7 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -397,15 +394,15 @@
       <workItem from="1489399666035" duration="4662000" />
       <workItem from="1489404529277" duration="11634000" />
       <workItem from="1489481786846" duration="275000" />
-      <workItem from="1489484564133" duration="2777000" />
+      <workItem from="1489484564133" duration="5751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190221000" />
+    <option name="totallyTimeSpent" value="193195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="752" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.223193" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
@@ -414,7 +411,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38939393" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24146147" sideWeight="0.5060606" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -457,13 +454,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="251" column="23" lean-forward="true" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时64-操作元素的样式/1-操作元素的样式类名.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -825,8 +815,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/2-jQuery选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="117">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时92-常用方法属性操作/1-jQuery常用方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
           <folding />
         </state>
       </provider>
