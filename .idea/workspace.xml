@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时75-保证当前元素同一时间执行/1-反弹动画-优化.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时75-保证当前元素同一时间执行/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时76-实现多方向匀速运动/1-多方向运动动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时76-实现多方向匀速运动/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/1-多方向运动动画多方向动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/img/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/img/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/img/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/img/banner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/img/default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/img/pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/1-回调函数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时79-动画库完整版/tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/utils.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,43 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-多方向运动动画.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时76-实现多方向匀速运动/1-多方向运动动画.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tween.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/tween.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#45#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1-多方向运动动画多方向动画.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/1-多方向运动动画多方向动画.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="455">
+              <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -77,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -88,12 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/3-慢慢回到顶部-优化.html" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/5-回到顶部-自己做.html" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时54-项目实战-跑马灯/1-跑马灯.html" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/作业" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时55-深入拓展-JavaScript同步与异步编程/1-JavaScript异步编程思想.html" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/my回到顶部.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量/课时52-浏览器滚动条卷去的高度scrollTop/仿京东回到顶部.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/1-图片懒加载.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/1-图片懒加载.html" />
@@ -139,6 +108,12 @@
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时76-实现多方向匀速运动/1-多方向运动动画.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/tween.js" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/1-多方向运动动画多方向动画.html" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/1.html" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/1-回调函数.html" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/tween.js" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时79-动画库完整版/tween.js" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/tween.js" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html" />
       </list>
     </option>
   </component>
@@ -192,33 +167,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-动画优化和tween动画库" />
+              <option name="myItemId" value="第二节-项目实战-轮播图左右运动版" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时77-实现简单的匀速运动动画库" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第四章-tween动画和轮播及jQuery实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-动画优化和tween动画库" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时76-实现多方向匀速运动" />
+              <option name="myItemId" value="课时80-实现基本的布局结构" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,8 +192,14 @@
               <option name="myItemId" value="第一节-动画优化和tween动画库" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时75-保证当前元素同一时间执行" />
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,91 +213,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第四章-tween动画和轮播及jQuery实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-动画优化和tween动画库" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时74-实现反弹动画" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第四章-tween动画和轮播及jQuery实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-动画优化和tween动画库" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时73-使用settimeout实现轮询动画" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第四章-tween动画和轮播及jQuery实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-动画优化和tween动画库" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时72-指定步长实现单方向匀速运动" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第四章-tween动画和轮播及jQuery实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-动画优化和tween动画库" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时71-在指定时间内实现单方向匀速运动" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemId" value="第三章-dom盒子模型实战和dom封装" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,11 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构" />
+      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时79-动画库完整版" />
+      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时76-实现多方向匀速运动" />
-      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时75-保证当前元素同一时间执行" />
-      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时74-实现反弹动画" />
-      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载" />
@@ -375,10 +250,7 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-多方向运动动画多方向动画.html">
-    <configuration default="false" name="1-使用settimeout实现动画.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画/1-使用settimeout实现动画.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="1-反弹动画.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时74-实现反弹动画/1-反弹动画.html">
       <method />
     </configuration>
@@ -389,6 +261,9 @@
       <method />
     </configuration>
     <configuration default="false" name="1-多方向运动动画多方向动画.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/1-多方向运动动画多方向动画.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -451,19 +326,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-使用settimeout实现动画.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-多方向运动动画多方向动画.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-多方向运动动画多方向动画.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-多方向运动动画多方向动画.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-使用settimeout实现动画.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-多方向运动动画多方向动画.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画-优化.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-反弹动画.html" />
       </list>
     </recent_temporary>
   </component>
@@ -496,12 +371,12 @@
       <workItem from="1489289950198" duration="13309000" />
       <workItem from="1489389392627" duration="6772000" />
       <workItem from="1489399666035" duration="4662000" />
-      <workItem from="1489404529277" duration="1666000" />
+      <workItem from="1489404529277" duration="5205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177201000" />
+    <option name="totallyTimeSpent" value="180740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -538,48 +413,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-图片懒加载.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/1-图片懒加载.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-图片懒加载.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/json/newsList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-practice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-pracice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/1-多张图片延迟加载.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
@@ -801,6 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5253">
           <caret line="308" column="19" lean-forward="false" selection-start-line="308" selection-start-column="19" selection-end-line="308" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,6 +642,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -839,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -906,20 +742,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/tween.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/1-多方向运动动画多方向动画.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/tween.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/1-回调函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/tween.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时79-动画库完整版/tween.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/tween.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="158" column="49" lean-forward="true" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding />
         </state>
       </provider>

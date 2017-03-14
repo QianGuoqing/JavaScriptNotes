@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 回调函数: 把一个函数A当做一个值传递给另外一个函数B，这样在B方法执行的时候可以在任何位置执行一到多次A方法q
+    function A() {
+        console.log('A');
+    }
+    function B(callback) {
+        console.log('B');
+        for (var i = 0; i < 5; i++) {
+            callback();
+        }
+    }
+    B(A);
+</script>
+</body>
+</html>
