@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/json/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/img/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/img/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/img/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/img/banner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/img/default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/img/pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/json/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/banner.js" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/banner.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner1.jpg" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/img/banner1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner2.jpg" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/img/banner2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner3.jpg" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/img/banner3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/banner4.jpg" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/img/banner4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/default.gif" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/img/default.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/img/pre.png" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/img/pre.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/json/banner.txt" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/json/banner.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/tween.js" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/tween.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/utils.js" afterPath="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,41 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="banner.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/banner.js">
+      <file leaf-file-name="banner.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/banner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="312" column="27" lean-forward="false" selection-start-line="312" selection-start-column="27" selection-end-line="312" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tween.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/tween.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -90,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/图片懒加载.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-图片懒加载.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-图片懒加载.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载/my-practice.html" />
@@ -141,6 +120,7 @@
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/utils.js" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/banner.js" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html" />
+        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/banner.js" />
       </list>
     </option>
   </component>
@@ -198,7 +178,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时82-实现数据绑定和图片延迟加载" />
+              <option name="myItemId" value="课时82-自动轮播及无缝衔接" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,11 +200,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时82-实现数据绑定和图片延迟加载" />
+              <option name="myItemId" value="课时82-自动轮播及无缝衔接" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,10 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="第二节-项目实战-轮播图左右运动版" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时80-实现基本的布局结构" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,11 +311,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时79-动画库完整版" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调" />
-      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载" />
@@ -357,7 +333,7 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="banner.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="banner.js" working-dir="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载">
+    <configuration default="false" name="banner.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/banner.js" working-dir="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载">
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html">
@@ -468,12 +444,12 @@
       <workItem from="1489289950198" duration="13309000" />
       <workItem from="1489389392627" duration="6772000" />
       <workItem from="1489399666035" duration="4662000" />
-      <workItem from="1489404529277" duration="8156000" />
+      <workItem from="1489404529277" duration="8995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183691000" />
+    <option name="totallyTimeSpent" value="184530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -496,6 +472,24 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.49722" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.223193" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24146147" sideWeight="0.5060606" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -510,13 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时61-深入拓展-单例模式小技巧/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时62-获取兄弟元素节点系列方法/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -868,7 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/json/banner.txt">
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/json/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="0" column="188" lean-forward="false" selection-start-line="0" selection-start-column="188" selection-end-line="0" selection-end-column="188" />
@@ -876,7 +863,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/tween.js">
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/tween.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -884,7 +871,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/utils.js">
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="312" column="27" lean-forward="false" selection-start-line="312" selection-start-column="27" selection-end-line="312" selection-end-column="27" />
@@ -892,7 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/banner.js">
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/banner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
@@ -900,10 +887,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html">
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding />
         </state>
       </provider>
