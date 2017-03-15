@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="../jquery-1.11.1.js"></script>
+<script>
+    // 1.css
+    // -> css: 获取或者设置(批量设置)当前元素的样式值
+    var $box = $('#box');
+    console.log($box.css('width'));
+    $box.css('background', 'red');
+    $box.css({
+       background: 'red',
+        opacity: 0.5
+    });
+
+    // -> offset: 不管父级参照物是谁,获取当前元素距离body的偏移距离(top/left)
+    // -> position: 获取当前元素距离父级参照物的偏移距离
+
+    // -> scrollTop/ scrollLeft: 获取或者设置元素的卷去高度或者宽度
+
+    // -> width/ height: 获取或者设置元素的width/ height
+    // -> innerWidth/ innerHeight: 获取或者设置元素可视区域的宽高(等价于clientWidth/clientHeight)，
+    //    设置的时候保留padding值，把width值进行改变(width的值最小是0)
+
+    // -> outerWidth/ outerHeight: 获取或者设置元素可视区域的宽高(包含边框)，设置具体的值的时候，和上面的效果是一样的
+    //    如果传递进来的参数时true，默认的把margin也计算在内了
+    $box.css('background', 'deepskyblue');
+
+    // 2. jQuery非常强大的地方在于它的链式写法(执行完成一个方法后，返回的结果依然是一个jQuery对象，这样就可以继续调用下一个方法执行了)
+    // -> $box.css('background', 'deepskyblue').width();
+
+    // 3. 文档处理
+    // -> append: 向指定元素的末尾位置追加一个新的元素 容器.append(元素)
+    var oDiv = document.createElement('div');
+    oDiv.id = 'div5';
+    $box.append(oDiv);
+    // appendTo: 元素.appendTo(容器)
+    $(oDiv).appendTo($box);
+
+    // -> prepend/ prependTo: 向指定元素的开头追加一个新元素
+    // -> after/ before: 在当前元素的后面或者前面追加新的元素
+    // -> insertAfter/ insertBefore: 把选择器获取到的元素追加到指定元素的前面或者后面
+    $(oDiv).insertBefore($box);
+    $(oDiv).insertAfter($box); // -> 把创建的oDiv追加到$box后面(和$box是同级的)
+
+    // -> replaceAll(selector): 用匹配的结果替换所有selector匹配的元素
+
+    // -> remove: 把匹配的结果在页面中移除
+    $box.remove();
+
+    // 4. 筛选
+    // -> eq(index), first(), last(), hasClass(className)拥有哪个样式类名的
+    $('div').hasClass('.w1');
+
+    // -> filter, children, find: 筛选遍历
+    // filter: 同级过滤,通过选择器获取一个集合，在获取内容中进行二次筛选
+    // children: 子集过滤
+    // find: 后代过滤
+    $box.children();
+
+    // -> map: 遍历jQuery集合中的对象，可以支持返回值，把每一项进行修改，类似于数组的map方法
+    // -> parent: 父亲节点
+    // -> parents: 所有的父亲节点(从当前开始一直到HTML，把每一级都记录下来)
+</script>
+</body>
+</html>
