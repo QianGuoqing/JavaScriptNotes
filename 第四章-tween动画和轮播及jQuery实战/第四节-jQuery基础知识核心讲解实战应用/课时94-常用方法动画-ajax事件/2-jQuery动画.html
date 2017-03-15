@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #box {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            margin-left: -50px;
+            width: 100px;
+            height: 200px;
+            background: red;
+
+            opacity: 1;
+            filter: alpha(opacity=100);
+            opacity: 1;
+        }
+
+        input {
+            display: block;
+            margin: 5px auto;
+            width: 200px;
+            height: 35px;
+            border: 1px solid green;
+            cursor: pointer;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="操作" id="submit">
+<div id="box"></div>
+<script src="../jquery-1.11.1.js"></script>
+<script>
+    $(function () {
+        var $submit = $('#submit'),
+            $box = $('#box');
+        $submit.on('click', function () {
+            // $box.stop().hide(500);
+            // $box.stop().slideUp(500);
+            // $box.stop().fadeOut(500);
+            // $box.delay(1000).slideToggle(500);
+            // finish: 结束上一个动画，并且让元素快速到达目标位置，在开始下一个动画
+            $box.stop().animate({
+                width: 20,
+                height: 30,
+                opacity: 0.5
+            }, 1000);
+        });
+    });
+</script>
+</body>
+</html>

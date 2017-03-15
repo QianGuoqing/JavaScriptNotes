@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="box"></div>
+</body>
+<script src="../jquery-1.11.1.js"></script>
+<script>
+    // ajax
+    $.ajax({
+        url: 'json/test.txt',
+        type: 'get',
+        dataType: 'json',
+        success: function (data) {
+            console.log(data);
+        }
+    });
+
+    // -> 事件
+    $('#box').on('click', function () {
+        console.log(1);
+    });
+    $('#box').on('mouseover', function () {
+
+    });
+    $('#box').on('mouseout', function () {
+
+    });
+
+    // -> 工具
+    // -> each: jQuery中有两个each
+    // 一个是$('div').each(function(){});
+    // 1) 循环选择器获取到的jQuery集合中的每一项
+    // 一个是
+    $.each([12, 23, 34], function (index, item) {
+        console.log(item);
+    });
+    // 循环数组、类数组、对象中的每一项
+
+    // -> 动画
+    // -> animate
+    /*
+    $('#box').animate({
+
+    }, duration, 'linear/ease/easeIn/easeOut/easenOut', function () {
+
+    });
+    */
+    // -> stop: 结束之前正在运行的动画，开启下一个新的动画
+    // -> delay: 延迟
+    // -> fadeIn, fadeOut, fadeToggle
+    // -> show, hide, toggle
+    // -> slideUp, slideDown, slideToggle
+</script>
+</html>
