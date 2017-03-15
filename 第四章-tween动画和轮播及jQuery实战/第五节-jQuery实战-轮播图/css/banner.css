@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #424242;
+    -webkit-user-select: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+a, a:hover, a:active, a:target, a:visited {
+    color: #424242;
+    text-decoration: none;
+}
+
+.banner {
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .bannerInner {
+    width: 100%;
+    height: 100%;
+    background: url("../img/default.gif") center center no-repeat #e1e1e1;
+}
+
+.banner .bannerInner div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0;
+}
+
+.banner .bannerInner div img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .bannerTip {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.banner .bannerTip li {
+    width: 18px;
+    height: 18px;
+    background: lightblue;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+}
+
+.banner .bannerTip li.bg {
+    background: orange;
+}
+
+.banner a {
+    display: none;
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    margin-top: -22.5px;
+    opacity: 0.5;
+    background-image: url(../img/pre.png);
+}
+
+.banner a.bannerLeft {
+    left: 20px;
+    background-position: 0 0;
+}
+.banner a.bannerRight {
+    right: 20px;
+    background-position: -50px 0;
+}
+.banner a:hover {
+    opacity: 1;
+}
