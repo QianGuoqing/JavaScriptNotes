@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-事件对象.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-事件.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html">
+      <file leaf-file-name="1-事件对象.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-事件对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="202">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-时间对象.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html">
+      <file leaf-file-name="1-事件的传播机制.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-172">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="644">
+              <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -72,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时64-操作元素的样式/utils.js" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/1-getElementsByClassName的兼容处理.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/utils.js" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/1-setCsss.html" />
@@ -123,6 +122,7 @@
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html" />
       </list>
     </option>
   </component>
@@ -171,6 +171,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-事件基础-事件委托-实战应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时106-事件传播机制" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,10 +272,7 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2-默认行为.html">
-    <configuration default="false" name="1-jQueryajax-动画.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/1-jQueryajax-动画.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.1-事件的传播机制.html">
     <configuration default="false" name="2-jQuery动画.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/2-jQuery动画.html">
       <method />
     </configuration>
@@ -264,6 +283,9 @@
       <method />
     </configuration>
     <configuration default="false" name="2-默认行为.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-事件的传播机制.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -326,19 +348,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-jQueryajax-动画.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-时间对象.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-时间对象.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-事件的传播机制.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-时间对象.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-jQueryajax-动画.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-事件的传播机制.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-时间对象.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
       </list>
     </recent_temporary>
   </component>
@@ -376,12 +398,12 @@
       <workItem from="1489484564133" duration="5953000" />
       <workItem from="1489565922980" duration="11054000" />
       <workItem from="1489711075992" duration="4497000" />
-      <workItem from="1489733643761" duration="1586000" />
+      <workItem from="1489733643761" duration="4104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210534000" />
+    <option name="totallyTimeSpent" value="213052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -436,13 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/tab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时71-在指定时间内实现单方向匀速运动/js/utils.js" />
     <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时71-在指定时间内实现单方向匀速运动/utils.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -758,14 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -774,10 +781,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html">
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="459">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-事件对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
           <folding />
         </state>
       </provider>

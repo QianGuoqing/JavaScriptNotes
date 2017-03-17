@@ -55,7 +55,7 @@
         // 这时就是用e.srcElement来获取事件源
         e.target = e.target || e.srcElement;
         // e.clientX/ e.clientY: 当前鼠标触发点距离当前屏幕左上角x/y轴的距离
-        // e.pageX/ e.pageY: 当前谁啊哦触发点距离body左上角(页面第一屏幕最左上端)x/y轴的坐标
+        // e.pageX/ e.pageY: 当前触发点距离body左上角(页面第一屏幕最左上端)x/y轴的坐标
         // 在IE6-8下没有pageX/pageY属性，通过使用clientY+滚动条卷去的高度来获取
         e.pageX = e.pageX || (e.clientX + (document.documentElement.scrollLeft || document.body.scrollLeft));
         e.pageY = e.pageY || (e.clientX + (document.documentElement.scrollTop || document.body.scrollTop));
