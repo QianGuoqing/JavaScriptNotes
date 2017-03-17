@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>默认行为</title>
+    <style>
+        body, div, ul, li, a {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+        }
+        ul, li {
+            list-style: none;
+        }
+        #ul1 {
+            width: 300px;
+            margin: 20px auto;
+        }
+        #ul1 li {
+            height: 35px;
+            line-height: 35px;
+            border-bottom: 1px solid #008800;
+        }
+        /* 给li加hover伪类在IE6浏览器中是不兼容的 只有a标签的的hover伪类才是兼容所有浏览器的 */
+        /*#ul1 li:hover {*/
+            /*background: deepskyblue;*/
+        /*}*/
+        #ul1 li a {
+            line-height: 35px;
+            height: 35px;
+        }
+        #ul1 li a:hover {
+            background: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<a href="www.baidu.com" target="_blank">baidu</a>
+<ul id="ul1">
+    <!--href="javascript:;" 直接在HTML阻止默认行为-->
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+</ul>
+<script>
+    // a 标签的默认行为就是跳转页面, 但是有时候使用a标签只是想应用它的特殊性，并不想点击的时候发生跳转
+    var linkList = document.getElementsByTagName('a');
+    for (var i = 0; i < linkList.length; i++) {
+        linkList[i].onclick = function (evt) {
+            evt = evt || window.event;
+            // evt.preventDefault ? evt.preventDefault() : evt.returnValue = false;
+            return false; // -> 和上述的代码是一样的效果，都是在阻止默认行为
+        }
+    }
+</script>
+</body>
+</html>

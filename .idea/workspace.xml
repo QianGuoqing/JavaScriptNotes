@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,11 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-事件.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-事件.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-时间对象.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-默认行为.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -51,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时63-向容器追加新元素的方法/utils.js" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时64-操作元素的样式/1-操作元素的样式类名.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时64-操作元素的样式/utils.js" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/1-getElementsByClassName的兼容处理.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时65-getElementByClassName的应用/utils.js" />
@@ -102,6 +121,8 @@
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/轮播图.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/js/banner.js" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html" />
       </list>
     </option>
   </component>
@@ -139,6 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,14 +192,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="课时105-事件对象及兼容处理" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-事件基础-事件委托-实战应用" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="课时104-什么是事件" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,13 +250,7 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.轮播图.html">
-    <configuration default="false" name="banner.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/banner.js" working-dir="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载">
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.2-默认行为.html">
     <configuration default="false" name="1-jQueryajax-动画.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/1-jQueryajax-动画.html">
       <method />
     </configuration>
@@ -221,6 +258,12 @@
       <method />
     </configuration>
     <configuration default="false" name="轮播图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/轮播图.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-时间对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="2-默认行为.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -283,19 +326,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.banner.js" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-jQueryajax-动画.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-jQueryajax-动画.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-时间对象.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-jQueryajax-动画.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.banner.js" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-时间对象.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.轮播图.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-jQuery动画.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-jQueryajax-动画.html" />
       </list>
     </recent_temporary>
   </component>
@@ -332,12 +375,13 @@
       <workItem from="1489481786846" duration="275000" />
       <workItem from="1489484564133" duration="5953000" />
       <workItem from="1489565922980" duration="11054000" />
-      <workItem from="1489711075992" duration="1059000" />
+      <workItem from="1489711075992" duration="4497000" />
+      <workItem from="1489733643761" duration="1586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205510000" />
+    <option name="totallyTimeSpent" value="210534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -349,7 +393,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43030304" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43013698" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24146147" sideWeight="0.5060606" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -392,38 +436,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/3-一堆选项卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="119" column="45" lean-forward="true" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/2-深入解剖选项卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="87" column="123" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="123" />
-          <caret line="88" column="123" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="123" />
-          <caret line="89" column="123" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="123" />
-          <caret line="90" column="123" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="123" />
-          <caret line="91" column="123" lean-forward="false" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="123" />
-          <caret line="92" column="123" lean-forward="false" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="123" />
-          <caret line="93" column="123" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="123" />
-          <caret line="94" column="123" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="123" />
-          <caret line="95" column="123" lean-forward="false" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="123" />
-          <caret line="96" column="123" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="123" />
-          <caret line="97" column="123" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="123" />
-          <caret line="98" column="123" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="123" />
-          <caret line="99" column="123" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="123" />
-          <caret line="100" column="123" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="123" />
-          <caret line="101" column="123" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="123" />
-          <caret line="102" column="123" lean-forward="false" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="123" />
-          <caret line="103" column="123" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="123" />
-          <caret line="104" column="123" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="123" />
-          <caret line="105" column="123" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/tab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -736,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,14 +755,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding />
         </state>
       </provider>
