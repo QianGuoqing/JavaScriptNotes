@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul, li {
+            list-style: none;
+        }
+        .list {
+            margin: 20px auto;
+            width: 440px;
+            display: flex;
+            border: 1px solid #008000;
+            justify-content: space-between;
+            position: relative;
+        }
+        .list li {
+            width: 100px;
+            height: 75px;
+        }
+        .list li img {
+            width: 100px;
+            height: 75px;
+        }
+        #mark {
+            width: 400px;
+            height: 300px;
+            border: 1px solid deepskyblue;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            display: none;
+        }
+        #mark img {
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<ul class="list">
+    <li><img src="images/apple_1.jpg" alt="" trueImg="images/apple_1_bigger.jpg"></li>
+    <li><img src="images/apple_2.jpg" alt="" trueImg="images/apple_2_bigger.jpg"></li>
+    <li><img src="images/apple_3.jpg" alt="" trueImg="images/apple_3_bigger.jpg"></li>
+    <li><img src="images/apple_4.jpg" alt="" trueImg="images/apple_4_bigger.jpg"></li>
+    <div id="mark"><img src="images/apple_1_bigger.jpg" alt=""></div>
+</ul>
+<script src="jquery-1.11.1.js"></script>
+<script>
+    $(function () {
+        var $list = $('.list');
+        var $listOffset = $list.offset();
+        var $lis = $('.list li');
+        var $mark = $('#mark');
+        var $imgs = $lis.children('img');
+//        $lis.on('click', function () {
+//           console.log($(this).index());
+//        });
+        console.log($imgs.length);
+        $lis.on('mouseover', function (evt) {
+            evt = evt || window.event;
+            evt.stopPropagation();
+            var left = evt.pageX - $listOffset.left + 10;
+            var top = evt.pageY - $listOffset.top + 10;
+            var index = $(this).index();
+            console.log(index);
+            $mark.css({
+                left: left,
+                top: top
+            });
+            console.log($(this).find('img').attr('trueImg'));
+            $mark.find('img').attr('src', $(this).find('img').attr('trueImg'));
+            $mark.stop().show(500);
+//            return false;
+        }).on('mousemove', function (evt) {
+            evt = evt || window.event;
+            evt.stopPropagation();
+            var left = evt.pageX - $listOffset.left + 10;
+            var top = evt.pageY - $listOffset.top + 10;
+            $mark.css({
+                left: left,
+                top: top
+            });
+            return false;
+        }).on('mouseleave', function (evt) {
+//            evt.preventBubble();
+            evt.stopPropagation();
+//            evt.preventBubble();
+            $mark.stop().hide(500);
+//            return false;
+        });
+    });
+</script>
+</body>
+</html>

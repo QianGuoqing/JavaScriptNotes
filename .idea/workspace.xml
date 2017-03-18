@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_1_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_2_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_3_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_4_bigger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/iphone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/iphone_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/1-鼠标跟随jQuery版.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/jquery-1.11.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时108-案例之鼠标跟随JavaScript版/1-鼠标跟随.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/my-practice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/my-practice.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,18 +28,28 @@
       <file leaf-file-name="1-鼠标跟随jQuery版.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/1-鼠标跟随jQuery版.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="77" column="34" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="77" selection-end-column="34" />
+            <state relative-caret-position="185">
+              <caret line="65" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="77" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-拓展.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-拓展.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="527">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-practice.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/my-practice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -75,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时66-设置元素的样式值-setCss/utils.js" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/1-setCsss.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时67-批量设置元素的样式值/utils.js" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/1-setCsss.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时68-获取-设置-批量设置元素/utils.js" />
@@ -126,6 +121,8 @@
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/1-鼠标跟随jQuery版.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时108-案例之鼠标跟随JavaScript版/1-鼠标跟随.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/my-practice.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/my-practice.html" />
       </list>
     </option>
   </component>
@@ -164,7 +161,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,6 +215,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,20 +246,20 @@
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-拓展.html">
-    <configuration default="false" name="2-默认行为.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="1-事件的传播机制.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="1-鼠标跟随jQuery版.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/1-鼠标跟随jQuery版.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="1-鼠标跟随.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时108-案例之鼠标跟随JavaScript版/1-鼠标跟随.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.1-拓展.html (1)">
     <configuration default="false" name="1-拓展.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my-practice.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/my-practice.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-鼠标跟随jQuery版.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/1-鼠标跟随jQuery版.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my-practice.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/my-practice.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-拓展.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -325,19 +322,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-事件的传播机制.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-鼠标跟随jQuery版.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-鼠标跟随.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-鼠标跟随jQuery版.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-鼠标跟随.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-鼠标跟随jQuery版.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-事件的传播机制.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-默认行为.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-鼠标跟随jQuery版.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html" />
       </list>
     </recent_temporary>
   </component>
@@ -375,12 +372,13 @@
       <workItem from="1489484564133" duration="5953000" />
       <workItem from="1489565922980" duration="11054000" />
       <workItem from="1489711075992" duration="4497000" />
-      <workItem from="1489733643761" duration="9119000" />
+      <workItem from="1489733643761" duration="9587000" />
+      <workItem from="1489804011392" duration="2480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218067000" />
+    <option name="totallyTimeSpent" value="221015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -435,34 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时72-指定步长实现单方向匀速运动/1-不规定时间的动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时74-实现反弹动画/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画/1-使用settimeout实现动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时74-实现反弹动画/1-反弹动画.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -740,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,9 +728,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/images/apple_3_bigger.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="634">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="85" selection-end-column="14" />
           <folding />
         </state>
@@ -770,7 +748,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时108-案例之鼠标跟随JavaScript版/1-鼠标跟随.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
+        <state relative-caret-position="66">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="68" selection-end-column="5" />
           <folding />
         </state>
@@ -778,16 +756,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/1-鼠标跟随jQuery版.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="77" column="34" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="77" selection-end-column="34" />
+        <state relative-caret-position="185">
+          <caret line="65" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="77" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/my-practice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="83" column="52" lean-forward="false" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="527">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/my-practice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            margin: 20px auto;
+            width: 100px;
+            height: 40px;
+            background: #008000;
+            position: relative;
+        }
+        #inner {
+            width: 200px;
+            height: 100px;
+            background: deepskyblue;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div id="inner"></div>
+</div>
+<script>
+    var box = document.querySelector('#box');
+    var inner = document.querySelector('#inner');
+    box.onmouseenter = function () {
+        inner.style.display = 'block';
+    }
+    box.onmouseleave = function () {
+        inner.style.display = 'none';
+    }
+</script>
+</body>
+</html>
