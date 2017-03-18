@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/1-事件委托.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/2-事件委托的简单应用.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时112-案例之百度搜索框/百度搜索.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,44 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-拓展.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html">
+      <file leaf-file-name="百度搜索.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时112-案例之百度搜索框/百度搜索.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="644">
+              <caret line="108" column="4" lean-forward="false" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1-事件的传播机制.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="51" column="51" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="51" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1-事件委托.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/1-事件委托.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2-事件委托的简单应用.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/2-事件委托的简单应用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时57-单张图片的延迟加载/my-exercise.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时58-多张图片的延迟加载实战/my.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/1-选项卡.html" />
         <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/2-深入解剖选项卡.html" />
@@ -135,6 +101,7 @@
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时110-案例之京东放大镜/my-practice.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/1-事件委托.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/2-事件委托的简单应用.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时112-案例之百度搜索框/百度搜索.html" />
       </list>
     </option>
   </component>
@@ -202,28 +169,6 @@
               <option name="myItemId" value="第一节-事件基础-事件委托-实战应用" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课程111-事件委托-事件代理" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-事件基础-事件委托-实战应用" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -243,29 +188,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时109-鼠标跟随-深入理解事件传播机制" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第一节-事件基础-事件委托-实战应用" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="课时106-事件传播机制" />
+              <option name="myItemId" value="课时112-案例之百度搜索框" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,6 +212,12 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用" />
+      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载" />
+      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载" />
+      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时110-案例之京东放大镜" />
       <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery" />
@@ -296,16 +225,8 @@
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载" />
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载" />
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2-事件委托的简单应用.html">
-    <configuration default="false" name="1-拓展.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/1-拓展.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.百度搜索.html">
     <configuration default="false" name="1-放大镜.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时110-案例之京东放大镜/1-放大镜.html">
       <method />
     </configuration>
@@ -316,6 +237,9 @@
       <method />
     </configuration>
     <configuration default="false" name="2-事件委托的简单应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/2-事件委托的简单应用.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="百度搜索.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时112-案例之百度搜索框/百度搜索.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -378,19 +302,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-放大镜.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html (2)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-事件委托.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-事件委托的简单应用.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-放大镜.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html (2)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-事件委托.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-事件委托的简单应用.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.百度搜索.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-事件委托的简单应用.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-事件委托.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html (2)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-放大镜.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-拓展.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.百度搜索.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-事件委托的简单应用.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-事件委托.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my-practice.html (2)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-放大镜.html" />
       </list>
     </recent_temporary>
   </component>
@@ -430,12 +354,12 @@
       <workItem from="1489711075992" duration="4497000" />
       <workItem from="1489733643761" duration="9587000" />
       <workItem from="1489804011392" duration="3373000" />
-      <workItem from="1489810225680" duration="5102000" />
+      <workItem from="1489810225680" duration="7849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227010000" />
+    <option name="totallyTimeSpent" value="229757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -490,13 +414,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时76-实现多方向匀速运动/1-多方向运动动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -829,19 +746,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/1-事件委托.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="389">
+          <caret line="43" column="136" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="136" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/2-事件委托的简单应用.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        <state relative-caret-position="559">
+          <caret line="71" column="9" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="71" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时112-案例之百度搜索框/百度搜索.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="108" column="4" lean-forward="false" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
