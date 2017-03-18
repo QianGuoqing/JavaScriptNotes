@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            width: 350px;
+            height: 350px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            box-shadow: 3px 3px 10px #000;
+        }
+        #box img {
+            width: 350px;
+            height: 350px;
+            border: none;
+        }
+        #mark {
+            position: absolute;
+            width: 175px;
+            height: 175px;
+            top: 0;
+            left: 0;
+            background: #000000;
+            opacity: 0.5;
+            cursor: move;
+            display: none;
+        }
+        #boxRight {
+            width: 350px;
+            height: 350px;
+            position: absolute;
+            top: 20px;
+            left: 380px;
+            overflow: hidden;
+            display: none;
+        }
+        #boxRight img {
+            width: 200%;
+            height: 200%;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+<div id="box">
+    <img src="images/iphone.jpg" alt="">
+    <div id="mark"></div>
+</div>
+<div id="boxRight">
+    <img src="images/iphone_big.jpg" alt="">
+</div>
+
+<script>
+    var box = document.getElementById('box');
+    var mark  = document.getElementById('mark');
+    var boxRight = document.getElementById('boxRight')
+
+    function setPosition(e) {
+        //console.log('x: ' + e.clientX + ", y: " + e.clientY);
+        var left = e.clientX - box.offsetLeft - (mark.offsetWidth / 2);
+        var top = e.clientY - box.offsetTop - (mark.offsetHeight / 2);
+
+        var tempLeft = 0;
+        var tempTop = 0;
+        var minLeft = 0;
+        var minTop = 0;
+        var maxLeft = box.clientWidth - (mark.offsetWidth);
+        var maxTop = box.clientHeight - (mark.clientHeight);
+        tempLeft = left;
+        tempTop = top;
+
+        if (left < minLeft) {
+            left = minLeft;
+            tempLeft = minLeft;
+        } else if (left > maxLeft) {
+            left = maxLeft;
+            tempLeft = minLeft;
+        }
+        if (top < minTop) {
+            top = minTop;
+            tempTop = minTop;
+        } else if (top > maxTop) {
+            top = maxTop;
+            tempTop = maxTop;
+        }
+
+        mark.style.left = left + 'px';
+        mark.style.top = top + 'px';
+        var oImg = boxRight.getElementsByTagName('img')[0];
+        oImg.style.left = -tempLeft * 2 + 'px';
+        oImg.style.top = -tempTop * 2 + 'px';
+
+    }
+
+    box.onmouseenter = function (e) {
+        e = e || window.event;
+        mark.style.display = 'block';
+        setPosition(e);
+        boxRight.style.display = 'block';
+    }
+    box.onmousemove = function (e) {
+        e = e || window.event;
+        setPosition(e);
+    }
+    box.onmouseleave = function (e) {
+        e = e || window.event;
+        mark.style.display = 'none';
+        setPosition(e);
+        boxRight.style.display = 'none';
+    }
+</script>
+</body>
+</html>
