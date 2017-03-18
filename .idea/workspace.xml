@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/1-兼容解决.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/1-兼容解决.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题/event.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-DOM2事件.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html">
+      <file leaf-file-name="event.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题/event.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="88" column="60" lean-forward="false" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
+            <state relative-caret-position="90">
+              <caret line="76" column="143" lean-forward="false" selection-start-line="76" selection-start-column="143" selection-end-line="76" selection-end-column="143" />
               <folding />
             </state>
           </provider>
@@ -51,10 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/3-一堆选项卡.html" />
-        <option value="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第三节-dom盒子模型实战和dom库封装/课时70-封装选项卡/tab.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时71-在指定时间内实现单方向匀速运动/1-基础动画的实现.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时72-指定步长实现单方向匀速运动/1-不规定时间的动画.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画/1-使用settimeout实现东华.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画/1-使用settimeout实现动画.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时74-实现反弹动画/1-反弹动画.html" />
@@ -102,6 +103,10 @@
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时113-案例之多级菜单js/多级菜单.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时115-拖拽demo实现基本的效果/1-拖拽.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/1-兼容解决.html" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/event.js" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/event.js" />
+        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题/event.js" />
       </list>
     </option>
   </component>
@@ -170,7 +175,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时117-dom2事件基础知识" />
+              <option name="myItemId" value="课时120-DOM2兼容处理顺序问题" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二节-DOM0级-2级事件基础和实战" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,11 +238,11 @@
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题" />
+      <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题" />
       <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时110-案例之京东放大镜" />
       <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery" />
       <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图" />
-      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件" />
-      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.1-DOM2事件.html">
@@ -350,12 +373,12 @@
       <workItem from="1489711075992" duration="4497000" />
       <workItem from="1489733643761" duration="9587000" />
       <workItem from="1489804011392" duration="3373000" />
-      <workItem from="1489810225680" duration="14390000" />
+      <workItem from="1489810225680" duration="19554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236298000" />
+    <option name="totallyTimeSpent" value="241462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,41 +442,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/1-回调函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/tween.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时79-动画库完整版/tween.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/tween.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="158" column="49" lean-forward="true" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -647,6 +635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +730,7 @@
         <state relative-caret-position="559">
           <caret line="71" column="9" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="71" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -772,8 +761,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="88" column="60" lean-forward="false" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
+        <state relative-caret-position="474">
+          <caret line="88" column="60" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/1-兼容解决.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/1-兼容解决.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="76" column="143" lean-forward="false" selection-start-line="76" selection-start-column="143" selection-end-line="76" selection-end-column="143" />
           <folding />
         </state>
       </provider>
