@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时136-ajax中的http请求方式/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时136-ajax中的http请求方式/ajax.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时138-编写简易的ajax方法库/ajax.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,12 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajax.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时136-ajax中的http请求方式/ajax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="644">
+              <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时138-编写简易的ajax方法库/ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc;n#ajax#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +63,8 @@
       <list>
         <option value="Less File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -63,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-时间对象.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时106-事件传播机制/1-事件的传播机制.html" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery/1-鼠标跟随jQuery版.html" />
@@ -114,6 +124,7 @@
         <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时135-ajax兼容处理和惰性思想/1-ajax.html" />
         <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时135-ajax兼容处理和惰性思想/ajax.js" />
         <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时136-ajax中的http请求方式/ajax.html" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时138-编写简易的ajax方法库/ajax.js" />
       </list>
     </option>
   </component>
@@ -163,6 +174,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第七章-ajax-jsonp-node基础和项目实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第二节-ajax基础知识" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时138-编写简易的ajax方法库" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,12 +421,12 @@
       <workItem from="1489810225680" duration="27225000" />
       <workItem from="1489907452488" duration="3914000" />
       <workItem from="1489984753530" duration="8095000" />
-      <workItem from="1490007053616" duration="4293000" />
+      <workItem from="1490007053616" duration="6429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265435000" />
+    <option name="totallyTimeSpent" value="267571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,13 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时109-鼠标跟随-深入理解事件传播机制/my-practice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时110-案例之京东放大镜/images/iphone.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -789,9 +815,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时136-ajax中的http请求方式/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="644">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第二节-ajax基础知识/课时138-编写简易的ajax方法库/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc;n#ajax#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
