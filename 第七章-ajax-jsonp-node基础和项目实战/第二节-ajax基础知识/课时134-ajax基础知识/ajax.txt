@@ -1,0 +1,19 @@
+Ajax: Aysnc JavaScript and XML
+
+XML: 可拓展的标记语言(在XML文件中使用的标签都是自己拓展的)
+     利用自己拓展的有规则的标记来存储相关的数据
+
+客户端JavaScript中的方法，用来向服务器端发送请求(还可以传递给服务器端数据)，然后把服务器端返回的内容获取到(Ajax一般运行在客户端的浏览器中)
+
+Ajax四步:
+```
+-> 创建一个Ajax对象
+var xhr = new XMLHttpRequest();
+xhr.open('get', url, false);
+xhr.onreadystatechange = function() {
+   if (xhr.readyState === 4 && /^2\d{2}$/.test(xhr.status)) {
+        var data xhr.responseText;
+   }
+}
+xhr.send(null);
+```
