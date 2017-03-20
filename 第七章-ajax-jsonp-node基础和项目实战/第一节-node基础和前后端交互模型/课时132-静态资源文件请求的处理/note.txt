@@ -1,0 +1,3 @@
+MIME类型:
+    每一种资源文件都有自己的标识类型，例如HTML文件的MIME类型是"text/html"，CSS的MIME类型是"text/css"
+    浏览器会按照代码的MIME类型进行渲染

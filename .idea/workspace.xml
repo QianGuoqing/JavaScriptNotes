@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/1-兼容解决.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/1-兼容解决.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/note.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html" afterPath="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时125-常用命令/note.txt" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时125-常用命令/note.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/1.js" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/note.txt" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/note.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.js" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.less" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/a.js" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/a.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/b.js" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/b.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/note.txt" afterPath="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/note.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,12 +39,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="event.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题/event.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="76" column="143" lean-forward="false" selection-start-line="76" selection-start-column="143" selection-end-line="76" selection-end-column="143" />
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/note.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,9 +106,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Less File" />
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,32 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画/1-使用settimeout实现东华.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时73-使用settimeout实现轮询动画/1-使用settimeout实现动画.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时74-实现反弹动画/1-反弹动画.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时74-实现反弹动画/1-反弹动画-优化.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时75-保证当前元素同一时间执行/1-反弹动画-优化.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时76-实现多方向匀速运动/1-多方向运动动画.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/tween.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时77-实现简单的匀速运动动画库/1-多方向运动动画多方向动画.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/1.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/1-回调函数.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时78-动画库支持动画完成后回调/tween.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第一节-动画优化和tween动画库/课时79-动画库完整版/tween.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/tween.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/json/banner.txt" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/utils.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/banner.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-实现数据绑定和图片延迟加载/index.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/banner.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/banner.js" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/1-jQuery.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/2-jQuery选择器.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时92-常用方法属性操作/1-jQuery常用方法.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时93-常用方法-筛选-文档处理/1-jQuery常用的方法.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/1-jQuery动画.html" />
-        <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/1-jQueryajax-动画.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/2-jQuery动画.html" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/css/banner.css" />
         <option value="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/轮播图.html" />
@@ -107,6 +144,32 @@
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时118-DOM2兼容处理this问题/event.js" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题/event.js" />
         <option value="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题/event.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时125-常用命令/note.txt" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时125-常用命令/nodeTest.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/note.txt" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/nodeTest.html" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/nodeTest.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/1.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/1.html" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/note.txt" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/note.txt" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/1.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.less" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/b.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/a.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/note.txt" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/note.txt" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/serverURL.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/1.html" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/server.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/css/index.css" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/index.html" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/js/index.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/js/server.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server.js" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/note.txt" />
+        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server2.js" />
       </list>
     </option>
   </component>
@@ -121,6 +184,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
@@ -145,6 +211,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,33 +234,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
+              <option name="myItemId" value="第七章-ajax-jsonp-node基础和项目实战" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第二节-DOM0级-2级事件基础和实战" />
+              <option name="myItemId" value="第一节-node基础和前后端交互模型" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="课时120-DOM2兼容处理顺序问题" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第二节-DOM0级-2级事件基础和实战" />
+              <option name="myItemId" value="课时132-静态资源文件请求的处理" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,13 +256,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第五章-DOM零级-二级事件基础和实战" />
+              <option name="myItemId" value="第七章-ajax-jsonp-node基础和项目实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-node基础和前后端交互模型" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时132-静态资源文件请求的处理" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第七章-ajax-jsonp-node基础和项目实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-node基础和前后端交互模型" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="课时132-静态资源文件请求的处理" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第七章-ajax-jsonp-node基础和项目实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第一节-node基础和前后端交互模型" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,41 +328,43 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="javascript.nodejs.core.library.configured.version" value="4.5.0" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理" />
+      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型" />
       <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载/课时56-延迟加载思想和首屏延迟加载" />
       <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第二节-项目实战-图片延迟加载" />
-      <recent name="$PROJECT_DIR$/第三章-dom盒子模型实战和dom封装/第一节-盒子模型和盒子偏移量" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法" />
+      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识" />
+      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript" />
+      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式" />
       <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时120-DOM2兼容处理顺序问题" />
-      <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时119-DOM2兼容处理重复问题" />
-      <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时110-案例之京东放大镜" />
-      <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时107-案例之鼠标跟随jQuery" />
-      <recent name="$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1-DOM2事件.html">
-    <configuration default="false" name="1-事件委托.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/1-事件委托.html">
+  <component name="RunManager" selected="Node.js.server.js (1)">
+    <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法">
       <method />
     </configuration>
-    <configuration default="false" name="2-事件委托的简单应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课程111-事件委托-事件代理/2-事件委托的简单应用.html">
+    <configuration default="false" name="1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/1.html">
       <method />
     </configuration>
-    <configuration default="false" name="百度搜索.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时112-案例之百度搜索框/百度搜索.html">
+    <configuration default="false" name="serverURL.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="serverURL.js" working-dir="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法">
       <method />
     </configuration>
-    <configuration default="false" name="1-拖拽.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时115-拖拽demo实现基本的效果/1-拖拽.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="1-DOM2事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第五章-DOM零级-二级事件基础和实战/第二节-DOM0级-2级事件基础和实战/课时117-dom2事件基础知识/1-DOM2事件.html">
+    <configuration default="false" name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -321,19 +427,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-事件委托.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2-事件委托的简单应用.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.百度搜索.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-拖拽.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-DOM2事件.html" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.serverURL.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-DOM2事件.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-拖拽.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.百度搜索.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2-事件委托的简单应用.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-事件委托.html" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.server.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.serverURL.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -373,12 +479,14 @@
       <workItem from="1489711075992" duration="4497000" />
       <workItem from="1489733643761" duration="9587000" />
       <workItem from="1489804011392" duration="3373000" />
-      <workItem from="1489810225680" duration="19554000" />
+      <workItem from="1489810225680" duration="27225000" />
+      <workItem from="1489907452488" duration="3914000" />
+      <workItem from="1489984753530" duration="3945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241462000" />
+    <option name="totallyTimeSpent" value="256992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,9 +504,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.223193" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43013698" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24146147" sideWeight="0.5060606" order="2" side_tool="true" content_ui="tabs" />
@@ -408,6 +515,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -442,188 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时80-实现基本的布局结构/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="74" column="26" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/json/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="0" column="188" lean-forward="false" selection-start-line="0" selection-start-column="188" selection-end-line="0" selection-end-column="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/tween.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="312" column="27" lean-forward="false" selection-start-line="312" selection-start-column="27" selection-end-line="312" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时81-实现数据绑定和图片延迟加载/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时82-自动轮播及无缝衔接/banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第二节-项目实战-轮播图左右运动版/课时83-实现焦点轮播/banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="111" column="68" lean-forward="false" selection-start-line="111" selection-start-column="68" selection-end-line="111" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/jquery-1.11.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174754">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/1-jQuery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="52" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时91-常用的选择器/2-jQuery选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时92-常用方法属性操作/1-jQuery常用方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时93-常用方法-筛选-文档处理/1-jQuery常用的方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="66" column="49" lean-forward="false" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/json/banner.txt" />
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/json/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/1-jQueryajax-动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第四节-jQuery基础知识核心讲解实战应用/课时94-常用方法动画-ajax事件/2-jQuery动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/jquery-1.11.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/img/tip/apple_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/css/banner.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/json/banner2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/json/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/js/banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四章-tween动画和轮播及jQuery实战/第五节-jQuery实战-轮播图/轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/2-默认行为.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时104-什么是事件/1-事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用/课时105-事件对象及兼容处理/1-事件对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -635,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="68" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="65" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="77" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="51" column="51" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="51" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="43" column="136" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="136" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="71" column="9" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="71" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="661">
           <caret line="110" column="72" lean-forward="false" selection-start-line="110" selection-start-column="72" selection-end-line="110" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="17" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="88" column="60" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,9 +704,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时125-常用命令/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -805,6 +718,180 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="76" column="143" lean-forward="false" selection-start-line="76" selection-start-column="143" selection-end-line="76" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时125-常用命令/nodeTest.js" />
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/nodeTest.html" />
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/nodeTest.js" />
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/1.html" />
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/4.5.0/core-modules/net.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-497">
+          <caret line="1324" column="0" lean-forward="false" selection-start-line="1324" selection-start-column="0" selection-end-line="1324" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/serverURL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时131-node内置模块中的常用方法/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理/server2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding />
         </state>
       </provider>

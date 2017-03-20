@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 14px;
+    color: #000000;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 10px solid greenyellow;
+    background: #ff8080;
+    margin: 50px auto;
+}
