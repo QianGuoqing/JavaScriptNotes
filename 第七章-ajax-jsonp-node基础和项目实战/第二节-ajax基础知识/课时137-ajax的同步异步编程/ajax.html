@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 同步和异步编程
+    // JavaScript是属于单线程的,最好使用异步编程
+    // 定时器是异步编程
+    // 事件绑定都是异步编程
+    // 回调函数也可以理解为异步编程
+    // 在ajax中可以使用异步编程
+
+    var count = 0;;
+    window.setTimeout(function () {
+        count++
+        console.log(count);
+    }, 1000);
+</script>
+</body>
+</html>
