@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/CRM管理系统/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="498">
-              <caret line="147" column="8" lean-forward="false" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="8" />
+              <caret line="186" column="31" lean-forward="false" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -398,12 +398,12 @@
       <workItem from="1489907452488" duration="3914000" />
       <workItem from="1489984753530" duration="8095000" />
       <workItem from="1490007053616" duration="8281000" />
-      <workItem from="1490074826516" duration="8674000" />
+      <workItem from="1490074826516" duration="9921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278097000" />
+    <option name="totallyTimeSpent" value="279344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,7 +801,7 @@
     <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/CRM管理系统/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
-          <caret line="147" column="8" lean-forward="false" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="8" />
+          <caret line="186" column="31" lean-forward="false" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -145,8 +145,48 @@ var server = http.createServer(function (req, res) {
             }));
         });
         return;
-
     }
+
+    // 5) 修改客户信息
+    if (pathname === '/updateInfo') {
+        str = '';
+        req.on('data', function (chunk) {
+            str += chunk;
+        });
+        req.on('end', function () {
+            if (str.length === 0) {
+                res.writeHead(200, {'content-type': 'application/json;charset=utf-8;'});
+                res.end(JSON.stringify({
+                    code: 1,
+                    msg: '修改失败,没有传递任何需要修改的信息'
+                }));
+                return;
+            }
+            var flag = false,
+                data = JSON.parse(str);
+            for (var i = 0; i < con.length; i++) {
+                if (con[i]['id'] == data['id']) {
+                    con[i] = data;
+                    break;
+                }
+            }
+            result.msg = '修改失败,需要修改的客户不存在';
+            if (flag) {
+                fs.writeFileSync(customPath, JSON.stringify(con), 'utf-8');
+                result = {
+                    code: 0,
+                    msg: '修改成功'
+                };
+            }
+            res.writeHead(200, {'content-type': 'application/json;charset=utf-8;'});
+            res.end(JSON.stringify(result));
+        });
+        return;
+    }
+
+    // 如果请求的地址不是上述任何一个，则提示不存在即可
+    res.writeHead(404, {'content-type': 'text/plain;charset=utf-8;'});
+    res.end('请求的数据接口不存在');
 });
 
 server.listen(1333, function () {
