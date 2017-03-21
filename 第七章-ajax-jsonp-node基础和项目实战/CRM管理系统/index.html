@@ -2,9 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CRM</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-Hello world.
+<div class="box">
+    <a href="add.html" class="link">增加新客户</a>
+    <h2 class="head">
+        <span class="w50">编号</span>
+        <span class="w150">姓名</span>
+        <span class="w50">年龄</span>
+        <span class="w200">电话</span>
+        <span class="w200">地址</span>
+        <span class="w150">操作</span>
+    </h2>
+    <ul class="list" id="list">
+        <!--<li>-->
+            <!--<span class="w50">1</span>-->
+            <!--<span class="w150">xxx</span>-->
+            <!--<span class="w50">12</span>-->
+            <!--<span class="w200">123213123123</span>-->
+            <!--<span class="w200">xxxxxxxxx</span>-->
+            <!--<span class="w150 control">-->
+                <!--<a href="">修改</a>-->
+                <!--<a href="">删除</a>-->
+            <!--</span>-->
+        <!--</li>-->
+        <!--<li>-->
+            <!--<span class="w50">1</span>-->
+            <!--<span class="w150">xxx</span>-->
+            <!--<span class="w50">12</span>-->
+            <!--<span class="w200">123213123123</span>-->
+            <!--<span class="w200">xxxxxxxxx</span>-->
+            <!--<span class="w150 control">-->
+                <!--<a href="">修改</a>-->
+                <!--<a href="">删除</a>-->
+            <!--</span>-->
+        <!--</li>-->
+    </ul>
+</div>
+<script src="js/ajax.js"></script>
+<script>
+    var oList = document.querySelector('#list');
+    // 获取所有客户信息，完成数据绑定
+    var customModule = (function () {
+        function bindHTML(data) {
+            var str = '';
+            for (var i = 0; i < data.length; i++) {
+                var curData = data[i];
+                str += '<li>';
+                str += '<span class="w50">' + curData['id'] + '</span>';
+                str += '<span class="w150">' + curData['name'] + '</span>';
+                str += '<span class="w50">' + curData['age'] + '</span>';
+                str += '<span class="w200">' + curData['phone'] + '</span>';
+                str += '<span class="w200">' + curData['address'] + '</span>';
+                str += '<span class="w150 control">';
+                str += '<a href="add.html?id=">修改</a>';
+                str += '<a href="">删除</a>';
+                str += '</span>';
+                str += '</li>';
+            }
+            oList.innerHTML = str;
+        }
+
+        function init() {
+            ajax({
+                url: '/getList',
+                success: function (jsonData) {
+//                    console.log(jsonData);
+                    if (jsonData && jsonData.code == 0) {
+                        var data = jsonData['data'];
+                        bindHTML(data);
+                    }
+                }
+            });
+        }
+
+        return {
+            init: init
+        }
+    })();
+    customModule.init();
+
+</script>
 </body>
 </html>
