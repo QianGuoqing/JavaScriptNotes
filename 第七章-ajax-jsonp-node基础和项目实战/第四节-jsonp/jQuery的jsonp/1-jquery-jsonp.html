@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+</head>
+<body>
+<script src="jquery-1.11.1.js"></script>
+<script>
+    // ajax
+    $.ajax({
+        url: 'data.txt',
+        type: 'get',
+        dataType: 'json',
+        data: null,
+        async: true,
+        cache: false,
+        timeout: 3000,
+        success: function (data) {
+            console.log(data);
+        },
+        error: function () {
+
+        }
+    });
+
+
+    // -> JSONP
+    $.ajax({
+        url: '',
+        type: 'get',
+        dataType: 'jsonp',
+        jsonpCallback: fn,
+        success: function (data) {
+            console.log(data);
+        }
+    });
+</script>
+</body>
+</html>
