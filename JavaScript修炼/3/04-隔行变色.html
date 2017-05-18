@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box {
+            width: 300px;
+        }
+        
+        li {
+            line-height: 30px;
+            list-style-type: none;
+        }
+        
+        li span {
+            margin: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+            <li>
+                <span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        let lis = document.querySelectorAll('li');
+        lis.forEach(function(value, index) {
+            if (index % 2 === 1) {
+                value.style.background = '#ccc';
+            }
+
+            value.onmouseover = function() {
+                this.style.background = 'pink';
+            }
+
+            value.onmouseout = function() {
+                if (index % 2 === 0) {
+                    this.style.background = '#fff';
+                } else {
+                    this.style.background = '#ccc';
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

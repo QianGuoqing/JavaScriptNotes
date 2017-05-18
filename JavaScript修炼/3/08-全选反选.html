@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <div id="top">
+        <button>全选</button>
+        <button>取消</button>
+        <button>反选</button>
+    </div>
+    <div id="button">
+        <ul>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+            <li>选项: <input type="checkbox" /></li>
+        </ul>
+    </div>
+
+    <script>
+        let selectAll = document.getElementsByTagName('button')[0];
+        let selectCancel = document.getElementsByTagName('button')[1];
+        let selectReverse = document.getElementsByTagName('button')[2];
+        let allCheckbox = document.querySelectorAll('input[type="checkbox"]');
+
+        function select(allcheck, flag) {
+            Array.from(allcheck).forEach((checkbox) => {
+                checkbox.checked = flag;
+            });
+        }
+
+        selectAll.addEventListener('click', function() {
+            // Array.from(allCheckbox).forEach((checkbox) => {
+            //     checkbox.checked = true;
+            // });
+            select(allCheckbox, true);
+        });
+
+        selectCancel.addEventListener('click', function() {
+            // Array.from(allCheckbox).forEach((checkbox) => {
+            //     checkbox.checked = false;
+            // });
+            select(allCheckbox, false);
+        });
+
+        selectReverse.addEventListener('click', function() {
+            Array.from(allCheckbox).forEach((checkbox) => {
+                if (checkbox.checked) {
+                    checkbox.checked = false;
+                } else {
+                    checkbox.checked = true;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
