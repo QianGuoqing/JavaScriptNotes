@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 20px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="fn('demo1');">1</button>
+    <button onclick="fn('demo2');">2</button>
+    <button onclick="fn('demo3');">3</button>
+    <button onclick="fn('demo4');">4</button>
+    <div id="demo1">1</div>
+    <div id="demo2">2</div>
+    <div id="demo3">3</div>
+    <div id="demo4">4</div>
+    <script>
+        function fn(id) {
+            let element = document.getElementById(id);
+            element.style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
