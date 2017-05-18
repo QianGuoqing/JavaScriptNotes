@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #demo {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="demo">
+
+    </div>
+    <button>改变宽度</button>
+
+    <script>
+        let btn = document.querySelector('button');
+        let demo = document.querySelector('#demo');
+        btn.addEventListener('click', function() {
+            demo.style.width = '400px';
+        });
+    </script>
+</body>
+
+</html>
