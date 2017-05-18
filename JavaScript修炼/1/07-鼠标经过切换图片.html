@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="./jd1.png" alt="">
+    <script>
+        var pic = document.querySelector('img');
+        pic.onmouseover = function() {
+            this.src = './jd2.png';
+        }
+        pic.onmouseout = function() {
+            this.src = './jd1.png';
+        }
+    </script>
+</body>
+
+</html>
