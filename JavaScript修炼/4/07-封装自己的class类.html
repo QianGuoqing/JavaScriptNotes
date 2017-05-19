@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="demo"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="demo"></div>
+    <div></div>
+    <div id="one">
+        <div></div>
+        <div></div>
+        <div class="demo"></div>
+    </div>
+
+    <script>
+        // let demos = document.querySelectorAll('.demo');
+
+        function getClass(classname) {
+            if (document.getElementsByClassName) {
+                return document.getElementsByClassName(classname);
+            }
+
+            // 不支持的浏览器
+            let arr = [];
+            let dom = document.getElementsByTagName('*');
+
+            for (let i = 0; i < dom.length; i++) {
+                if (dom[i].className === classname) {
+                    arr.push(dom[i]);
+                }
+            }
+            return arr;
+        }
+
+        function getClassUnderID(id, classname) {
+            return document.getElementById(id).getElementsByClassName(classname);
+        }
+    </script>
+</body>
+
+</html>
