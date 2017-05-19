@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    输入的字符串: <input type="text" name="" value="" id="txt"> 索引的字符串: <input type="text" id="index">
+    <button type="" id="pre-button">从前面开始索引</button>
+    <button type="" id="next-button">从后面开始索引</button>
+
+    <script>
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        $('pre-button').addEventListener('click', function() {
+            alert($('txt').value.indexOf($('index').value));
+        });
+        $('next-button').addEventListener('click', function() {
+            alert($('txt').value.lastIndexOf($('index').value));
+        });
+    </script>
+</body>
+
+</html>
