@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #image {
+            width: 99px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img.jpg" alt="" id="image" />
+    <script>
+        let timer = null;
+        let image = document.querySelector('#image');
+        let leaderX = 0,
+            leaderY = 0,
+            targetX = 0,
+            targetY = 0;
+        document.onclick = function(event) {
+            event = event || window.event;
+            targetX = event.clientX;
+            targetY = event.clientY;
+
+            clearInterval(timer);
+            timer = setInterval(function() {
+                leaderX = leaderX + (targetX - leaderX) / 10;
+                leaderY = leaderY + (targetY - leaderY) / 10;
+                image.style.left = (leaderX - image.offsetWidth / 2) + 'px';
+                image.style.top = (leaderY - image.offsetHeight / 2) + 'px';
+            }, 10);
+        }
+    </script>
+</body>
+
+</html>
+<script>
+</script>
