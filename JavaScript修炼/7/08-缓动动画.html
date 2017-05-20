@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            top: 100px;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="">开始</button>
+    <div class="box">
+
+    </div>
+    <script>
+        let button = document.querySelector('button');
+        let box = document.querySelector('.box');
+        let timer = null;
+        let leader = 0;
+        let target = 500;
+
+        button.addEventListener('click', function() {
+            clearInterval(timer);
+
+            timer = setInterval(function() {
+                if (leader >= 500) {
+                    clearInterval(timer);
+                    return;
+                }
+
+                leader = leader + (target - leader) / 10;
+                box.style.left = leader + 'px';
+            }, 20);
+        });
+    </script>
+</body>
+
+</html>

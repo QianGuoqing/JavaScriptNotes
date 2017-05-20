@@ -52,6 +52,24 @@
             <li><img src="images/02.jpg" alt="" /></li>
         </ul>
     </div>
+
+    <script>
+        let scroll = document.getElementById('scroll');
+        let ul = document.querySelector('ul');
+        let num = 0;
+
+        setInterval(autoPlay, 30);
+
+        function autoPlay() {
+            // num--;
+            // if (num <= -1200) {
+            //     // ul.style.left = 0;
+            //     num = 0;
+            // }
+            num <= -1200 ? 0 : num--;
+            ul.style.left = num + 'px';
+        }
+    </script>
 </body>
 
 </html>
