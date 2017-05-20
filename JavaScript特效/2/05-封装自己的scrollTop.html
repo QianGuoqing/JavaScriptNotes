@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        window.onscroll = function() {
+            document.title = scroll().top;
+        }
+
+        function scroll() {
+            if (window.pageYOffset) {
+                return {
+                    left: window.pageXOffset,
+                    top: window.pageYOffset
+                }
+            }
+
+            if (document.documentElement.scrollTop) {
+                return {
+                    left: document.documentElement.scrollLeft,
+                    top: document.documentElement.scrollTop
+                }
+            }
+
+            if (document.body.scrollTop) {
+                return {
+                    left: document.body.scrollLeft,
+                    top: document.body.scrollTop
+                }
+            }
+            return 0;
+        }
+    </script>
+</body>
+
+</html>
