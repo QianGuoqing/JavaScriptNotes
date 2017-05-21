@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn200">200</button>
+    <button id="btn400">400</button>
+    <div id="run">
+
+    </div>
+    <script>
+        function $(id) {
+            return document.getElementById(id);
+        }
+        $('btn200').addEventListener('click', function() {
+            animate($('run'), 200);
+        });
+
+        $('btn400').addEventListener('click', function() {
+            animate($('run'), 400);
+        });
+
+        function animate(element, target) {
+            clearInterval(element.timer);
+            element.timer = setInterval(function() {
+                if (element.offsetLeft > target) {
+                    clearInterval(element.timer);
+                    return;
+                }
+                element.style.left = element.offsetLeft + 10 + 'px';
+            }, 10);
+        }
+    </script>
+</body>
+
+</html>

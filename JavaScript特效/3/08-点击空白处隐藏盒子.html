@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+        
+        #mask {
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            background-color: #000;
+            position: fixed;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+        
+        #show {
+            width: 300px;
+            height: 300px;
+            background-color: #fff;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin: -150px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="javascript:;" id="login">注册</a>
+    <a href="javascript:;">登陆</a>
+    <div id="mask">
+
+    </div>
+    <div id="show"></div>
+
+    <script>
+        let login = document.getElementById('login');
+        let mask = document.getElementById('mask');
+        let show = document.getElementById('show');
+
+        login.onclick = function(event) {
+            event.stopPropagation();
+            document.body.style.overflow = 'hidden';
+            mask.style.display = 'block';
+            show.style.display = 'block';
+        }
+        document.onclick = function(event) {
+            document.body.style.overflow = 'auto';
+            mask.style.display = 'none';
+            show.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

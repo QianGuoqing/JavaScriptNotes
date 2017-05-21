@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="">开始</button>
+    <div></div>
+    <script>
+        // 动画的基本原理，让盒子的offsetLeft + step
+        let button = document.querySelector('button');
+        let div = document.querySelector('div');
+        let timer = null;
+
+        button.addEventListener('click', function() {
+            clearInterval(timer);
+            timer = setInterval(function() {
+                if (div.offsetLeft > 400) {
+                    clearInterval(timer);
+                    return;
+                }
+                div.style.left = div.offsetLeft + 10 + 'px';
+            }, 10);
+        });
+    </script>
+</body>
+
+</html>
