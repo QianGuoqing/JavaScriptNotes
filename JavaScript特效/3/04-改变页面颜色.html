@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function client() {
+            if (window.innerWidth) {
+                return {
+                    width: window.innerWidth,
+                    height: window.innerHeight
+                }
+            } else if (document.compatMode === 'CSS1Compat') {
+                return {
+                    width: document.documentElement.clientWidth,
+                    height: document.documentElement.clientHeight
+                }
+            }
+            return {
+                width: document.body.clientWidth,
+                height: document.body.clientHeight
+            }
+        }
+        window.onresize = function() {
+            let clientW = client().width;
+            let clientH = client().height;
+
+            if (clientW > 960) {
+                document.body.style.background = 'red';
+            } else if (clientW > 640) {
+                document.body.style.background = 'green';
+            } else {
+                document.body.style.background = 'blue';
+            }
+        }
+    </script>
+</body>
+
+</html>
