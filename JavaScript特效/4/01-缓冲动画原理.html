@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="">开始</button>
+    <div>
+
+    </div>
+    <script>
+        let button = document.querySelector('button');
+        let box = document.querySelector('div');
+        let target = 400;
+        let timer = null;
+
+        button.addEventListener('click', function() {
+            clearInterval(timer);
+            timer = setInterval(function() {
+                let step = (target - box.offsetLeft) / 10;
+                step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                box.style.left = box.offsetLeft + step + 'px';
+            }, 10);
+        });
+    </script>
+</body>
+
+</html>
