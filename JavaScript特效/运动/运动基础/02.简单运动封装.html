@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="button" name="" value="动起来" id="btn">
+    <div id="div1">
+
+    </div>
+    <script>
+        let btn = document.getElementById('btn');
+        let div = document.getElementById('div1');
+        let timer = null;
+
+        // 点击按钮，让div1横向向右移动
+        // 定时器
+
+        // 1. 清除定时器，为了保证在运动过程中只有一个定时器
+        btn.onclick = function() {
+            startMove();
+        }
+
+        function startMove() {
+            clearInterval(timer);
+
+            // 2. 开启定时器
+            timer = setInterval(function() {
+                if (div.offsetLeft >= 500) {
+                    clearInterval(timer);
+                    return;
+                }
+                div.style.left = div.offsetLeft + 10 + 'px';
+            }, 10);
+        }
+    </script>
+</body>
+
+</html>

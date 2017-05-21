@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 100px;
+            height: 200px;
+            background: red;
+            position: absolute;
+            left: -100px;
+            top: 100px;
+        }
+        
+        #div2 {
+            width: 30px;
+            height: 60px;
+            background: black;
+            position: absolute;
+            right: -30px;
+            top: 70px;
+            color: white;
+            text-align: center;
+        }
+        
+        #img1 {
+            opacity: .3;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <div id="div2">分享到</div>
+    </div>
+
+    <img src="1.jpg" id="img1" />
+
+    <script>
+        let div1 = document.getElementById('div1');
+        let div2 = document.getElementById('div2');
+        let image = document.getElementById('img1');
+        let timer = null;
+
+        // 统一
+
+        div1.onmouseover = function() {
+            // this.style.left = '0px';
+            startMove(div1, 0, 10);
+        }
+        div1.onmouseleave = function() {
+            // this.style.left = '-100px';
+            console.log(111);
+            startMove(div1, -100, -10);
+        }
+
+        image.onmouseover = function() {
+            startMove2(this, 100, 10);
+        }
+
+        image.onmouseout = function() {
+            startMove2(this, 30, -10);
+        }
+
+
+        function startMove(element, target, speed) {
+            clearInterval(timer);
+
+            // 2. 开启定时器
+            timer = setInterval(function() {
+                element.style.left = element.offsetLeft + speed + 'px';
+                if (element.offsetLeft === target) {
+                    clearInterval(timer);
+                }
+            }, 30);
+        }
+
+        function startMove2(element, target, speed) {
+            clearInterval(timer);
+
+            let iCur = 0;
+
+            // 2. 开启定时器
+            timer = setInterval(function() {
+
+                iCur = Math.round(window.getComputedStyle(element, null).opacity * 100);
+                console.log(iCur);
+                if (iCur === target) {
+                    clearInterval(timer);
+                }
+                element.style.opacity = (iCur + speed) / 100;
+            }, 30);
+        }
+    </script>
+</body>
+
+</html>

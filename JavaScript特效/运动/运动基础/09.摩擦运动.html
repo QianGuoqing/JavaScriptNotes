@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="button" name="" value="动起来" id="btn">
+    <div id="div1">
+
+    </div>
+    <script>
+        let btn = document.getElementById('btn');
+        let div = document.getElementById('div1');
+        let timer = null;
+        let speed = 50;
+
+        // 摩擦，减速: 在运动的过程中，速度越来越慢
+        btn.onclick = function() {
+            clearInterval(timer);
+
+            speed *= 0.8;
+
+            // 2. 开启定时器
+            timer = setInterval(function() {
+                if (div.offsetLeft >= 500) {
+                    clearInterval(timer);
+                    return;
+                }
+                div.style.left = div.offsetLeft + speed + 'px';
+            }, 10);
+        }
+    </script>
+</body>
+
+</html>
