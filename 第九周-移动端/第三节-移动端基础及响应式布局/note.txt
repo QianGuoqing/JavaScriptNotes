@@ -1,0 +1,35 @@
+移动端、H5、响应式布局、webAPP、场景应用、微信二次开发...
+
+移动端：运行在移动设备上的产品
+移动设备：手机、平板、iTouch...
+以后做的产品大部分只要适配iOS系统和Android系统即可
+
+响应式布局：在不同的设备上都能给予客户最好的操作体验
+
+产品：
+APP：手机应用，目前市面上流行的APP产品，大部分都是原生APP开发者做的
+    目前市场上正在趋于使用JavaScript开发原生的APP：React Native、PhoneGap...
+
+H5：
+    HTML页面，都是运行在浏览器中的（PC端浏览器、移动端浏览器）。在iOS和Android平台上的浏览器大部分是webkit内核的，所以移动端做
+    的H5的页面不用像PC端一样那样去处理浏览器的兼容
+
+
+工作中，前端开发工程师主要做的产品形态都有哪些：
+-> 做一个HTML页面，需要在PC端访问，也需要在移动端访问
+-> PC端和移动端用的是不同的项目
+-> 在移动端开发出来的HTML页面（H5）运行的环境：
+    移动端的浏览器：UC、QQ等
+    原生APP的webview中：hybrid模式，例如：在微信中打开一个H5页面，这个H5其实就是运行在微信的webview中的
+
+Hybrid模式：把开发的H5页面，嵌入到Native APP的webview中运行（Webview可以简单的理解为一个浏览器，也是webkit内核的）
+
+第二部分：响应式布局
+-> 搭建一个H5页面，需要在head中添加一个META标签
+                    <meta name="viewport"
+                                        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   在WebStorm中 meta:vp + tab 自动生成
+
+viewport: 视口
+width=device-width 设置视口的宽度等于设备的宽度，如果不设置的话，默认视口宽度时980px -> 通俗理解，就是告诉当前浏览器按照多少宽度
+    来渲染页面，换句话说，就是展示当前这个页面的区域一共有多宽（浏览器的宽度）。

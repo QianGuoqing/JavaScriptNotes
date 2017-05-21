@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #ul1 {
+            margin: 0;
+            position: absolute;
+            right: 10px;
+            top: 8px;
+            width: 500px;
+            height: 700px;
+            border: 1px solid #000;
+        }
+        
+        li {
+            line-height: 28px;
+            border-bottom: 1px dotted #000;
+            padding: 10px;
+            list-style: none;
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea rows="10" cols="50" id="content"></textarea>
+    <button type="" id="btn">留言</button>
+    <ul id="ul1">
+        <!--<li>11111111111111111111</li>-->
+        <!--<li>11111111111111111111</li>-->
+        <!--<li>11111111111111111111</li>-->
+        <!--<li>11111111111111111111</li>-->
+    </ul>
+    <script src="./move.js"></script>
+    <script>
+        // 先写出没有运动的效果，然后把赋值变成运动形式
+        let content = document.getElementById('content');
+        let button = document.getElementById('btn');
+        let ul = document.getElementById('ul1');
+
+        button.onclick = function() {
+            let li = document.createElement('li');
+            li.innerHTML = content.value;
+
+            if (ul.children[0]) {
+                ul.insertBefore(li, ul.children[0]);
+            } else {
+                ul.appendChild(li);
+            }
+
+            let iHeight = parseInt(window.getComputedStyle(li, null).height);
+            li.style.height = '0px';
+
+            startMove(li, {
+                height: iHeight
+            });
+        }
+    </script>
+</body>
+
+</html>
