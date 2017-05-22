@@ -33,3 +33,35 @@ Hybrid模式：把开发的H5页面，嵌入到Native APP的webview中运行（W
 viewport: 视口
 width=device-width 设置视口的宽度等于设备的宽度，如果不设置的话，默认视口宽度时980px -> 通俗理解，就是告诉当前浏览器按照多少宽度
     来渲染页面，换句话说，就是展示当前这个页面的区域一共有多宽（浏览器的宽度）。
+
+user-scalable=no 禁止用户手动缩放
+
+initial-scale=1.0 设置屏幕初始大小
+maximum-scale=1.0,
+minimum-scale=1.0
+
+-> 高清屏
+
+DPI适配思想：
+    在做页面的时候，最好每一张素材图片都准备两套或者三套，比如：
+    logo.png 100 * 100
+    logo@2x.png 200 * 200
+    logo@3x.png 300 * 300
+    ...
+
+    媒体查询：@media
+    -> 媒体设备：all所有设备 screen所有屏幕设备PC+移动端 print打印机设备 ...
+    -> 媒体条件：指定在什么样的条件下执行对应的样式
+    @media all and (max-width: 319px) { // -> 宽度小于320px
+
+    }
+
+    @media all and (min-width: 320px) and (max-width: 360px) {
+        .box {
+            height: 120px;
+        }
+    }
+
+-> 响应式布局的解决方案：
+    1）流式布局法
+       容器或者盒子的宽度一般都不写固定值，而是使用百分比，相对于视口区域的百分比
