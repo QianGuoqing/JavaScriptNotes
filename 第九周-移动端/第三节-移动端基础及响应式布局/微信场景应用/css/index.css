@@ -1,0 +1,151 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    font-size: 100px;
+}
+
+.main, .swiper-container, .swiper-slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*PAGE1*/
+.page1 {
+    background: url("../img/swiper/bg1.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.page1 img {
+    position: absolute;
+    opacity: 0;
+}
+
+.page1 img:nth-child(1) {
+    width: .96rem;
+    height: 2.32rem;
+    left: 2rem;
+    top: .28rem;
+}
+
+.page1 img:nth-child(2) {
+    width: 3.7rem;
+    height: 6rem;
+    top: .28rem;
+    right: 0;
+}
+
+.page1 img:nth-child(3) {
+    width: 5.5rem;
+    height: 5.12rem;
+    left: .5rem;
+    bottom: .8rem;
+}
+
+.page1 img:nth-child(4) {
+    width: 7.86rem;
+    height: 5.88rem;
+    left: -1.6rem;
+    bottom: 0;
+}
+
+/*实现切换完成后，页面中元素再开始运动思想：开始的时候当前这个区域没有对应的ID，当切换到这个区域的时候，为其增加ID，在CSS中把所有动画效果都放在指定的ID下，这样的话，只需要让区域有ID，那么里面的子元素就有动画了*/
+#page1 img:nth-child(1) {
+    animation: bounceInLeft 1s linear 0s 1 both;
+}
+#page1 img:nth-child(2) {
+    animation: bounceInRight 1s linear 0.3s 1 both;
+}
+#page1 img:nth-child(3) {
+    animation: bounceInUp 1s linear 0.6s 1 both;
+}
+#page1 img:nth-child(4) {
+    animation: bounceInUp 1s linear 0.9s 1 both;
+}
+
+/*PAGE2*/
+.page2 {
+    position: relative;
+    background: url("../img/swiper/bg2.jpg") no-repeat;
+    background-size: cover;
+}
+.page2 img {
+    position: absolute;
+    top: 2.5rem;
+    width: .61rem;
+    height: 6.38rem;
+    opacity: 0;
+}
+
+.page2 img:nth-child(1) {
+    width: 3.4rem;
+    height: 1.74rem;
+    top: 0;
+    left: 0;
+}
+
+.page2 img:nth-child(2) {
+    left: 1.48rem;
+}
+
+.page2 img:nth-child(3) {
+    left: 2.9rem;
+}
+
+.page2 img:nth-child(4) {
+    left: 4.3rem;
+}
+
+#page2 img:nth-child(1) {
+    animation: bounceInLeft 1s linear 0s 1 both;
+}
+#page2 img:nth-child(2) {
+    animation: zoomIn 1s linear 0.3s 1 both;
+}
+#page2 img:nth-child(3) {
+    animation: zoomIn 1s linear 0.6s 1 both;
+}
+#page2 img:nth-child(4) {
+    animation: zoomIn 1s linear 0.9s 1 both;
+}
+
+.arrow {
+    width: .48rem;
+    height: .36rem;
+    position: absolute;
+    bottom: .2rem;
+    left: 50%;
+    margin-left: -.24rem;
+    z-index: 10;
+    background: url("../img/swiper/web-swipe-tip.png") no-repeat;
+    background-size: cover;
+    animation: bounce 1s linear 0s infinite;
+}
+
+.music {
+    position: absolute;
+    top: .2rem;
+    right: .2rem;
+    width: .6rem;
+    height: .6rem;
+    background: url("../audio/music.svg") no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+    animation: musicMove 3s linear 0s infinite;
+}
+
+@keyframes musicMove {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
