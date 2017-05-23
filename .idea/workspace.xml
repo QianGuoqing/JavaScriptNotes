@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5631521f-aa71-42cd-ac2e-3e4c744f3c49" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/banner/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/banner/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/banner/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/banner/banner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/banner/banner5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page1-text1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page1-text2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page1-text3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page1-text4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page2-text1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page2-text2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page2-text3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/page2-text4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/img/swiper/web-swipe-tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/1-rem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/2-swiper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/TEST1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/TEST1.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/TEST2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/TEST2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/common.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/reset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/fastclick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/less-2.5.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/检测是PC还是移动端.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/note.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/css/index.css" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/index.html" afterPath="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,21 +61,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/css/index.css">
+      <file leaf-file-name="note.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/note.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/index.html">
+      <file leaf-file-name="1-rem.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/1-rem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="267">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="63" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-swiper.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/2-swiper.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,10 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/note.txt" />
-        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/nodeTest.html" />
-        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时126-客户端和服务器端的交互模式/nodeTest.js" />
-        <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/1.js" />
         <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/1.html" />
         <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时128-初步了解node/note.txt" />
         <option value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/note.txt" />
@@ -114,16 +166,20 @@
         <option value="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/index.html" />
         <option value="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/index.html" />
         <option value="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/css/index.css" />
+        <option value="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/note.txt" />
+        <option value="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/1-rem.html" />
+        <option value="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/index.js" />
+        <option value="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/2-swiper.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -133,8 +189,8 @@
     <handled-path value="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="23" />
+    <option name="x" value="302" />
+    <option name="y" value="24" />
     <option name="width" value="1179" />
     <option name="height" value="752" />
   </component>
@@ -156,8 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="移动端1" />
+              <option name="myItemId" value="移动端2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,17 +277,11 @@
               <option name="myItemId" value="第三节-移动端基础及响应式布局" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="移动端1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +292,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -252,19 +300,19 @@
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css" />
+      <recent name="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2" />
+      <recent name="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1" />
+      <recent name="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局" />
+      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第四节-jsonp/jQuery的jsonp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1" />
       <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/CRM管理系统" />
       <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时132-静态资源文件请求的处理" />
       <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型" />
       <recent name="$PROJECT_DIR$/第五章-DOM零级-二级事件基础和实战/第一节-事件基础-事件委托-实战应用" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1" />
-      <recent name="$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局" />
-      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第四节-jsonp/jQuery的jsonp" />
-      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第四节-jsonp/课时151-区分同源-非同源" />
-      <recent name="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/CRM管理系统/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,13 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第七章-ajax-jsonp-node基础和项目实战/第四节-jsonp/课时151-区分同源-非同源/1.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第四节-jsonp/课时151-区分同源-非同源">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.2-swiper.html">
     <configuration default="false" name="1-jquery-jsonp.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第七章-ajax-jsonp-node基础和项目实战/第四节-jsonp/jQuery的jsonp/1-jquery-jsonp.html">
       <method />
     </configuration>
@@ -293,6 +335,12 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="1-rem.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/1-rem.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="2-swiper.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptNotes/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/2-swiper.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -362,19 +410,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1.html" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.server.js" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-jquery-jsonp.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-响应式布局.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-jquery-jsonp.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-响应式布局.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-rem.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-swiper.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-响应式布局.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-jquery-jsonp.html" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.server.js" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-swiper.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-rem.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-响应式布局.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-jquery-jsonp.html" />
       </list>
     </recent_temporary>
   </component>
@@ -423,11 +471,12 @@
       <workItem from="1491441614100" duration="39000" />
       <workItem from="1495366776336" duration="11758000" />
       <workItem from="1495498711963" duration="2406000" />
+      <workItem from="1495530370602" duration="7313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301952000" />
+    <option name="totallyTimeSpent" value="309265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +488,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="23" width="1179" height="752" extended-state="0" />
+    <frame x="302" y="24" width="1179" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24265976" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
@@ -464,12 +513,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3895899" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.49722" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.223193" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4747634" sideWeight="0.49722" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24265976" sideWeight="0.4939394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -491,62 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时129-在node环境中执行JavaScript/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/b.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第七章-ajax-jsonp-node基础和项目实战/第一节-node基础和前后端交互模型/课时130-node中模块的基础知识/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/4.5.0/core-modules/net.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-497">
@@ -834,16 +827,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="179">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端1/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="222">
+          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/fastclick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/1-rem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第九周-移动端/第三节-移动端基础及响应式布局/移动端2/2-swiper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
           <folding />
         </state>
       </provider>

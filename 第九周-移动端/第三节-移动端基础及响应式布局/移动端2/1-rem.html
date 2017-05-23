@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>rem</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        /*REM: 当前页面中元素的REM单位的样式值都是针对HTML元素的font-size的值进行动态计算的*/
+        html {
+            font-size: 100px; /*1rem=100px*/
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .box {
+            /*width: 6rem;*/
+            margin: 0 0.2rem;
+            height: 3rem;
+            background: green;
+            position: absolute;
+            /*top: 0;*/
+            /*left: 0;*/
+            /*right: 0;*/
+            /*bottom: 0;*/
+            /*margin: auto;*/
+            background: url("img/banner/banner1.jpg") no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <!--
+        有些时候需要检测一下当前的浏览器是PC端还是移动端的
+        -> 如果当前的浏览器是PC端的，但是访问的页面是移动端的页面，则让其跳转到PC端的页面
+        -> 如果当前的浏览器是移动端的，但是访问的页面是PC端的页面，则让其跳转到移动端的页面
+        跳转：window.location.href = 'xxxxxx';
+    -->
+    <script>
+
+    </script>
+</head>
+<body>
+<section class="main" id="main">
+    <div class="box"></div>
+</section>
+
+<script>
+    // 根据当前屏幕的宽度和设计稿宽度的比例，动态计算当前宽度下的font-size值应该是多少，如果font-size的值发生了改变，之前设定所有rem单位的值自动会发生改变
+    ~function () {
+        let desW = 640,
+            winW = document.documentElement.clientWidth,
+            ratio = winW / desW;
+        let oMain = document.getElementById('main');
+
+        if (winW > desW) {
+            oMain.style.width = desW + 'px';
+            oMain.style.margin = '0 auto';
+            return;
+        }
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+
+    }
+</script>
+</body>
+</html>

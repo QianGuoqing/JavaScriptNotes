@@ -1,0 +1,31 @@
+REM响应式布局
+-> 做的H5页面只在移动端访问（REM不兼容低版本的浏览器）
+
+第一步：从UI设计师拿到设计稿（PSD格式的设计稿）640*1136
+
+第二步：在样式中给HTML设定一个font-size的值，一般都设置一个方便后面计算的值，例如：10px、100px。。。这里之所以用100px，主要是浏览器最小的字体大小都是12px
+        html {
+            font-size: 100px; /*1rem=100px*/
+        }
+
+第三步：写页面、写样式
+    完全按照设计稿的尺寸来写样式，此时不用管任何的事情，设计稿给你的宽度、高度、字体大小、margin、padding的值是多少，就写多少
+    -> 但是在写样式值的时候，需要把得到的像素值除以100对应的REM的值，设定的也都是REM的值
+    (值得注意的是：真实项目中，外层盒子的宽度一般还是不写固定值，沿用流式布局法的思想，用百分比的方式布局)
+
+第四步：根据当前屏幕的宽度和设计稿的宽度来计算HTML的font-size的值
+    设计稿：640 600*300 font-size: 100 6rem*3rem
+    手机：320 300*150 font-size: 50
+    手机：375 font-size: 58.59
+
+        // 根据当前屏幕的宽度和设计稿宽度的比例，动态计算当前宽度下的font-size值应该是多少，如果font-size的值发生了改变，之前设定所有rem单位的值自动会发生改变
+        ~function () {
+            let desW = 640,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+
+        }
+
+在设计稿中，有一个部分是轮播图，设计稿中的尺寸是600*300 -> 6rem * 3rem
