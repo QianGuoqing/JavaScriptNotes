@@ -1,0 +1,18 @@
+移动端事件：
+PC：click、mouseover、mouseout、mouseenter、mouseleave、mousemove、mousedown、mouseup、mousewheel、keydown、keyup、load、scroll、blur、focus、change、
+
+移动端事件：click、load、scroll、blur、focus、change、...
+          TOUCH事件模型（单手指操作）、GESTURE事件模型（多手指操作）
+          TOUCH：touchstart、touchmove、touchend、touchcancel
+          GESTURE：gesturestart、gesturechange、gestureend
+
+1、click：在移动端click属于单击事件，不是点击事件，在移动端的项目中，经常会区分单击做什么和双击做什么，所以移动端的浏览器在识别click的时候，只有确定是单击后才会把它执行；
+   在移动端使用click会产生300ms的延迟：浏览器在第一次点击结束以后，还需要等到300ms看看是否触发了第二次点击，就不属于click了，没有触发第二次，则属于click
+
+2、点击、单击、双击、长按
+
+    单击和双击（300MS）
+    点击和长按（750MS）
+    点击和滑动（x/y轴偏移的距离是否在30px以内，超过30px就是滑动）
+    左右滑动和上下滑动（X轴偏移的距离 > Y轴偏移的距离 = 左右滑 相反就是上下滑）
+    左滑和右滑 （偏移的距离 > 0 = 右滑 相反就是左滑）
