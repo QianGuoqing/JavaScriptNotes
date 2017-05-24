@@ -18,7 +18,7 @@ var bannerRender = (function () {
     }
 
     function swipeDir(strX, strY, endX, endY) {
-        return Math.abs(endX - strX) >= Math.abs(endY - strY) ?
+        return Math.abs(endX - strX) >= Math.abs(endY - strY);
     }
 
     function dragStart(ev) {

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 在客户端运行的JavaScript是不能操作客户端用户电脑磁盘的文件的，为了保护客户端的安全
+    // JavaScript中的本地存储：
+    // 使用JavaScript向浏览器的某一个位置中存储一些内容，浏览器即使关闭了，存储的信息也不会销毁，当在重新打开浏览器的时候，依然可以获取到上一次存储的信息
+
+    // 本地存储方案：
+    // 传统方案
+    // cookie：把信息存储到客户端的浏览器中（但是项目服务器端也是可以获取的）
+    // session：把信息存储到服务器上的（服务器存储）
+
+    // HTML5：webstorage
+    // localstorage：永久存储到客户端的本地
+    // sessionstorage：信息的会话存储，会话窗口存在信息就存在，否则就不存在
+
+    // 2. cookie localStorage sessionStorage
+    localStorage.setItem('age', 7);
+    localStorage.getItem('age');
+    localStorage.removeItem('age');
+    localStorage.clear();
+</script>
+</body>
+</html>
