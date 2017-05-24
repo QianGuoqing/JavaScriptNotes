@@ -16,3 +16,13 @@ PC：click、mouseover、mouseout、mouseenter、mouseleave、mousemove、moused
     点击和滑动（x/y轴偏移的距离是否在30px以内，超过30px就是滑动）
     左右滑动和上下滑动（X轴偏移的距离 > Y轴偏移的距离 = 左右滑 相反就是上下滑）
     左滑和右滑 （偏移的距离 > 0 = 右滑 相反就是左滑）
+
+
+3、移动端事件库
+    Zepto.js：被誉为移动端的小型jQuery，jQuery由于是在PC端使用的，所以代码中包含了大量的对于IE低版本浏览器的兼容处理，而Zepto只应用于移动端开发，所以在jQuery的基础上，没有对低版本的IE浏览器进行支持
+    jQuery中提供了很多的选择器类型及DOM操作方法，而Zepto中只是实现了部分常用的选择器和方法，例如：jQuery的动画方法有animate、hide、show、fadeIn、fadeOut、fadeToggle、toggle、slideDown、slideUp、slideToggle... 但是Zepto中只有animate
+    ==> zepto的源代码大小比jQuery小很多
+
+    zepto专门为移动端开发而诞生，所以相对于jQuery来说，更适合移动端：
+    zepto的animate动画方法支持了CSS3动画的操作
+    zepto专门的准备了移动端常用的事件操作：tap、singleTap、doubleTap、longTab、swipe、swipeUp、swipeDown、swipeLeft、swipeRight...
