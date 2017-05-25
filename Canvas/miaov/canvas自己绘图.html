@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        
+        #canvas {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas" width="400" height="400">
+        当前浏览器不支持canvas
+    </canvas>
+
+    <script>
+        let canvas = document.querySelector('#canvas');
+        let context = canvas.getContext('2d');
+
+        canvas.onmousedown = function(ev) {
+            context.moveTo(ev.clientX - canvas.offsetLeft, ev.clientY - canvas.offsetTop);
+
+            document.onmousemove = function(ev) {
+                context.lineTo(ev.clientX - canvas.offsetLeft, ev.clientY - canvas.offsetTop);
+                context.stroke();
+            }
+
+            document.onmouseup = function() {
+                document.onmousemove = null;
+                document.onmouseup = null;
+            }
+        }
+    </script>
+</body>
+
+</html>

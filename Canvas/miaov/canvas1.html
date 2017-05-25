@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        
+        #canvas {
+            background-color: #fff;
+        }
+        
+        span {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!--canvas默认宽300px，高150px-->
+    <canvas id="canvas" width="400" height="400">
+        <span>当前浏览器不支持canvas</span>
+    </canvas>
+    <script>
+        // 获取canvas
+        let canvas = document.querySelector('#canvas');
+
+        // 获取绘制环境，暂时只支持2d
+        let context = canvas.getContext('2d');
+    </script>
+</body>
+
+</html>

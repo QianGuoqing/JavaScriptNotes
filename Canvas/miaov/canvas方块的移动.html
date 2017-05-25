@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        
+        #canvas {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas" width="400" height="400">
+        当前浏览器不支持canvas
+    </canvas>
+
+    <script>
+        let canvas = document.querySelector('#canvas');
+        let context = canvas.getContext('2d');
+        context.fillRect(0, 0, 100, 100);
+        let number = 0;
+
+        setInterval(function() {
+            if (number >= 0 && number <= 100) {
+                number++;
+            }
+            if (number === 100) {
+                number--;
+            }
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.fillRect(number, number, 100, 100);
+        }, 30);
+    </script>
+</body>
+
+</html>
