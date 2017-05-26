@@ -31,15 +31,12 @@
         let canvas = document.getElementById('canvas');
         let context = canvas.getContext('2d');
 
-        let image = context.createImageData(100, 100);
-
-        for (let i = 0; i < image.width * image.height; i++) {
-            image.data[i * 4] = 255;
-            image.data[i * 4 + 1] = 0;
-            image.data[i * 4 + 2] = 0;
-            image.data[i * 4 + 3] = 100;
+        let li = document.getElementsByTagName('li');
+        for (let i = 0; i < li.length; i++) {
+            li[i].onclick = function() {
+                let str = this.innerHTML;
+            }
         }
-        context.putImageData(image, 100, 100);
     </script>
 </body>
 

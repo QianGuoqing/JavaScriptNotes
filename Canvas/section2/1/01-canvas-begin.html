@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="demo" width="600" height="600">
+        当前浏览器不支持canvas
+    </canvas>
+    <script>
+        // 1. 拿到canvas标签
+        let canvas = document.getElementById('demo');
+
+        // 2. 拿到canvas上下文
+        let context = canvas.getContext('2d');
+
+        // 3. 绘制
+        context.moveTo(100, 100);
+        context.lineTo(200, 100);
+        context.lineTo(100, 200);
+        // context.lineTo(100, 100);
+        context.closePath();
+        context.lineWidth = 5;
+
+        context.strokeStyle = 'red';
+        context.stroke();
+
+        context.fillStyle = 'deepskyblue';
+        context.fill();
+    </script>
+</body>
+
+</html>

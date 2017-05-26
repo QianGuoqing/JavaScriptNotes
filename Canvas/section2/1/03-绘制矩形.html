@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="canvas">
+            当前浏览器不支持canvas
+        </canvas>
+    </div>
+    <script>
+        let canvas = document.querySelector('#canvas');
+        let context = canvas.getContext('2d');
+        canvas.width = 600;
+        canvas.height = 600;
+        canvas.style.border = '1px solid #000';
+
+        context.rect(100, 100, 50, 50);
+        context.stroke();
+
+        context.strokeRect(200, 200, 100, 150);
+
+        // 填充矩形
+        context.fillRect(250, 250, 10, 10);
+    </script>
+</body>
+
+</html>
