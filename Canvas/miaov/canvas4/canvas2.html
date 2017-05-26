@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        
+        canvas {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <script>
+        let canvas = document.getElementById('canvas');
+        let context = canvas.getContext('2d');
+
+        let image = context.createImageData(100, 100);
+
+        for (let i = 0; i < image.width * image.height; i++) {
+            image.data[i * 4] = 255;
+            image.data[i * 4 + 1] = 0;
+            image.data[i * 4 + 2] = 0;
+            image.data[i * 4 + 3] = 100;
+        }
+        context.putImageData(image, 100, 100);
+    </script>
+</body>
+
+</html>

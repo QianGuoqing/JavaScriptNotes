@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        
+        canvas {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <button type=""> <-- </button>
+    <button> --> </button>
+    <div>
+        <img src="./2.png" id="img1" alt="">
+    </div>
+
+    <script>
+        let button = document.querySelectorAll('button');
+        let image = document.querySelector('#img1');
+
+        let yImg = new Image();
+        let now = 0;
+
+        yImg.onload = function() {
+            draw(image);
+        }
+        yImg.src = image.src;
+
+        function draw(obj) {
+            let canvas = document.createElement('canvas');
+            let context = canvas.getContext('2d');
+            canvas.width = obj.width;
+            canvas.height = obj.height;
+
+            obj.parentNode.replaceChild(canvas, obj);
+            context.drawImage(obj, 0, 0);
+
+            button[0].onclick = function() {
+                now++;
+                toChange();
+            }
+        }
+
+        function toChange() {
+            switch (now) {
+                case 1:
+                    canvas.width = obj.height;
+                    canvas.height = obj.width;
+                    context.rotate(Math.PI / 180 * 90);
+                    context.drawImage(obj, 0, -obj.height);
+                    context.drawImage(obj, 0, -obj.height);
+
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>
