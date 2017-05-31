@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="button" name="" value="show" id="show">
+    <input type="button" name="" value="hide" id="hide">
+
+    <input type="button" name="" value="slide down" id="down">
+    <input type="button" name="" value="slide up" id="up">
+    <div>
+
+    </div>
+    <script src="./jquery-1.11.1.js"></script>
+    <script>
+        let $show = $('#show');
+        let $hide = $('#hide');
+
+        $show.on('click', function() {
+            $('div').stop().show(1000);
+        });
+        $hide.on('click', function() {
+            $('div').stop().hide(1000);
+        });
+
+        $('#down').on('click', function() {
+            $('div').stop().slideDown(1000);
+        });
+        $('#up').on('click', function() {
+            $('div').stop().slideUp(1000);
+        });
+    </script>
+</body>
+
+</html>

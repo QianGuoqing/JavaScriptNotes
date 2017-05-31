@@ -8,9 +8,13 @@
     <title>Document</title>
     <style>
         div {
-            width: 200px;
-            height: 200px;
-            background-color: #ccc;
+            width: 400px;
+            height: 400px;
+            background-color: deepskyblue;
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 0;
         }
     </style>
 </head>
@@ -19,15 +23,7 @@
     <div></div>
     <script src="./jquery-1.11.1.js"></script>
     <script>
-        // $('div').css('background-color', 'red');
-        $('div').css({
-            backgroundColor: 'red',
-            width: 500
-        });
-        alert($('div').css('width'));
-
-        var c = $('div').css('background-color');
-        alert(c);
+        $('div').slideDown();
     </script>
 </body>
 
