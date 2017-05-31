@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .shutters {
+            width: 800px;
+            height: 300px;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .shutters ul {
+            list-style: none;
+        }
+        
+        .shutters ul li {
+            position: absolute;
+            top: 0;
+        }
+        
+        .shutters ul li.no0 {
+            left: 0;
+        }
+        
+        .shutters ul li.no1 {
+            left: 160px;
+        }
+        
+        .shutters ul li.no2 {
+            left: 320px;
+        }
+        
+        .shutters ul li.no3 {
+            left: 480px;
+        }
+        
+        .shutters ul li.no4 {
+            left: 640px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shutters">
+        <ul>
+            <li class="no0"><img src="./image/0.jpg" alt=""></li>
+            <li class="no1"><img src="./image/1.jpg" alt=""></li>
+            <li class="no2"><img src="./image/2.jpg" alt=""></li>
+            <li class="no3"><img src="./image/3.jpg" alt=""></li>
+            <li class="no4"><img src="./image/4.jpg" alt=""></li>
+        </ul>
+    </div>
+    <script src="./jquery-1.11.1.js"></script>
+    <script>
+        $(".no0").mouseenter(function() {
+            //防止动画积累
+            $("li").stop(true);
+            $(".no1").animate({
+                "left": 560
+            }, 500);
+            $(".no2").animate({
+                "left": 620
+            }, 500);
+            $(".no3").animate({
+                "left": 680
+            }, 500);
+            $(".no4").animate({
+                "left": 740
+            }, 500);
+        });
+
+        $(".no1").mouseenter(function() {
+            //防止动画积累
+            $("li").stop(true);
+            $(".no1").animate({
+                "left": 60
+            }, 500);
+            $(".no2").animate({
+                "left": 620
+            }, 500);
+            $(".no3").animate({
+                "left": 680
+            }, 500);
+            $(".no4").animate({
+                "left": 740
+            }, 500);
+        });
+
+        $(".no2").mouseenter(function() {
+            //防止动画积累
+            $("li").stop(true);
+            $(".no1").animate({
+                "left": 60
+            }, 500);
+            $(".no2").animate({
+                "left": 120
+            }, 500);
+            $(".no3").animate({
+                "left": 680
+            }, 500);
+            $(".no4").animate({
+                "left": 740
+            }, 500);
+        });
+
+        $(".no3").mouseenter(function() {
+            //防止动画积累
+            $("li").stop(true);
+            $(".no1").animate({
+                "left": 60
+            }, 500);
+            $(".no2").animate({
+                "left": 120
+            }, 500);
+            $(".no3").animate({
+                "left": 180
+            }, 500);
+            $(".no4").animate({
+                "left": 740
+            }, 500);
+        });
+
+        $(".no4").mouseenter(function() {
+            //防止动画积累
+            $("li").stop(true);
+            $(".no1").animate({
+                "left": 60
+            }, 500);
+            $(".no2").animate({
+                "left": 120
+            }, 500);
+            $(".no3").animate({
+                "left": 180
+            }, 500);
+            $(".no4").animate({
+                "left": 240
+            }, 500);
+        });
+        $(".shutters").mouseleave(function() {
+            //防止动画积累
+            $("li").stop(true);
+            //变暗
+            $(".cover").stop(true).fadeIn();
+            //所有li复位
+            $(".no1").animate({
+                "left": 160
+            }, 500);
+            $(".no2").animate({
+                "left": 320
+            }, 500);
+            $(".no3").animate({
+                "left": 480
+            }, 500);
+            $(".no4").animate({
+                "left": 640
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .carousel {
+            width: 560px;
+            height: 300px;
+            margin: 50px auto;
+            position: relative;
+            border: 10px solid #ccc;
+            overflow: hidden;
+        }
+        
+        .carousel .btns span {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            margin-top: -20px;
+            background-color: orange;
+            cursor: pointer;
+        }
+        
+        .carousel .btns span.leftBtn {
+            left: 10px;
+        }
+        
+        .carousel .btns span.rightBtn {
+            right: 10px;
+        }
+        
+        .carousel ul {
+            list-style: none;
+            /*布局的难点，一定要记住ul要宽一点，否则li不能并排*/
+            width: 8000px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .carousel ul li {
+            float: left;
+            width: 560px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carousel">
+        <ul>
+            <li>
+                <a href="#"><img src="image/0.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/1.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/2.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/3.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/4.jpg" alt="" /></a>
+            </li>
+        </ul>
+        <div class="btns">
+            <span class="leftBtn"></span>
+            <span class="rightBtn"></span>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./jquery-1.11.1.js"></script>
+    <script type="text/javascript">
+        //得到ul
+        var $ul = $(".carousel ul");
+        //克隆第一张图片，追加到图片列表末尾
+        //clone()就是克隆，就是复制一下，然后apeendTo就是把克隆的这张图片追加到ul末尾。
+        $(".carousel ul li:first").clone().appendTo(".carousel ul");
+
+        //信号量，表示当前是第几张图片
+        var idx = 0;
+
+        //点击右按钮，做的事情
+        $(".rightBtn").click(function() {
+            //防止流氓
+            if ($ul.is(":animated")) {
+                return;
+            }
+            //信号量增加
+            idx++; //我们允许信号量临时等于5一下。
+            //先拉动，后瞬移
+            $ul.animate({
+                "left": -560 * idx
+            }, 600, function() {
+                //如果idx大于了4，那么就瞬间移动回来：
+                if (idx > 4) {
+                    idx = 0;
+                    $(this).css("left", 0);
+                }
+            });
+        });
+
+        $(".leftBtn").click(function() {
+            //防止流氓
+            if ($ul.is(":animated")) {
+                return;
+            }
+            //信号量变化
+            idx--;
+            //先瞬移再拉，如果信号量小于了0，那么信号量为4。
+            if (idx < 0) {
+                idx = 4;
+                //往下标为5的，就是猫腻那张图片瞬移
+                $ul.css("left", -560 * 5);
+            }
+            $ul.animate({
+                "left": -560 * idx
+            }, 600);
+        });
+    </script>
+</body>
+
+</html>

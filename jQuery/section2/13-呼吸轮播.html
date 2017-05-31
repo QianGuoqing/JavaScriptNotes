@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .carousel {
+            width: 560px;
+            height: 300px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .carousel ul {
+            list-style: none;
+        }
+        
+        .carousel ul li {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        
+        .carousel ul li.first {
+            display: block;
+        }
+        
+        .carousel .btns span {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 50%;
+            margin-top: -15px;
+            background-color: orange;
+            cursor: pointer;
+        }
+        
+        .carousel .btns .leftBtn {
+            left: 10px;
+        }
+        
+        .carousel .btns .rightBtn {
+            /*left: 520px;*/
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carousel">
+        <ul>
+            <li class="first">
+                <a href="#"><img src="./image/0.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="./image/1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="./image/2.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="./image/3.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="./image/4.jpg" alt=""></a>
+            </li>
+        </ul>
+        <div class="btns">
+            <span class="leftBtn"></span>
+            <span class="rightBtn"></span>
+        </div>
+    </div>
+    <script src="./jquery-1.11.1.js"></script>
+    <script>
+        let nowing = 0;
+        let $lis = $('.carousel ul li');
+        // 点击右按钮
+        $('.rightBtn').on('click', function() {
+            // 让老图fadeOut
+            $lis.eq(nowing).fadeOut(500);
+            nowing++;
+            if (nowing > 4) {
+                nowing = 0;
+            }
+            // 让老图fadeIn
+            $('.carousel ul li').eq(nowing).fadeIn(500);
+        });
+
+        $('.leftBtn').on('click', function() {
+            // 让老图fadeOut
+            $lis.eq(nowing).fadeOut(500);
+            nowing--;
+            if (nowing < 0) {
+                nowing = 4;
+            }
+            // 让老图fadeIn
+            $('.carousel ul li').eq(nowing).fadeIn(500);
+        });
+    </script>
+</body>
+
+</html>

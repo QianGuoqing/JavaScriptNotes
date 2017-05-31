@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 80px;
+            height: 80px;
+            background-color: orange;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn1">stop</button>
+    <button id="btn2">stop true</button>
+    <button id="btn3">stop true true</button>
+    <button id="btn3">stop false true</button>
+    <div></div>
+    <script src="./jquery-1.11.1.js"></script>
+    <script>
+        $('div').animate({
+            left: 500,
+        }, 1000).animate({
+            top: 500
+        }, 1000);
+        $('#btn1').click(function() {
+            $('div').stop();
+        });
+        $('#btn2').click(function() {
+            $('div').stop(true);
+        });
+        $('#btn3').click(function() {
+            $('div').stop(true, true);
+        });
+        $('#btn4').click(function() {
+            $('div').stop(false, true);
+        });
+    </script>
+</body>
+
+</html>
