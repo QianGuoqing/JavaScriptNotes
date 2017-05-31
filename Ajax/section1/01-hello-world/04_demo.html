@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #para {
+            width: 300px;
+            height: 200px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>在页面上有一个按钮，点击按钮之后，异步读取test.txt文件，将文件内容显示在页面上</h1>
+    <button>点我读取文件</button>
+    <p id="para"></p>
+    <script>
+        let button = document.querySelector('button');
+        button.addEventListener('click', function() {
+            let xhr = new XMLHttpRequest();
+            xhr.open('get', './test.txt', true);
+            xhr.send(null);
+            xhr.onreadystatechange = function() {
+                if (xhr.status === 200 && xhr.readyState === 4) {
+                    document.getElementById('para').innerHTML = xhr.responseText;
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
