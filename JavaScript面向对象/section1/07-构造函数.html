@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box"></div>
+    <script>
+        // function fun() {
+        //     this.name = 'xiaoming';
+        //     this.age = 11;
+        //     this.gender = 'male';
+        // }
+        // let xiaoming = new fun();
+        // console.log(xiaoming);
+
+        function People(name, age, gender) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+        }
+
+        let xiaoming = new People('xiaoming', 12, 'male');
+        console.log(xiaoming);
+        let xiaohong = new People('xiaohong', 11, 'female');
+    </script>
+</body>
+
+</html>

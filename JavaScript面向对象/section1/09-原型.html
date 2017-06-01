@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function People(name, age, gender) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+            this.school = 'shengwaixiao';
+        }
+
+        People.prototype = {
+            school: 'primary school',
+            teacher: 'ylw'
+        }
+
+        // 实例化了一个People类的对象
+        let xiaoming = new People('xiaoming', 12, 'male');
+        // console.log(xiaoming.name);
+        // console.log(xiaoming.school);
+        // console.log(xiaoming.teacher);
+        console.log(xiaoming.school);
+        console.log(xiaoming.constructor.prototype.school);
+        console.log(xiaoming.__proto__.school);
+    </script>
+</body>
+
+</html>

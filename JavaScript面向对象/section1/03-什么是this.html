@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+    <script>
+        // alert(this); // this指的是上下文
+        function fun() {
+            console.log(this);
+        }
+        // let box = document.querySelector('#box');
+        // box.onclick = fun;
+
+        // setInterval(() => {
+        //     fun();
+        // }, 2000);
+
+        // let obj = {
+        //     name: 'xiaoming',
+        //     gender: 'male',
+        //     age: 12,
+        //     fun: fun
+        // }
+        // obj.fun();
+
+        let obj2 = {
+            name: 'xiaohong',
+            gender: 'male',
+            age: 9,
+        }
+        fun.call(obj2);
+    </script>
+</body>
+
+</html>

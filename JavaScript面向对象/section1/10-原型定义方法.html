@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Dog(name, type, age) {
+            this.name = name;
+            this.type = type;
+            this.age = age;
+        }
+
+        Dog.prototype.bark = function() {
+            console.log('bark...', this.name, this.type, this.age);
+        }
+
+        let xiaobai = new Dog('xiaoba', 'jingba', 2);
+        xiaobai.bark();
+
+        let snoopy = new Dog('snoopy', 'dotted dog', 3);
+        snoopy.bark();
+
+        console.log(xiaobai.bark === snoopy.bark);
+    </script>
+</body>
+
+</html>

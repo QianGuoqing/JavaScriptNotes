@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p {
+            width: 80px;
+            height: 80px;
+            background-color: #ccc;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <script>
+        let ps = document.querySelectorAll('p');
+        ps.forEach(function(p) {
+            // p.onclick = function() {
+            //     let that = this;
+            //     setInterval(function() {
+            //         that.style.background = 'red';
+            //     }, 1000)
+            // }
+            p.addEventListener('click', () => {
+                setTimeout(() => {
+                    this.style.background = 'red';
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>

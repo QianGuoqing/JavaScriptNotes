@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let xiaoming = {
+            name: 'xiaoming',
+            age: 11,
+            grow: function() {
+                this.age++;
+            }
+        }
+        xiaoming.grow();
+        xiaoming.grow();
+        xiaoming.grow();
+        console.log(xiaoming.age);
+
+        let xiaohong = {
+            name: 'xiaohong',
+            age: 4
+        }
+        xiaoming.grow.call(xiaohong);
+        console.log(xiaohong.age);
+    </script>
+</body>
+
+</html>
