@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {}
+        
+        .go-top {
+            width: 60px;
+            height: 100px;
+            background-color: deepskyblue;
+            color: #fff;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="height: 2000px">
+    <!--<div class="go-top">GO</div>-->
+
+</body>
+<script>
+    //1.  `ct`属性，GoTop 对应的 DOM 元素的容器
+    //2.  `target`属性， GoTop 对应的 DOM 元素
+    //3.  `bindEvent` 方法， 用于绑定事件
+    //4.  `createNode` 方法， 用于在容器内创建节点
+    function GoTop(parentElement, target) {
+        this.parentElement = parentElement;
+        this.target = target;
+    }
+    GoTop.prototype.bindEvent = function() {
+        let timer = null;
+        let topVal = 0;
+        let that = this;
+        window.onscroll = function() {
+            topVal = document.body.scrollTop;
+            if (document.body.scrollTop > 300) {
+                that.target.style.display = 'block';
+            } else {
+                that.target.style.display = 'none';
+            }
+        }
+        this.target.addEventListener('click', function() {
+            clearInterval(timer);
+            timer = setInterval(() => {
+                topVal -= 20;
+                document.body.scrollTop = topVal;
+                if (topVal <= 0) {
+                    clearInterval(timer);
+                }
+            }, 10);
+        });
+
+    }
+    GoTop.prototype.createNode = function() {
+        this.parentElement.appendChild(this.target);
+    }
+
+    let target = document.createElement('div');
+    target.innerHTML = 'GO';
+    target.classList.add('go-top');
+
+    let gotop = new GoTop(document.body, target);
+    gotop.createNode();
+    gotop.bindEvent();
+</script>
+
+</html>
