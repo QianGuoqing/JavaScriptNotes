@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 当new去调用一个函数：这个时候函数中的this就是创建出来的对象，而且函数的返回值直接就是this了（隐式返回）
+        // new后面的函数称之为构造函数
+        function CreatePerson(name) {
+            this.name = name;
+        }
+        CreatePerson.prototype.sayName = function() {
+            alert(this.name);
+        }
+        let person1 = new CreatePerson('xiaoming');
+        let person2 = new CreatePerson('xiaoqiang');
+        person1.sayName();
+        person2.sayName();
+        console.log(person1.sayName === person2.sayName);
+    </script>
+</body>
+
+</html>

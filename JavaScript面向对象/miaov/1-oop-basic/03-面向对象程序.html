@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let obj = {};
+        let obj = new Object(); // 创建了一个空对象
+        obj.name = 'xiaoming';
+        obj.showName = function() {
+            alert(this.name);
+        }
+        obj.showName();
+
+        let obj2 = new Object(); // 创建了一个空对象
+        obj2.name = 'xiaoqiang';
+        obj2.showName = function() {
+            alert(this.name);
+        }
+        obj2.showName();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 工厂方式：封装函数
+        function createPerson(name) {
+            let obj = {};
+            obj.name = name;
+            obj.showName = function() {
+                alert(this.name);
+            }
+            return obj;
+        }
+        let person1 = createPerson('xiaoming');
+        let person2 = createPerson('xiaoqiang');
+        person1.showName();
+        person2.showName();
+    </script>
+</body>
+
+</html>
