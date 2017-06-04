@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1"></div>
+</body>
+
+<script>
+    // let oDiv = document.getElementById('div1');
+    // let disX = 0;
+    // let disY = 0;
+    // oDiv.onmousedown = function(e) {
+    //     var e = e || window.event;
+    //     disX = e.clientX - oDiv.offsetLeft;
+    //     disY = e.clientY - oDiv.offsetTop;
+
+    //     document.onmousemove = function(e) {
+    //         var e = e || window.event;
+    //         oDiv.style.left = e.clientX - disX + 'px';
+    //         oDiv.style.top = e.clientY - disY + 'px';
+    //     }
+
+    //     document.onmouseup = function() {
+    //         document.onmousemove = null;
+    //         document.onmouseup = null;
+    //     }
+    //     return false;
+    // }
+
+    function Tab(id) {
+        this.oDiv = document.getElementById(id);
+        this.disX = 0;
+        this.disY = 0;
+    }
+
+    Tab.prototype.init = function() {
+        this.oDiv.onmousedown = this.mouseDown;
+    }
+
+    Tab.prototype.mouseDown = function(e) {
+        var e = e || window.event;
+        this.disX = e.clientX - this.oDiv.offsetLeft;
+        this.disY = e.clientY - this.oDiv.offsetTop;
+
+        document.onmousemove = mouseMove;
+        document.onmouseup = mouseUp;
+        return false;
+    }
+
+    Tab.prototype.mouseMove = function(e) {
+        var e = e || window.event;
+        this.oDiv.style.left = e.clientX - this.disX + 'px';
+        this.oDiv.style.top = e.clientY - this.disY + 'px';
+    }
+
+    Tab.prototype.mouseUp = function() {
+        document.onmousemove = null;
+        document.onmouseup = null;
+    }
+
+    let tab = new Tab('div1');
+    tab.init();
+</script>
+
+</html>
